@@ -1,0 +1,34 @@
+# ---------------------------------------------------------------------------
+# Copyright (C) 2026 Huanchen Zhai. All Rights Reserved.
+# 
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+# 
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+# 
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+# ---------------------------------------------------------------------------
+
+
+fid = 2
+
+eners = [[] for _ in range(35)]
+
+for ix in range(35):
+    with open('%02d-uccsd-act-%d.out' % (fid, ix), 'r') as f:
+        for l in f.readlines():
+            if '::' in l:
+                jx = int(l.split()[1])
+                ex = float(l.split()[-4])
+                eners[ix].append((jx, ex, l.strip()))
+
+for ix in range(35):
+    exx = sorted(eners[ix], key=lambda x: (x[1], x[0]))
+    for xx in exx:
+        print('%5d %s' % (ix, xx[2]))

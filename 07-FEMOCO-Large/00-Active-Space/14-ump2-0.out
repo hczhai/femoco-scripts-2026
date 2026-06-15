@@ -1,0 +1,64 @@
+load done
+Overwritten attributes  get_hcore get_ovlp energy_nuc  of <class 'pyscf.soscf.newton_ah.SecondOrderUHF'>
+Overwritten attributes  get_hcore get_ovlp energy_nuc  of <class 'pyscf.scf.uhf.UHF'>
+
+
+
+
+******** <class 'pyscf.soscf.newton_ah.SecondOrderUHF'> ********
+method = SecondOrderUHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-12
+SCF conv_tol_grad = None
+SCF max_cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpjjg3e9_s
+max_memory 1400000 MB (current use 978283 MB)
+number electrons alpha = 229  beta = 194
+******** <class 'pyscf.scf.uhf.UHF'> Newton solver flags ********
+SCF tol = 1e-12
+conv_tol_grad = None
+max. SCF cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpjjg3e9_s
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-16
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 1400000 MB (current use 978283 MB)
+Set conv_tol_grad to 1e-06
+  alpha nocc = 229  HOMO = -0.160114825308532  LUMO = 0.250747057275994
+  beta  nocc = 194  HOMO = -0.201228033578521  LUMO = 0.11134885832771
+Initial guess E= -22127.1579030897  |g|= 9.83338e-08
+/mnt/home/hzhai/pybase/lib/python3.11/site-packages/pyscf/gto/mole.py:1293: UserWarning: Function mol.dumps drops attribute energy_nuc because it is not JSON-serializable
+  warnings.warn(msg)
+macro= 0  E= -22127.1579030897  delta_E= -3.63798e-12  |g|= 9.83338e-08  1 KF 2 JK
+macro= 1  E= -22127.1579030897  delta_E= 3.63798e-12  |g|= 9.83338e-08  1 KF 2 JK
+macro= 2  E= -22127.1579030897  delta_E= -3.63798e-12  |g|= 9.83338e-08  1 KF 2 JK
+macro= 3  E= -22127.1579030897  delta_E= -3.63798e-12  |g|= 9.83338e-08  1 KF 2 JK
+macro= 4  E= -22127.1579030897  delta_E= 0  |g|= 9.83338e-08  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 5  E=-22127.1579030897  |g|= 9.83338e-08  total 6 KF 16 JK
+converged SCF energy = -22127.1579030897  <S^2> = 324.01753  2S+1 = 36.01486
+E(UMP2) = -22136.1298263476  E_corr = -8.97192325788861
+E(SCS-UMP2) = -22135.4560682068  E_corr = -8.29816511706411
+
+real	317m12.741s
+user	2549m34.523s
+sys	219m34.845s

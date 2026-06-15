@@ -1,0 +1,3245 @@
+Parsing /tmp/FEMOCO.FCIDUMP
+---    19 :   133 OPT ---
+Overwritten attributes  get_hcore get_ovlp  of <class 'pyscf.soscf.newton_ah.SecondOrderSymAdaptedUHF'>
+Freeze 0 electrons in irreps []
+    113 free electrons in irreps IR0
+Overwritten attributes  get_hcore get_ovlp  of <class 'pyscf.scf.uhf_symm.SymAdaptedUHF'>
+
+
+
+
+******** <class 'pyscf.soscf.newton_ah.SecondOrderSymAdaptedUHF'> ********
+method = SecondOrderSymAdaptedUHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-12
+SCF conv_tol_grad = None
+SCF max_cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp4g2xjww2
+max_memory 4000 MB (current use 1515 MB)
+number electrons alpha = 58  beta = 55
+******** <class 'pyscf.scf.uhf_symm.SymAdaptedUHF'> Newton solver flags ********
+SCF tol = 1e-12
+conv_tol_grad = None
+max. SCF cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp4g2xjww2
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-16
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 4000 MB (current use 1515 MB)
+Set conv_tol_grad to 1e-06
+alpha HOMO (IR0) = -0.272447805165222  LUMO (IR0) = -0.258884639425073
+beta  HOMO (IR0) = -0.291675341840659  LUMO (IR0) = -0.279046679328868
+
+WARN: alpha-IR0 HOMO -0.272447805165222 > system LUMO -0.279046679328868
+
+
+WARN: beta-IR0 LUMO -0.279046679328868 < system HOMO -0.272447805165222
+
+Initial guess E= -22130.2753240364  |g|= 2.21489
+/mnt/home/hzhai/pybase/lib/python3.11/site-packages/pyscf/gto/mole.py:1293: UserWarning: Function mol.dumps drops attribute energy_nuc because it is not JSON-serializable
+  warnings.warn(msg)
+/mnt/home/hzhai/pybase/lib/python3.11/site-packages/pyscf/gto/mole.py:1293: UserWarning: Function mol.dumps drops attribute intor_symmetric because it is not JSON-serializable
+  warnings.warn(msg)
+macro= 0  E= -22136.2422046949  delta_E= -5.96688  |g|= 1.89547  3 KF 15 JK
+macro= 1  E= -22138.3448032444  delta_E= -2.1026  |g|= 1.19431  3 KF 15 JK
+macro= 2  E= -22139.4883603228  delta_E= -1.14356  |g|= 0.309042  3 KF 17 JK
+macro= 3  E= -22139.7553498749  delta_E= -0.26699  |g|= 0.171904  3 KF 18 JK
+macro= 4  E= -22139.7872552037  delta_E= -0.0319053  |g|= 0.0743395  2 KF 7 JK
+macro= 5  E= -22139.8385183368  delta_E= -0.0512631  |g|= 0.0657908  3 KF 13 JK
+macro= 6  E= -22139.8166329907  delta_E= 0.0218853  |g|= 0.041594  3 KF 13 JK
+macro= 7  E= -22139.8730478081  delta_E= -0.0564148  |g|= 0.0418352  3 KF 13 JK
+macro= 8  E= -22139.9223189602  delta_E= -0.0492712  |g|= 0.0546288  4 KF 19 JK
+macro= 9  E= -22139.926492215  delta_E= -0.00417325  |g|= 0.0238425  3 KF 13 JK
+macro= 10  E= -22139.9464399961  delta_E= -0.0199478  |g|= 0.022291  3 KF 13 JK
+macro= 11  E= -22139.9548487829  delta_E= -0.00840879  |g|= 0.0235523  3 KF 13 JK
+macro= 12  E= -22139.9641920827  delta_E= -0.0093433  |g|= 0.0151668  4 KF 20 JK
+macro= 13  E= -22139.9691898825  delta_E= -0.0049978  |g|= 0.00867298  4 KF 22 JK
+macro= 14  E= -22139.9699277154  delta_E= -0.000737833  |g|= 0.00110353  4 KF 29 JK
+macro= 15  E= -22139.9686497498  delta_E= 0.00127797  |g|= 0.00532765  3 KF 14 JK
+macro= 16  E= -22139.9730796378  delta_E= -0.00442989  |g|= 0.00812679  3 KF 15 JK
+macro= 17  E= -22139.9752956  delta_E= -0.00221596  |g|= 0.00524784  3 KF 15 JK
+macro= 18  E= -22139.9755152717  delta_E= -0.000219672  |g|= 0.000192016  4 KF 33 JK
+macro= 19  E= -22139.9755153184  delta_E= -4.66353e-08  |g|= 1.34087e-06  3 KF 36 JK
+macro= 20  E= -22139.9755153184  delta_E= 0  |g|= 3.61271e-07  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 21  E=-22139.9755153184  |g|= 3.61271e-07  total 66 KF 377 JK
+converged SCF energy = -22139.9755153184  <S^2> = 18.028409  2S+1 = 8.5506511
+Overwritten attributes  get_hcore get_ovlp energy_nuc  of <class 'pyscf.soscf.newton_ah.SecondOrderUHF'>
+Overwritten attributes  get_hcore get_ovlp energy_nuc  of <class 'pyscf.scf.uhf.UHF'>
+
+
+
+
+******** <class 'pyscf.soscf.newton_ah.SecondOrderUHF'> ********
+method = SecondOrderUHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-12
+SCF conv_tol_grad = None
+SCF max_cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp2aerzr74
+max_memory 1400000 MB (current use 1522 MB)
+number electrons alpha = 73  beta = 70
+******** <class 'pyscf.scf.uhf.UHF'> Newton solver flags ********
+SCF tol = 1e-12
+conv_tol_grad = None
+max. SCF cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp2aerzr74
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-16
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 1400000 MB (current use 1522 MB)
+Set conv_tol_grad to 1e-06
+  alpha nocc = 73  HOMO = -0.223315458468112  LUMO = -0.063001150051964
+  beta  nocc = 70  HOMO = -0.207648143890449  LUMO = 0.0273842111599805
+Initial guess E= -22126.8941767419  |g|= 0.387942
+macro= 0  E= -22127.1395954447  delta_E= -0.245419  |g|= 0.045721  4 KF 22 JK
+macro= 1  E= -22127.1479268133  delta_E= -0.00833137  |g|= 0.0372696  3 KF 13 JK
+macro= 2  E= -22127.1584071033  delta_E= -0.0104803  |g|= 0.0292411  3 KF 12 JK
+macro= 3  E= -22127.1581568435  delta_E= 0.00025026  |g|= 0.0283191  2 KF 7 JK
+macro= 4  E= -22127.1628804888  delta_E= -0.00472365  |g|= 0.00109641  4 KF 29 JK
+macro= 5  E= -22127.1628814034  delta_E= -9.14617e-07  |g|= 1.30124e-06  4 KF 41 JK
+macro= 6  E= -22127.1628814034  delta_E= 0  |g|= 3.22256e-07  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 7  E=-22127.1628814034  |g|= 3.22256e-07  total 22 KF 134 JK
+converged SCF energy = -22127.1628814034  <S^2> = 19.1998  2S+1 = 8.8203854
+
+
+
+
+******** <class 'pyscf.soscf.newton_ah.SecondOrderUHF'> ********
+method = SecondOrderUHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-12
+SCF conv_tol_grad = None
+SCF max_cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpui0s9sja
+max_memory 1400000 MB (current use 1553 MB)
+number electrons alpha = 54  beta = 51
+******** <class 'pyscf.scf.uhf.UHF'> Newton solver flags ********
+SCF tol = 1e-12
+conv_tol_grad = None
+max. SCF cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpui0s9sja
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-16
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 1400000 MB (current use 1553 MB)
+Set conv_tol_grad to 1e-06
+  alpha nocc = 54  HOMO = -0.174240632761827  LUMO = 0.172366905690506
+  beta  nocc = 51  HOMO = -0.186945085736325  LUMO = 0.164395172231944
+Initial guess E= -22127.1358411544  |g|= 0.0291244
+macro= 0  E= -22127.1366635223  delta_E= -0.000822368  |g|= 5.94308e-05  5 KF 36 JK
+macro= 1  E= -22127.1366635236  delta_E= -1.30967e-09  |g|= 2.8596e-06  2 KF 18 JK
+macro= 2  E= -22127.1366635236  delta_E= -3.63798e-12  |g|= 3.75899e-07  1 KF 2 JK
+macro= 3  E= -22127.1366635236  delta_E= 0  |g|= 3.75885e-07  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 4  E=-22127.1366635236  |g|= 3.75885e-07  total 10 KF 63 JK
+converged SCF energy = -22127.1366635236  <S^2> = 19.180501  2S+1 = 8.8160084
+::   133 222aaaa222222222bbb2baaaaabbbbb2222222222222bbbbba2aaaaaaaa222222b222ba00222  -22127.136663523645    -1     0
+---    19 :     0 DIA ---
+
+
+
+
+******** <class 'pyscf.soscf.newton_ah.SecondOrderUHF'> ********
+method = SecondOrderUHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-12
+SCF conv_tol_grad = None
+SCF max_cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp2aerzr74
+max_memory 1400000 MB (current use 1553 MB)
+number electrons alpha = 73  beta = 70
+******** <class 'pyscf.scf.uhf.UHF'> Newton solver flags ********
+SCF tol = 1e-12
+conv_tol_grad = None
+max. SCF cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp2aerzr74
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-16
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 1400000 MB (current use 1553 MB)
+Set conv_tol_grad to 1e-06
+  alpha nocc = 73  HOMO = -0.224942603936992  LUMO = -0.222177858955424
+  beta  nocc = 70  HOMO = -0.27601508847369  LUMO = -0.274298642451203
+
+WARN: system HOMO -0.25205296608886 >= system LUMO -0.274298642451203
+
+Initial guess E= -22088.8027065191  |g|= 7.09641
+macro= 0  E= -22118.6220809966  delta_E= -29.8194  |g|= 4.07824  3 KF 15 JK
+macro= 1  E= -22124.7835448936  delta_E= -6.16146  |g|= 0.869511  3 KF 15 JK
+macro= 2  E= -22126.4141974158  delta_E= -1.63065  |g|= 0.4249  3 KF 16 JK
+macro= 3  E= -22126.7652834546  delta_E= -0.351086  |g|= 0.421199  3 KF 16 JK
+macro= 4  E= -22126.8764621285  delta_E= -0.111179  |g|= 0.192692  3 KF 18 JK
+macro= 5  E= -22126.9654907425  delta_E= -0.0890286  |g|= 0.159533  4 KF 19 JK
+macro= 6  E= -22127.0127298319  delta_E= -0.0472391  |g|= 0.171825  3 KF 18 JK
+macro= 7  E= -22127.0974817471  delta_E= -0.0847519  |g|= 0.149391  3 KF 18 JK
+macro= 8  E= -22127.1213658931  delta_E= -0.0238841  |g|= 0.0640018  3 KF 13 JK
+macro= 9  E= -22127.1148071757  delta_E= 0.00655872  |g|= 0.0516077  3 KF 13 JK
+macro= 10  E= -22127.1465336289  delta_E= -0.0317265  |g|= 0.146328  2 KF 7 JK
+macro= 11  E= -22127.1567743416  delta_E= -0.0102407  |g|= 0.0213818  4 KF 18 JK
+macro= 12  E= -22127.1584884112  delta_E= -0.00171407  |g|= 0.0159252  4 KF 20 JK
+macro= 13  E= -22127.159049911  delta_E= -0.0005615  |g|= 0.0111884  1 KF 5 JK
+macro= 14  E= -22127.1581231385  delta_E= 0.000926772  |g|= 0.0168505  2 KF 7 JK
+macro= 15  E= -22127.1615516594  delta_E= -0.00342852  |g|= 0.00267132  4 KF 27 JK
+macro= 16  E= -22127.1616211307  delta_E= -6.94713e-05  |g|= 0.000477416  4 KF 31 JK
+macro= 17  E= -22127.1616218863  delta_E= -7.55565e-07  |g|= 2.26581e-05  4 KF 37 JK
+macro= 18  E= -22127.1616218865  delta_E= -2.21917e-10  |g|= 9.13129e-07  2 KF 20 JK
+macro= 19  E= -22127.1616218865  delta_E= 0  |g|= 3.74492e-07  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 20  E=-22127.1616218865  |g|= 3.74492e-07  total 60 KF 356 JK
+converged SCF energy = -22127.1616218865  <S^2> = 19.255498  2S+1 = 8.8330059
+
+
+
+
+******** <class 'pyscf.soscf.newton_ah.SecondOrderUHF'> ********
+method = SecondOrderUHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-12
+SCF conv_tol_grad = None
+SCF max_cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpui0s9sja
+max_memory 1400000 MB (current use 1553 MB)
+number electrons alpha = 54  beta = 51
+******** <class 'pyscf.scf.uhf.UHF'> Newton solver flags ********
+SCF tol = 1e-12
+conv_tol_grad = None
+max. SCF cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpui0s9sja
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-16
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 1400000 MB (current use 1553 MB)
+Set conv_tol_grad to 1e-06
+  alpha nocc = 54  HOMO = -0.157438270503935  LUMO = 0.143345445351885
+  beta  nocc = 51  HOMO = -0.173523246774847  LUMO = 0.188501358407815
+Initial guess E= -22127.1471611745  |g|= 0.0103163
+macro= 0  E= -22127.1474471264  delta_E= -0.000285952  |g|= 0.000404111  4 KF 31 JK
+macro= 1  E= -22127.1474474991  delta_E= -3.72718e-07  |g|= 4.09268e-06  3 KF 32 JK
+macro= 2  E= -22127.1474474991  delta_E= 0  |g|= 3.59805e-07  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 3  E=-22127.1474474991  |g|= 3.59805e-07  total 9 KF 69 JK
+converged SCF energy = -22127.1474474991  <S^2> = 19.268028  2S+1 = 8.8358424
+::     0 222aaaa2222222222bbbb2aaaabbbbb2222222222222bbbbbaaaaaaaaaa222222b222ba00222  -22127.147447499083    -1     1
+---    19 :     3 DIA ---
+
+
+
+
+******** <class 'pyscf.soscf.newton_ah.SecondOrderUHF'> ********
+method = SecondOrderUHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-12
+SCF conv_tol_grad = None
+SCF max_cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp2aerzr74
+max_memory 1400000 MB (current use 1553 MB)
+number electrons alpha = 73  beta = 70
+******** <class 'pyscf.scf.uhf.UHF'> Newton solver flags ********
+SCF tol = 1e-12
+conv_tol_grad = None
+max. SCF cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp2aerzr74
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-16
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 1400000 MB (current use 1553 MB)
+Set conv_tol_grad to 1e-06
+  alpha nocc = 73  HOMO = -0.228365050648258  LUMO = -0.226705511658716
+  beta  nocc = 70  HOMO = -0.275619524220282  LUMO = -0.272604277825709
+
+WARN: system HOMO -0.250914177822848 >= system LUMO -0.272604277825709
+
+Initial guess E= -22089.5417475372  |g|= 7.21876
+macro= 0  E= -22120.5544917667  delta_E= -31.0127  |g|= 4.1393  3 KF 15 JK
+macro= 1  E= -22124.4934297532  delta_E= -3.93894  |g|= 1.05665  3 KF 15 JK
+macro= 2  E= -22126.2154422006  delta_E= -1.72201  |g|= 0.443125  3 KF 16 JK
+macro= 3  E= -22126.5535001948  delta_E= -0.338058  |g|= 0.209212  3 KF 13 JK
+macro= 4  E= -22126.8646631637  delta_E= -0.311163  |g|= 0.161074  3 KF 18 JK
+macro= 5  E= -22126.9561748752  delta_E= -0.0915117  |g|= 0.198287  2 KF 7 JK
+macro= 6  E= -22127.001979215  delta_E= -0.0458043  |g|= 0.0625065  3 KF 12 JK
+macro= 7  E= -22127.0661033116  delta_E= -0.0641241  |g|= 0.123406  4 KF 19 JK
+macro= 8  E= -22127.1045520012  delta_E= -0.0384487  |g|= 0.195123  2 KF 7 JK
+macro= 9  E= -22127.1085531578  delta_E= -0.00400116  |g|= 0.0602282  3 KF 13 JK
+macro= 10  E= -22127.1519409456  delta_E= -0.0433878  |g|= 0.0587278  3 KF 14 JK
+macro= 11  E= -22127.1576372194  delta_E= -0.00569627  |g|= 0.039991  2 KF 7 JK
+macro= 12  E= -22127.1615551489  delta_E= -0.00391793  |g|= 0.0015507  4 KF 28 JK
+macro= 13  E= -22127.161559586  delta_E= -4.43706e-06  |g|= 3.03228e-06  4 KF 41 JK
+macro= 14  E= -22127.161559586  delta_E= -7.27596e-12  |g|= 8.38697e-07  1 KF 7 JK
+macro= 15  E= -22127.161559586  delta_E= 0  |g|= 3.88955e-07  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 16  E=-22127.161559586  |g|= 3.88955e-07  total 45 KF 251 JK
+converged SCF energy = -22127.161559586  <S^2> = 19.16158  2S+1 = 8.811715
+
+
+
+
+******** <class 'pyscf.soscf.newton_ah.SecondOrderUHF'> ********
+method = SecondOrderUHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-12
+SCF conv_tol_grad = None
+SCF max_cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpui0s9sja
+max_memory 1400000 MB (current use 1554 MB)
+number electrons alpha = 54  beta = 51
+******** <class 'pyscf.scf.uhf.UHF'> Newton solver flags ********
+SCF tol = 1e-12
+conv_tol_grad = None
+max. SCF cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpui0s9sja
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-16
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 1400000 MB (current use 1554 MB)
+Set conv_tol_grad to 1e-06
+  alpha nocc = 54  HOMO = -0.173261664987128  LUMO = 0.135274577723953
+  beta  nocc = 51  HOMO = -0.196184336437748  LUMO = 0.12856541981106
+Initial guess E= -22127.1317322366  |g|= 0.0326193
+macro= 0  E= -22127.1328435949  delta_E= -0.00111136  |g|= 0.000127936  5 KF 34 JK
+macro= 1  E= -22127.1328436066  delta_E= -1.16961e-08  |g|= 6.10077e-07  3 KF 28 JK
+macro= 2  E= -22127.1328436066  delta_E= 0  |g|= 2.67073e-07  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 3  E=-22127.1328436066  |g|= 2.67073e-07  total 10 KF 68 JK
+converged SCF energy = -22127.1328436066  <S^2> = 19.165711  2S+1 = 8.8126524
+::     3 222aaaa222222222bbb2b2aaaabbbbb2222222222222bbbbbaaaaaaaaaa222222b222ba00222  -22127.132843606585    -1     2
+---    19 :   446 DIA ---
+
+
+
+
+******** <class 'pyscf.soscf.newton_ah.SecondOrderUHF'> ********
+method = SecondOrderUHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-12
+SCF conv_tol_grad = None
+SCF max_cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp2aerzr74
+max_memory 1400000 MB (current use 1554 MB)
+number electrons alpha = 73  beta = 70
+******** <class 'pyscf.scf.uhf.UHF'> Newton solver flags ********
+SCF tol = 1e-12
+conv_tol_grad = None
+max. SCF cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp2aerzr74
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-16
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 1400000 MB (current use 1554 MB)
+Set conv_tol_grad to 1e-06
+  alpha nocc = 73  HOMO = -0.19519868985821  LUMO = -0.18901033579855
+  beta  nocc = 70  HOMO = -0.251088416231743  LUMO = -0.241000062996584
+
+WARN: system HOMO -0.236011462093327 >= system LUMO -0.241000062996584
+
+Initial guess E= -22117.46695258  |g|= 4.02638
+macro= 0  E= -22125.2054022751  delta_E= -7.73845  |g|= 1.56348  3 KF 15 JK
+macro= 1  E= -22126.4650600166  delta_E= -1.25966  |g|= 0.519493  3 KF 16 JK
+macro= 2  E= -22126.7363569408  delta_E= -0.271297  |g|= 0.32814  3 KF 17 JK
+macro= 3  E= -22126.9245122061  delta_E= -0.188155  |g|= 0.158293  3 KF 18 JK
+macro= 4  E= -22126.9871324036  delta_E= -0.0626202  |g|= 0.0743219  4 KF 21 JK
+macro= 5  E= -22127.0128378257  delta_E= -0.0257054  |g|= 0.0796007  3 KF 13 JK
+macro= 6  E= -22127.0373619273  delta_E= -0.0245241  |g|= 0.0907587  3 KF 12 JK
+macro= 7  E= -22127.0541309856  delta_E= -0.0167691  |g|= 0.0642238  3 KF 11 JK
+macro= 8  E= -22127.0755010446  delta_E= -0.0213701  |g|= 0.0458193  2 KF 6 JK
+macro= 9  E= -22127.0991311971  delta_E= -0.0236302  |g|= 0.0482084  4 KF 18 JK
+macro= 10  E= -22127.111068331  delta_E= -0.0119371  |g|= 0.0145388  3 KF 14 JK
+macro= 11  E= -22127.1218382084  delta_E= -0.0107699  |g|= 0.0349363  1 KF 6 JK
+macro= 12  E= -22127.152487823  delta_E= -0.0306496  |g|= 0.0301334  4 KF 23 JK
+macro= 13  E= -22127.154313304  delta_E= -0.00182548  |g|= 0.00160661  4 KF 28 JK
+macro= 14  E= -22127.154327616  delta_E= -1.4312e-05  |g|= 0.000363026  3 KF 21 JK
+macro= 15  E= -22127.1543254325  delta_E= 2.18351e-06  |g|= 1.76187e-06  5 KF 44 JK
+macro= 16  E= -22127.1543254325  delta_E= 3.63798e-12  |g|= 8.45166e-07  1 KF 5 JK
+macro= 17  E= -22127.1543254325  delta_E= 0  |g|= 3.15631e-07  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 18  E=-22127.1543254325  |g|= 3.15631e-07  total 54 KF 309 JK
+converged SCF energy = -22127.1543254325  <S^2> = 19.167955  2S+1 = 8.8131617
+
+
+
+
+******** <class 'pyscf.soscf.newton_ah.SecondOrderUHF'> ********
+method = SecondOrderUHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-12
+SCF conv_tol_grad = None
+SCF max_cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpui0s9sja
+max_memory 1400000 MB (current use 1555 MB)
+number electrons alpha = 54  beta = 51
+******** <class 'pyscf.scf.uhf.UHF'> Newton solver flags ********
+SCF tol = 1e-12
+conv_tol_grad = None
+max. SCF cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpui0s9sja
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-16
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 1400000 MB (current use 1555 MB)
+Set conv_tol_grad to 1e-06
+  alpha nocc = 54  HOMO = -0.173735158208273  LUMO = 0.136305448155481
+  beta  nocc = 51  HOMO = -0.185538333561055  LUMO = 0.129893371662242
+Initial guess E= -22127.1232912179  |g|= 0.0325366
+macro= 0  E= -22127.1243202516  delta_E= -0.00102903  |g|= 0.00410303  2 KF 9 JK
+macro= 1  E= -22127.1272380861  delta_E= -0.00291783  |g|= 0.020798  3 KF 13 JK
+macro= 2  E= -22127.1328432548  delta_E= -0.00560517  |g|= 0.000482401  5 KF 32 JK
+macro= 3  E= -22127.1328436066  delta_E= -3.51785e-07  |g|= 1.5343e-06  4 KF 40 JK
+macro= 4  E= -22127.1328436066  delta_E= -3.63798e-12  |g|= 2.55339e-07  1 KF 2 JK
+macro= 5  E= -22127.1328436066  delta_E= 0  |g|= 2.56375e-07  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 6  E=-22127.1328436066  |g|= 2.56375e-07  total 17 KF 105 JK
+converged SCF energy = -22127.1328436066  <S^2> = 19.165711  2S+1 = 8.8126525
+::   446 22aaaaa222222222b2bbbaa2aabbbbb2222222222222bbbbbaaaa2aaaaa222222b222ba00222  -22127.132843606589     3     2
+---    19 :   788 DIA ---
+
+
+
+
+******** <class 'pyscf.soscf.newton_ah.SecondOrderUHF'> ********
+method = SecondOrderUHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-12
+SCF conv_tol_grad = None
+SCF max_cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp2aerzr74
+max_memory 1400000 MB (current use 1555 MB)
+number electrons alpha = 73  beta = 70
+******** <class 'pyscf.scf.uhf.UHF'> Newton solver flags ********
+SCF tol = 1e-12
+conv_tol_grad = None
+max. SCF cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp2aerzr74
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-16
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 1400000 MB (current use 1555 MB)
+Set conv_tol_grad to 1e-06
+  alpha nocc = 73  HOMO = -0.239638727380435  LUMO = -0.224573834594222
+  beta  nocc = 70  HOMO = -0.267635256203962  LUMO = -0.253985417145679
+
+WARN: system HOMO -0.241663432152111 >= system LUMO -0.253985417145679
+
+Initial guess E= -22090.6621013607  |g|= 7.07542
+macro= 0  E= -22120.8652089089  delta_E= -30.2031  |g|= 3.03849  3 KF 15 JK
+macro= 1  E= -22124.0544513167  delta_E= -3.18924  |g|= 1.2795  3 KF 15 JK
+macro= 2  E= -22126.1809622945  delta_E= -2.12651  |g|= 0.467476  3 KF 16 JK
+macro= 3  E= -22126.7313449264  delta_E= -0.550383  |g|= 0.490086  3 KF 16 JK
+macro= 4  E= -22126.7963518648  delta_E= -0.0650069  |g|= 0.100159  3 KF 12 JK
+macro= 5  E= -22126.9663528811  delta_E= -0.170001  |g|= 0.401491  2 KF 7 JK
+macro= 6  E= -22127.0556640404  delta_E= -0.0893112  |g|= 0.152184  3 KF 13 JK
+macro= 7  E= -22127.092372108  delta_E= -0.0367081  |g|= 0.126193  2 KF 7 JK
+macro= 8  E= -22127.0876647652  delta_E= 0.00470734  |g|= 0.0759157  4 KF 21 JK
+macro= 9  E= -22127.0977256496  delta_E= -0.0100609  |g|= 0.0525954  3 KF 13 JK
+macro= 10  E= -22127.1377783398  delta_E= -0.0400527  |g|= 0.025172  5 KF 23 JK
+macro= 11  E= -22127.1479321862  delta_E= -0.0101538  |g|= 0.00637521  4 KF 26 JK
+macro= 12  E= -22127.1481057983  delta_E= -0.000173612  |g|= 8.94492e-05  4 KF 34 JK
+macro= 13  E= -22127.1481058064  delta_E= -8.05812e-09  |g|= 6.74886e-07  3 KF 33 JK
+macro= 14  E= -22127.1481058063  delta_E= 3.63798e-12  |g|= 3.84209e-07  1 KF 2 JK
+macro= 15  E= -22127.1481058063  delta_E= 0  |g|= 3.84212e-07  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 16  E=-22127.1481058063  |g|= 3.84212e-07  total 48 KF 272 JK
+converged SCF energy = -22127.1481058063  <S^2> = 19.154102  2S+1 = 8.8100175
+
+
+
+
+******** <class 'pyscf.soscf.newton_ah.SecondOrderUHF'> ********
+method = SecondOrderUHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-12
+SCF conv_tol_grad = None
+SCF max_cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpui0s9sja
+max_memory 1400000 MB (current use 1555 MB)
+number electrons alpha = 54  beta = 51
+******** <class 'pyscf.scf.uhf.UHF'> Newton solver flags ********
+SCF tol = 1e-12
+conv_tol_grad = None
+max. SCF cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpui0s9sja
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-16
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 1400000 MB (current use 1555 MB)
+Set conv_tol_grad to 1e-06
+  alpha nocc = 54  HOMO = -0.156666268994939  LUMO = 0.133869540607664
+  beta  nocc = 51  HOMO = -0.192535832013035  LUMO = 0.127484636637238
+Initial guess E= -22127.1203632105  |g|= 0.0277184
+macro= 0  E= -22127.1211598663  delta_E= -0.000796656  |g|= 5.77682e-05  5 KF 36 JK
+macro= 1  E= -22127.1211598677  delta_E= -1.46247e-09  |g|= 3.43747e-06  2 KF 19 JK
+macro= 2  E= -22127.1211598677  delta_E= 0  |g|= 3.94017e-07  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 3  E=-22127.1211598677  |g|= 3.94017e-07  total 9 KF 61 JK
+converged SCF energy = -22127.1211598677  <S^2> = 19.160337  2S+1 = 8.8114328
+::   788 22a2aaa222222222bbbbbaa2aabbb2b2222222222222bbbbbaaaaaaaaaa222222b222ba00222  -22127.121159867722    -1     3
+---    19 :   832 DIA ---
+
+
+
+
+******** <class 'pyscf.soscf.newton_ah.SecondOrderUHF'> ********
+method = SecondOrderUHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-12
+SCF conv_tol_grad = None
+SCF max_cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp2aerzr74
+max_memory 1400000 MB (current use 1555 MB)
+number electrons alpha = 73  beta = 70
+******** <class 'pyscf.scf.uhf.UHF'> Newton solver flags ********
+SCF tol = 1e-12
+conv_tol_grad = None
+max. SCF cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp2aerzr74
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-16
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 1400000 MB (current use 1555 MB)
+Set conv_tol_grad to 1e-06
+  alpha nocc = 73  HOMO = -0.230086375607364  LUMO = -0.220241687792836
+  beta  nocc = 70  HOMO = -0.273745102627753  LUMO = -0.264591749819946
+
+WARN: system HOMO -0.237992992344336 >= system LUMO -0.264591749819946
+
+Initial guess E= -22092.7645126411  |g|= 6.99314
+macro= 0  E= -22120.8430804023  delta_E= -28.0786  |g|= 3.82016  3 KF 15 JK
+macro= 1  E= -22125.0062203877  delta_E= -4.16314  |g|= 0.852304  3 KF 15 JK
+macro= 2  E= -22126.5615031019  delta_E= -1.55528  |g|= 0.36522  3 KF 17 JK
+macro= 3  E= -22126.9426139736  delta_E= -0.381111  |g|= 0.217721  3 KF 18 JK
+macro= 4  E= -22127.0885542194  delta_E= -0.14594  |g|= 0.176064  4 KF 20 JK
+macro= 5  E= -22127.0904636851  delta_E= -0.00190947  |g|= 0.0368187  3 KF 14 JK
+macro= 6  E= -22127.1116646658  delta_E= -0.021201  |g|= 0.0277011  4 KF 23 JK
+macro= 7  E= -22127.1189938167  delta_E= -0.00732915  |g|= 0.0278749  2 KF 7 JK
+macro= 8  E= -22127.1214784011  delta_E= -0.00248458  |g|= 0.0185304  2 KF 7 JK
+macro= 9  E= -22127.1264402257  delta_E= -0.00496182  |g|= 0.0308876  4 KF 18 JK
+macro= 10  E= -22127.127672223  delta_E= -0.001232  |g|= 0.0314119  4 KF 22 JK
+macro= 11  E= -22127.1279715143  delta_E= -0.000299291  |g|= 0.00255676  5 KF 28 JK
+macro= 12  E= -22127.1284173868  delta_E= -0.000445873  |g|= 0.00370436  4 KF 23 JK
+macro= 13  E= -22127.1342602836  delta_E= -0.0058429  |g|= 0.0139985  4 KF 19 JK
+macro= 14  E= -22127.1361587148  delta_E= -0.00189843  |g|= 0.0156908  2 KF 7 JK
+macro= 15  E= -22127.1405614677  delta_E= -0.00440275  |g|= 0.0482188  4 KF 20 JK
+macro= 16  E= -22127.1450437895  delta_E= -0.00448232  |g|= 0.0300722  2 KF 7 JK
+macro= 17  E= -22127.1458313135  delta_E= -0.000787524  |g|= 0.0199626  4 KF 23 JK
+macro= 18  E= -22127.1469084518  delta_E= -0.00107714  |g|= 0.000678012  4 KF 30 JK
+macro= 19  E= -22127.1469094753  delta_E= -1.02351e-06  |g|= 0.000419002  2 KF 12 JK
+macro= 20  E= -22127.146908535  delta_E= 9.40268e-07  |g|= 3.72518e-06  4 KF 41 JK
+macro= 21  E= -22127.1469085351  delta_E= -7.27596e-12  |g|= 1.20527e-06  1 KF 9 JK
+macro= 22  E= -22127.1469085351  delta_E= 0  |g|= 3.72065e-07  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 23  E=-22127.1469085351  |g|= 3.72065e-07  total 73 KF 421 JK
+converged SCF energy = -22127.1469085351  <S^2> = 19.01485  2S+1 = 8.7783483
+
+
+
+
+******** <class 'pyscf.soscf.newton_ah.SecondOrderUHF'> ********
+method = SecondOrderUHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-12
+SCF conv_tol_grad = None
+SCF max_cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpui0s9sja
+max_memory 1400000 MB (current use 1555 MB)
+number electrons alpha = 54  beta = 51
+******** <class 'pyscf.scf.uhf.UHF'> Newton solver flags ********
+SCF tol = 1e-12
+conv_tol_grad = None
+max. SCF cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpui0s9sja
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-16
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 1400000 MB (current use 1555 MB)
+Set conv_tol_grad to 1e-06
+  alpha nocc = 54  HOMO = -0.130421839870151  LUMO = 0.164403560536789
+  beta  nocc = 51  HOMO = -0.179156389385782  LUMO = 0.167955965514485
+Initial guess E= -22127.1217151786  |g|= 0.0267115
+macro= 0  E= -22127.1244634646  delta_E= -0.00274829  |g|= 0.0141136  3 KF 15 JK
+macro= 1  E= -22127.1322652598  delta_E= -0.0078018  |g|= 0.019059  3 KF 13 JK
+macro= 2  E= -22127.1415838806  delta_E= -0.00931862  |g|= 0.0107918  4 KF 21 JK
+macro= 3  E= -22127.1424399113  delta_E= -0.000856031  |g|= 0.0172955  3 KF 12 JK
+macro= 4  E= -22127.1438438843  delta_E= -0.00140397  |g|= 0.00670819  4 KF 19 JK
+macro= 5  E= -22127.1447996818  delta_E= -0.000955797  |g|= 0.0120096  2 KF 7 JK
+macro= 6  E= -22127.1473732907  delta_E= -0.00257361  |g|= 0.00233268  5 KF 27 JK
+macro= 7  E= -22127.1474474657  delta_E= -7.4175e-05  |g|= 0.000154696  5 KF 28 JK
+macro= 8  E= -22127.1474474991  delta_E= -3.34294e-08  |g|= 5.09613e-06  3 KF 33 JK
+macro= 9  E= -22127.1474474991  delta_E= 0  |g|= 3.98745e-07  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 10  E=-22127.1474474991  |g|= 3.98745e-07  total 34 KF 188 JK
+converged SCF energy = -22127.1474474991  <S^2> = 19.268029  2S+1 = 8.8358426
+::   832 22aaa2a222222222bbbbba2aaabb2bb2222222222222bbbbbaaaaaaaaaa222222b222ba00222  -22127.147447499083     0     1
+---    19 :   923 DIA ---
+
+
+
+
+******** <class 'pyscf.soscf.newton_ah.SecondOrderUHF'> ********
+method = SecondOrderUHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-12
+SCF conv_tol_grad = None
+SCF max_cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp2aerzr74
+max_memory 1400000 MB (current use 1555 MB)
+number electrons alpha = 73  beta = 70
+******** <class 'pyscf.scf.uhf.UHF'> Newton solver flags ********
+SCF tol = 1e-12
+conv_tol_grad = None
+max. SCF cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp2aerzr74
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-16
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 1400000 MB (current use 1555 MB)
+Set conv_tol_grad to 1e-06
+  alpha nocc = 73  HOMO = -0.255302574068381  LUMO = -0.248785997531674
+  beta  nocc = 70  HOMO = -0.243724076513527  LUMO = -0.231606739348046
+Initial guess E= -22116.7732949224  |g|= 4.22498
+macro= 0  E= -22122.8320641839  delta_E= -6.05877  |g|= 2.45738  3 KF 15 JK
+macro= 1  E= -22124.9007924883  delta_E= -2.06873  |g|= 1.63131  3 KF 15 JK
+macro= 2  E= -22126.0700945487  delta_E= -1.1693  |g|= 0.880619  3 KF 15 JK
+macro= 3  E= -22126.6898553896  delta_E= -0.619761  |g|= 0.244736  3 KF 17 JK
+macro= 4  E= -22126.8975449308  delta_E= -0.20769  |g|= 0.245022  4 KF 20 JK
+macro= 5  E= -22126.983942657  delta_E= -0.0863977  |g|= 0.166416  2 KF 7 JK
+macro= 6  E= -22127.0688371713  delta_E= -0.0848945  |g|= 0.0621144  4 KF 21 JK
+macro= 7  E= -22127.0899756995  delta_E= -0.0211385  |g|= 0.0533094  2 KF 7 JK
+macro= 8  E= -22127.1097005596  delta_E= -0.0197249  |g|= 0.0438546  3 KF 13 JK
+macro= 9  E= -22127.1154018112  delta_E= -0.00570125  |g|= 0.0399495  3 KF 13 JK
+macro= 10  E= -22127.1200252096  delta_E= -0.0046234  |g|= 0.0333138  3 KF 14 JK
+macro= 11  E= -22127.1385735665  delta_E= -0.0185484  |g|= 0.018932  4 KF 20 JK
+macro= 12  E= -22127.1435026529  delta_E= -0.00492909  |g|= 0.00398658  4 KF 27 JK
+macro= 13  E= -22127.1430357485  delta_E= 0.000466904  |g|= 0.00568313  2 KF 7 JK
+macro= 14  E= -22127.1448905006  delta_E= -0.00185475  |g|= 0.000525069  4 KF 31 JK
+macro= 15  E= -22127.1448906409  delta_E= -1.40222e-07  |g|= 8.88081e-06  3 KF 38 JK
+macro= 16  E= -22127.1448906409  delta_E= -3.63798e-12  |g|= 8.17956e-07  1 KF 7 JK
+macro= 17  E= -22127.1448906409  delta_E= 0  |g|= 3.98033e-07  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 18  E=-22127.1448906409  |g|= 3.98033e-07  total 53 KF 308 JK
+converged SCF energy = -22127.1448906409  <S^2> = 19.115723  2S+1 = 8.8013005
+
+
+
+
+******** <class 'pyscf.soscf.newton_ah.SecondOrderUHF'> ********
+method = SecondOrderUHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-12
+SCF conv_tol_grad = None
+SCF max_cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpui0s9sja
+max_memory 1400000 MB (current use 1555 MB)
+number electrons alpha = 54  beta = 51
+******** <class 'pyscf.scf.uhf.UHF'> Newton solver flags ********
+SCF tol = 1e-12
+conv_tol_grad = None
+max. SCF cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpui0s9sja
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-16
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 1400000 MB (current use 1555 MB)
+Set conv_tol_grad to 1e-06
+  alpha nocc = 54  HOMO = -0.17859417698457  LUMO = 0.172800502275328
+  beta  nocc = 51  HOMO = -0.190031989906955  LUMO = 0.15211958334126
+Initial guess E= -22127.1140791805  |g|= 0.0341964
+macro= 0  E= -22127.1155672244  delta_E= -0.00148804  |g|= 0.00285095  4 KF 21 JK
+macro= 1  E= -22127.1159974637  delta_E= -0.000430239  |g|= 0.00514281  3 KF 15 JK
+macro= 2  E= -22127.11668995  delta_E= -0.000692486  |g|= 0.00343891  3 KF 17 JK
+macro= 3  E= -22127.1167253231  delta_E= -3.53731e-05  |g|= 4.63707e-06  5 KF 41 JK
+macro= 4  E= -22127.1167253231  delta_E= -1.09139e-11  |g|= 1.06673e-06  1 KF 10 JK
+macro= 5  E= -22127.1167253231  delta_E= 0  |g|= 3.73277e-07  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 6  E=-22127.1167253231  |g|= 3.73277e-07  total 18 KF 113 JK
+converged SCF energy = -22127.1167253231  <S^2> = 18.571654  2S+1 = 8.676786
+::   923 22a2aaa222222222bbbbbaaaaabbb2b2222222222222bbbbbaaaa2aaaaa222222b222ba00222  -22127.116725323118    -1     4
+---    19 :  1662 DIA ---
+
+
+
+
+******** <class 'pyscf.soscf.newton_ah.SecondOrderUHF'> ********
+method = SecondOrderUHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-12
+SCF conv_tol_grad = None
+SCF max_cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp2aerzr74
+max_memory 1400000 MB (current use 1555 MB)
+number electrons alpha = 73  beta = 70
+******** <class 'pyscf.scf.uhf.UHF'> Newton solver flags ********
+SCF tol = 1e-12
+conv_tol_grad = None
+max. SCF cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp2aerzr74
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-16
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 1400000 MB (current use 1555 MB)
+Set conv_tol_grad to 1e-06
+  alpha nocc = 73  HOMO = -0.246487726611715  LUMO = -0.244698091451967
+  beta  nocc = 70  HOMO = -0.254160535026483  LUMO = -0.2432666112282
+Initial guess E= -22124.3765570416  |g|= 2.27293
+macro= 0  E= -22126.7738829351  delta_E= -2.39733  |g|= 0.425122  3 KF 16 JK
+macro= 1  E= -22127.0550728384  delta_E= -0.28119  |g|= 0.104664  3 KF 13 JK
+macro= 2  E= -22127.1077222986  delta_E= -0.0526495  |g|= 0.0532839  4 KF 19 JK
+macro= 3  E= -22127.1328921062  delta_E= -0.0251698  |g|= 0.0247572  4 KF 23 JK
+macro= 4  E= -22127.1426236607  delta_E= -0.00973155  |g|= 0.0270108  4 KF 23 JK
+macro= 5  E= -22127.1432720558  delta_E= -0.000648395  |g|= 0.0123654  4 KF 24 JK
+macro= 6  E= -22127.1434568509  delta_E= -0.000184795  |g|= 0.0014815  4 KF 30 JK
+macro= 7  E= -22127.1434623991  delta_E= -5.54812e-06  |g|= 0.000332924  2 KF 14 JK
+macro= 8  E= -22127.1434616222  delta_E= 7.76854e-07  |g|= 3.3059e-06  4 KF 41 JK
+macro= 9  E= -22127.1434616222  delta_E= -1.45519e-11  |g|= 1.02248e-06  1 KF 8 JK
+macro= 10  E= -22127.1434616222  delta_E= 3.63798e-12  |g|= 3.94498e-07  1 KF 2 JK
+macro= 11  E= -22127.1434616222  delta_E= 0  |g|= 3.94497e-07  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 12  E=-22127.1434616222  |g|= 3.94497e-07  total 36 KF 228 JK
+converged SCF energy = -22127.1434616222  <S^2> = 18.680548  2S+1 = 8.7018499
+
+
+
+
+******** <class 'pyscf.soscf.newton_ah.SecondOrderUHF'> ********
+method = SecondOrderUHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-12
+SCF conv_tol_grad = None
+SCF max_cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpui0s9sja
+max_memory 1400000 MB (current use 1555 MB)
+number electrons alpha = 54  beta = 51
+******** <class 'pyscf.scf.uhf.UHF'> Newton solver flags ********
+SCF tol = 1e-12
+conv_tol_grad = None
+max. SCF cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpui0s9sja
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-16
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 1400000 MB (current use 1555 MB)
+Set conv_tol_grad to 1e-06
+  alpha nocc = 54  HOMO = -0.138488212828172  LUMO = 0.15551978713633
+  beta  nocc = 51  HOMO = -0.178959655337425  LUMO = 0.1514192003618
+Initial guess E= -22127.1191238493  |g|= 0.0247124
+macro= 0  E= -22127.1228064844  delta_E= -0.00368264  |g|= 0.0166527  3 KF 14 JK
+macro= 1  E= -22127.1225606773  delta_E= 0.000245807  |g|= 0.020147  3 KF 13 JK
+macro= 2  E= -22127.1392902022  delta_E= -0.0167295  |g|= 0.0313588  3 KF 11 JK
+macro= 3  E= -22127.1421299953  delta_E= -0.00283979  |g|= 0.00953252  4 KF 22 JK
+macro= 4  E= -22127.1442438698  delta_E= -0.00211387  |g|= 0.0145213  3 KF 14 JK
+macro= 5  E= -22127.1470744801  delta_E= -0.00283061  |g|= 0.00577862  4 KF 22 JK
+macro= 6  E= -22127.1474371623  delta_E= -0.000362682  |g|= 0.00160296  4 KF 25 JK
+macro= 7  E= -22127.1474474991  delta_E= -1.03368e-05  |g|= 1.19119e-06  6 KF 45 JK
+macro= 8  E= -22127.1474474991  delta_E= 3.63798e-12  |g|= 3.63428e-07  1 KF 2 JK
+macro= 9  E= -22127.1474474991  delta_E= 0  |g|= 3.6056e-07  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 10  E=-22127.1474474991  |g|= 3.6056e-07  total 33 KF 181 JK
+converged SCF energy = -22127.1474474991  <S^2> = 19.268028  2S+1 = 8.8358425
+::  1662 22a2aaa222222222bbbbbaaaaabbbbb2222222222222bb2bbaa2aaaaaaa222222b222ba00222  -22127.147447499083     0     1
+---    19 :    38 DIA ---
+
+
+
+
+******** <class 'pyscf.soscf.newton_ah.SecondOrderUHF'> ********
+method = SecondOrderUHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-12
+SCF conv_tol_grad = None
+SCF max_cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp2aerzr74
+max_memory 1400000 MB (current use 1555 MB)
+number electrons alpha = 73  beta = 70
+******** <class 'pyscf.scf.uhf.UHF'> Newton solver flags ********
+SCF tol = 1e-12
+conv_tol_grad = None
+max. SCF cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp2aerzr74
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-16
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 1400000 MB (current use 1555 MB)
+Set conv_tol_grad to 1e-06
+  alpha nocc = 73  HOMO = -0.229386221953406  LUMO = -0.22386709247555
+  beta  nocc = 70  HOMO = -0.282946539490819  LUMO = -0.275123538891107
+
+WARN: system HOMO -0.254231645458832 >= system LUMO -0.275123538891107
+
+Initial guess E= -22091.400852561  |g|= 7.10377
+macro= 0  E= -22118.2969736973  delta_E= -26.8961  |g|= 3.93927  3 KF 15 JK
+macro= 1  E= -22124.6762955359  delta_E= -6.37932  |g|= 1.01563  3 KF 15 JK
+macro= 2  E= -22126.5476736873  delta_E= -1.87138  |g|= 0.38742  3 KF 16 JK
+macro= 3  E= -22126.9735196397  delta_E= -0.425846  |g|= 0.27  3 KF 17 JK
+macro= 4  E= -22127.0119722971  delta_E= -0.0384527  |g|= 0.0711193  3 KF 13 JK
+macro= 5  E= -22127.0825987199  delta_E= -0.0706264  |g|= 0.0855903  4 KF 16 JK
+macro= 6  E= -22127.0974109057  delta_E= -0.0148122  |g|= 0.0686482  2 KF 6 JK
+macro= 7  E= -22127.0844747761  delta_E= 0.0129361  |g|= 0.0315439  4 KF 22 JK
+macro= 8  E= -22127.127503917  delta_E= -0.0430291  |g|= 0.052647  3 KF 12 JK
+macro= 9  E= -22127.1421159508  delta_E= -0.014612  |g|= 0.0185406  4 KF 23 JK
+macro= 10  E= -22127.1432010256  delta_E= -0.00108507  |g|= 0.000474671  4 KF 31 JK
+macro= 11  E= -22127.1432012471  delta_E= -2.21582e-07  |g|= 8.00196e-07  4 KF 41 JK
+macro= 12  E= -22127.1432012471  delta_E= 0  |g|= 3.3481e-07  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 13  E=-22127.1432012471  |g|= 3.3481e-07  total 42 KF 243 JK
+converged SCF energy = -22127.1432012471  <S^2> = 19.131086  2S+1 = 8.804791
+
+
+
+
+******** <class 'pyscf.soscf.newton_ah.SecondOrderUHF'> ********
+method = SecondOrderUHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-12
+SCF conv_tol_grad = None
+SCF max_cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpui0s9sja
+max_memory 1400000 MB (current use 1555 MB)
+number electrons alpha = 54  beta = 51
+******** <class 'pyscf.scf.uhf.UHF'> Newton solver flags ********
+SCF tol = 1e-12
+conv_tol_grad = None
+max. SCF cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpui0s9sja
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-16
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 1400000 MB (current use 1555 MB)
+Set conv_tol_grad to 1e-06
+  alpha nocc = 54  HOMO = -0.175996146015855  LUMO = 0.137065992760724
+  beta  nocc = 51  HOMO = -0.194587947162023  LUMO = 0.127252524651958
+Initial guess E= -22127.1087789948  |g|= 0.0385989
+macro= 0  E= -22127.1102118108  delta_E= -0.00143282  |g|= 0.00016181  5 KF 34 JK
+macro= 1  E= -22127.1102118337  delta_E= -2.28683e-08  |g|= 7.72204e-07  3 KF 29 JK
+macro= 2  E= -22127.1102118337  delta_E= 0  |g|= 2.91269e-07  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 3  E=-22127.1102118337  |g|= 2.91269e-07  total 10 KF 69 JK
+converged SCF energy = -22127.1102118337  <S^2> = 19.120864  2S+1 = 8.8024687
+::    38 22a2aaa222222222bbb2baa2aabbbbb2222222222222bbbbbaaaaaaaaaa222222b222ba00222  -22127.110211833657    -1     5
+---    19 :  1013 DIA ---
+
+
+
+
+******** <class 'pyscf.soscf.newton_ah.SecondOrderUHF'> ********
+method = SecondOrderUHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-12
+SCF conv_tol_grad = None
+SCF max_cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp2aerzr74
+max_memory 1400000 MB (current use 1555 MB)
+number electrons alpha = 73  beta = 70
+******** <class 'pyscf.scf.uhf.UHF'> Newton solver flags ********
+SCF tol = 1e-12
+conv_tol_grad = None
+max. SCF cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp2aerzr74
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-16
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 1400000 MB (current use 1555 MB)
+Set conv_tol_grad to 1e-06
+  alpha nocc = 73  HOMO = -0.247155509250961  LUMO = -0.239752341174507
+  beta  nocc = 70  HOMO = -0.2456405167067  LUMO = -0.241988476237504
+Initial guess E= -22102.0405883152  |g|= 5.71598
+macro= 0  E= -22120.9969667878  delta_E= -18.9564  |g|= 3.16217  3 KF 15 JK
+macro= 1  E= -22124.9401030371  delta_E= -3.94314  |g|= 1.11452  3 KF 15 JK
+macro= 2  E= -22126.4065333911  delta_E= -1.46643  |g|= 0.393051  3 KF 16 JK
+macro= 3  E= -22126.775193004  delta_E= -0.36866  |g|= 0.204214  3 KF 18 JK
+macro= 4  E= -22126.8436377734  delta_E= -0.0684448  |g|= 0.0896496  4 KF 20 JK
+macro= 5  E= -22126.8564170026  delta_E= -0.0127792  |g|= 0.0611475  2 KF 7 JK
+macro= 6  E= -22126.892480921  delta_E= -0.0360639  |g|= 0.0717803  3 KF 13 JK
+macro= 7  E= -22127.0071509298  delta_E= -0.11467  |g|= 0.223195  3 KF 17 JK
+macro= 8  E= -22127.0148624117  delta_E= -0.00771148  |g|= 0.10581  2 KF 7 JK
+macro= 9  E= -22127.0621447382  delta_E= -0.0472823  |g|= 0.0723385  3 KF 13 JK
+macro= 10  E= -22127.1276146433  delta_E= -0.0654699  |g|= 0.0895284  4 KF 20 JK
+macro= 11  E= -22127.1414797633  delta_E= -0.0138651  |g|= 0.0139551  4 KF 24 JK
+macro= 12  E= -22127.1407511417  delta_E= 0.000728622  |g|= 0.00297215  4 KF 27 JK
+macro= 13  E= -22127.1407746769  delta_E= -2.35353e-05  |g|= 0.000549958  3 KF 21 JK
+macro= 14  E= -22127.1407715412  delta_E= 3.13569e-06  |g|= 5.64713e-06  4 KF 42 JK
+macro= 15  E= -22127.1407715413  delta_E= -3.27418e-11  |g|= 2.33392e-06  2 KF 17 JK
+macro= 16  E= -22127.1407715412  delta_E= 2.18279e-11  |g|= 2.33392e-06  1 KF 8 JK
+macro= 17  E= -22127.1407715412  delta_E= -3.63798e-12  |g|= 3.91256e-07  1 KF 2 JK
+macro= 18  E= -22127.1407715412  delta_E= 0  |g|= 3.91243e-07  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 19  E=-22127.1407715412  |g|= 3.91243e-07  total 54 KF 324 JK
+converged SCF energy = -22127.1407715412  <S^2> = 19.153251  2S+1 = 8.8098243
+
+
+
+
+******** <class 'pyscf.soscf.newton_ah.SecondOrderUHF'> ********
+method = SecondOrderUHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-12
+SCF conv_tol_grad = None
+SCF max_cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpui0s9sja
+max_memory 1400000 MB (current use 1555 MB)
+number electrons alpha = 54  beta = 51
+******** <class 'pyscf.scf.uhf.UHF'> Newton solver flags ********
+SCF tol = 1e-12
+conv_tol_grad = None
+max. SCF cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpui0s9sja
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-16
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 1400000 MB (current use 1555 MB)
+Set conv_tol_grad to 1e-06
+  alpha nocc = 54  HOMO = -0.157134745612678  LUMO = 0.134379107437011
+  beta  nocc = 51  HOMO = -0.193661659202383  LUMO = 0.128182966070958
+Initial guess E= -22127.1103763085  |g|= 0.0282634
+macro= 0  E= -22127.1113011547  delta_E= -0.000924846  |g|= 0.00356331  2 KF 10 JK
+macro= 1  E= -22127.1146659897  delta_E= -0.00336483  |g|= 0.0250777  3 KF 13 JK
+macro= 2  E= -22127.1211597781  delta_E= -0.00649379  |g|= 0.000402916  5 KF 32 JK
+macro= 3  E= -22127.1211598677  delta_E= -8.96289e-08  |g|= 2.95575e-06  3 KF 34 JK
+macro= 4  E= -22127.1211598677  delta_E= 0  |g|= 3.23488e-07  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 5  E=-22127.1211598677  |g|= 3.23488e-07  total 15 KF 97 JK
+converged SCF energy = -22127.1211598677  <S^2> = 19.160337  2S+1 = 8.8114328
+::  1013 222aaaa222222222bbbbbaaaaabbb2b2222222222222bbbbbaaaaaaa2aa222222b222ba00222  -22127.121159867722   788     3
+---    19 :  1521 DIA ---
+
+
+
+
+******** <class 'pyscf.soscf.newton_ah.SecondOrderUHF'> ********
+method = SecondOrderUHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-12
+SCF conv_tol_grad = None
+SCF max_cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp2aerzr74
+max_memory 1400000 MB (current use 1555 MB)
+number electrons alpha = 73  beta = 70
+******** <class 'pyscf.scf.uhf.UHF'> Newton solver flags ********
+SCF tol = 1e-12
+conv_tol_grad = None
+max. SCF cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp2aerzr74
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-16
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 1400000 MB (current use 1555 MB)
+Set conv_tol_grad to 1e-06
+  alpha nocc = 73  HOMO = -0.20659048590263  LUMO = -0.201367177962472
+  beta  nocc = 70  HOMO = -0.281870077281532  LUMO = -0.271429471702291
+
+WARN: system HOMO -0.257263132886372 >= system LUMO -0.271429471702291
+
+Initial guess E= -22118.1407076056  |g|= 4.07106
+macro= 0  E= -22125.735296687  delta_E= -7.59459  |g|= 1.2314  3 KF 15 JK
+macro= 1  E= -22126.7261625576  delta_E= -0.990866  |g|= 0.441179  3 KF 16 JK
+macro= 2  E= -22126.9893746647  delta_E= -0.263212  |g|= 0.173249  3 KF 18 JK
+macro= 3  E= -22127.0003493212  delta_E= -0.0109747  |g|= 0.0633968  2 KF 7 JK
+macro= 4  E= -22127.0217036373  delta_E= -0.0213543  |g|= 0.0240944  3 KF 13 JK
+macro= 5  E= -22127.0338584131  delta_E= -0.0121548  |g|= 0.0245733  3 KF 14 JK
+macro= 6  E= -22127.0393038751  delta_E= -0.00544546  |g|= 0.0639974  3 KF 12 JK
+macro= 7  E= -22127.0522237449  delta_E= -0.0129199  |g|= 0.0565428  2 KF 6 JK
+macro= 8  E= -22127.0733525536  delta_E= -0.0211288  |g|= 0.0412096  3 KF 12 JK
+macro= 9  E= -22127.1002140754  delta_E= -0.0268615  |g|= 0.113009  2 KF 7 JK
+macro= 10  E= -22127.1223537005  delta_E= -0.0221396  |g|= 0.0365446  3 KF 13 JK
+macro= 11  E= -22127.1366317789  delta_E= -0.0142781  |g|= 0.00462677  4 KF 26 JK
+macro= 12  E= -22127.13672785  delta_E= -9.60711e-05  |g|= 0.000314792  4 KF 32 JK
+macro= 13  E= -22127.136728066  delta_E= -2.16067e-07  |g|= 0.00017181  1 KF 6 JK
+macro= 14  E= -22127.1367276218  delta_E= 4.4423e-07  |g|= 5.80245e-06  4 KF 41 JK
+macro= 15  E= -22127.1367276219  delta_E= -1.30967e-10  |g|= 5.16474e-06  1 KF 13 JK
+macro= 16  E= -22127.1367276219  delta_E= 3.63798e-12  |g|= 3.97593e-07  1 KF 2 JK
+macro= 17  E= -22127.1367276219  delta_E= 0  |g|= 3.97598e-07  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 18  E=-22127.1367276219  |g|= 3.97598e-07  total 47 KF 274 JK
+converged SCF energy = -22127.1367276219  <S^2> = 19.121297  2S+1 = 8.8025671
+
+
+
+
+******** <class 'pyscf.soscf.newton_ah.SecondOrderUHF'> ********
+method = SecondOrderUHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-12
+SCF conv_tol_grad = None
+SCF max_cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpui0s9sja
+max_memory 1400000 MB (current use 1555 MB)
+number electrons alpha = 54  beta = 51
+******** <class 'pyscf.scf.uhf.UHF'> Newton solver flags ********
+SCF tol = 1e-12
+conv_tol_grad = None
+max. SCF cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpui0s9sja
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-16
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 1400000 MB (current use 1555 MB)
+Set conv_tol_grad to 1e-06
+  alpha nocc = 54  HOMO = -0.177553643433976  LUMO = 0.173688681139214
+  beta  nocc = 51  HOMO = -0.189171844652156  LUMO = 0.154623205810923
+Initial guess E= -22127.1032300622  |g|= 0.0344775
+macro= 0  E= -22127.1085282207  delta_E= -0.00529816  |g|= 0.011968  4 KF 18 JK
+macro= 1  E= -22127.1133761846  delta_E= -0.00484796  |g|= 0.0307645  2 KF 7 JK
+macro= 2  E= -22127.1160668834  delta_E= -0.0026907  |g|= 0.00451154  4 KF 23 JK
+macro= 3  E= -22127.1167215988  delta_E= -0.000654715  |g|= 0.0013695  4 KF 26 JK
+macro= 4  E= -22127.1167253231  delta_E= -3.72435e-06  |g|= 4.8192e-06  4 KF 39 JK
+macro= 5  E= -22127.1167253231  delta_E= 0  |g|= 3.77649e-07  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 6  E=-22127.1167253231  |g|= 3.77649e-07  total 20 KF 122 JK
+converged SCF energy = -22127.1167253231  <S^2> = 18.571654  2S+1 = 8.6767859
+::  1521 222aaaa222222222bbbbbaaaa2bbbbb2222222222222b2bbbaaaaaaaaaa222222b222ba00222  -22127.116725323118   923     4
+---    19 :   236 OPT ---
+Freeze 0 electrons in irreps []
+    113 free electrons in irreps IR0
+
+
+
+
+******** <class 'pyscf.soscf.newton_ah.SecondOrderSymAdaptedUHF'> ********
+method = SecondOrderSymAdaptedUHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-12
+SCF conv_tol_grad = None
+SCF max_cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp4g2xjww2
+max_memory 4000 MB (current use 1555 MB)
+number electrons alpha = 58  beta = 55
+******** <class 'pyscf.scf.uhf_symm.SymAdaptedUHF'> Newton solver flags ********
+SCF tol = 1e-12
+conv_tol_grad = None
+max. SCF cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp4g2xjww2
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-16
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 4000 MB (current use 1555 MB)
+Set conv_tol_grad to 1e-06
+alpha HOMO (IR0) = -0.267739521680763  LUMO (IR0) = -0.257033190694531
+beta  HOMO (IR0) = -0.280214100727583  LUMO (IR0) = -0.26925543563005
+
+WARN: alpha-IR0 HOMO -0.267739521680763 > system LUMO -0.26925543563005
+
+
+WARN: beta-IR0 LUMO -0.26925543563005 < system HOMO -0.267739521680763
+
+Initial guess E= -22130.2437632033  |g|= 2.29636
+macro= 0  E= -22137.3428625555  delta_E= -7.0991  |g|= 1.41076  3 KF 15 JK
+macro= 1  E= -22138.4367293503  delta_E= -1.09387  |g|= 0.965167  3 KF 15 JK
+macro= 2  E= -22139.3898878483  delta_E= -0.953158  |g|= 0.397423  3 KF 16 JK
+macro= 3  E= -22139.6478442483  delta_E= -0.257956  |g|= 0.16217  3 KF 18 JK
+macro= 4  E= -22139.8080556996  delta_E= -0.160211  |g|= 0.0525307  4 KF 21 JK
+macro= 5  E= -22139.8261036885  delta_E= -0.018048  |g|= 0.0701525  2 KF 7 JK
+macro= 6  E= -22139.8583748462  delta_E= -0.0322712  |g|= 0.0509817  3 KF 13 JK
+macro= 7  E= -22139.9053712279  delta_E= -0.0469964  |g|= 0.0382534  3 KF 13 JK
+macro= 8  E= -22139.9427186794  delta_E= -0.0373475  |g|= 0.0318278  4 KF 22 JK
+macro= 9  E= -22139.8652720051  delta_E= 0.0774467  |g|= 0.0124166  4 KF 24 JK
+macro= 10  E= -22139.9341481336  delta_E= -0.0688761  |g|= 0.196869  2 KF 5 JK
+macro= 11  E= -22139.9461063969  delta_E= -0.0119583  |g|= 0.0208988  4 KF 18 JK
+macro= 12  E= -22139.9154194918  delta_E= 0.0306869  |g|= 0.0218692  4 KF 23 JK
+macro= 13  E= -22139.9530169971  delta_E= -0.0375975  |g|= 0.0124915  5 KF 25 JK
+macro= 14  E= -22139.9538840528  delta_E= -0.000867056  |g|= 0.00669992  4 KF 19 JK
+macro= 15  E= -22139.9543965599  delta_E= -0.000512507  |g|= 0.000573054  4 KF 30 JK
+macro= 16  E= -22139.9543972186  delta_E= -6.58678e-07  |g|= 4.91866e-06  4 KF 40 JK
+macro= 17  E= -22139.954397219  delta_E= -4.25644e-10  |g|= 6.95085e-07  2 KF 21 JK
+macro= 18  E= -22139.954397219  delta_E= 0  |g|= 3.76905e-07  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 19  E=-22139.954397219  |g|= 3.76905e-07  total 63 KF 367 JK
+converged SCF energy = -22139.954397219  <S^2> = 18.004056  2S+1 = 8.5449532
+
+
+
+
+******** <class 'pyscf.soscf.newton_ah.SecondOrderUHF'> ********
+method = SecondOrderUHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-12
+SCF conv_tol_grad = None
+SCF max_cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp2aerzr74
+max_memory 1400000 MB (current use 1555 MB)
+number electrons alpha = 73  beta = 70
+******** <class 'pyscf.scf.uhf.UHF'> Newton solver flags ********
+SCF tol = 1e-12
+conv_tol_grad = None
+max. SCF cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp2aerzr74
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-16
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 1400000 MB (current use 1555 MB)
+Set conv_tol_grad to 1e-06
+  alpha nocc = 73  HOMO = -0.202610738177431  LUMO = -0.0602682081140436
+  beta  nocc = 70  HOMO = -0.196105925693643  LUMO = -0.0346025115309755
+Initial guess E= -22126.8021020453  |g|= 0.514046
+macro= 0  E= -22127.0692542829  delta_E= -0.267152  |g|= 0.0965706  3 KF 12 JK
+macro= 1  E= -22127.1325637914  delta_E= -0.0633095  |g|= 0.0398826  4 KF 22 JK
+macro= 2  E= -22127.1345930662  delta_E= -0.00202927  |g|= 0.024283  2 KF 7 JK
+macro= 3  E= -22127.1365175471  delta_E= -0.00192448  |g|= 0.00119754  4 KF 29 JK
+macro= 4  E= -22127.1365203235  delta_E= -2.77644e-06  |g|= 5.49443e-06  4 KF 40 JK
+macro= 5  E= -22127.1365203236  delta_E= -1.81899e-11  |g|= 1.84397e-06  1 KF 10 JK
+macro= 6  E= -22127.1365203236  delta_E= 0  |g|= 2.99158e-07  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 7  E=-22127.1365203236  |g|= 2.99158e-07  total 20 KF 130 JK
+converged SCF energy = -22127.1365203236  <S^2> = 19.23784  2S+1 = 8.8290068
+
+
+
+
+******** <class 'pyscf.soscf.newton_ah.SecondOrderUHF'> ********
+method = SecondOrderUHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-12
+SCF conv_tol_grad = None
+SCF max_cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpui0s9sja
+max_memory 1400000 MB (current use 1555 MB)
+number electrons alpha = 54  beta = 51
+******** <class 'pyscf.scf.uhf.UHF'> Newton solver flags ********
+SCF tol = 1e-12
+conv_tol_grad = None
+max. SCF cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpui0s9sja
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-16
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 1400000 MB (current use 1555 MB)
+Set conv_tol_grad to 1e-06
+  alpha nocc = 54  HOMO = -0.165409086659806  LUMO = 0.157213332070314
+  beta  nocc = 51  HOMO = -0.174219529882127  LUMO = 0.120765698586152
+Initial guess E= -22127.0910577195  |g|= 0.0505626
+macro= 0  E= -22127.0976391687  delta_E= -0.00658145  |g|= 0.0119045  3 KF 14 JK
+macro= 1  E= -22127.0950154474  delta_E= 0.00262372  |g|= 0.0190857  3 KF 13 JK
+macro= 2  E= -22127.1075372279  delta_E= -0.0125218  |g|= 0.00801304  4 KF 21 JK
+macro= 3  E= -22127.1079826262  delta_E= -0.000445398  |g|= 0.0040389  3 KF 16 JK
+macro= 4  E= -22127.109506738  delta_E= -0.00152411  |g|= 0.00691152  3 KF 14 JK
+macro= 5  E= -22127.1229540283  delta_E= -0.0134473  |g|= 0.0147133  4 KF 24 JK
+macro= 6  E= -22127.1318242869  delta_E= -0.00887026  |g|= 0.0191902  3 KF 13 JK
+macro= 7  E= -22127.1328436065  delta_E= -0.00101932  |g|= 6.92055e-06  6 KF 41 JK
+macro= 8  E= -22127.1328436066  delta_E= -6.18456e-11  |g|= 4.41078e-07  2 KF 13 JK
+macro= 9  E= -22127.1328436066  delta_E= 0  |g|= 3.19139e-07  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 10  E=-22127.1328436066  |g|= 3.19139e-07  total 33 KF 182 JK
+converged SCF energy = -22127.1328436066  <S^2> = 19.16571  2S+1 = 8.8126524
+::   236 22aaaa2222222222b2bbbaaaaabbbbb2222222222222bbbbbaa2aaaaaaa222222b222ba00222  -22127.132843606585     3     2
+---    19 :   655 DIA ---
+
+
+
+
+******** <class 'pyscf.soscf.newton_ah.SecondOrderUHF'> ********
+method = SecondOrderUHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-12
+SCF conv_tol_grad = None
+SCF max_cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp2aerzr74
+max_memory 1400000 MB (current use 1555 MB)
+number electrons alpha = 73  beta = 70
+******** <class 'pyscf.scf.uhf.UHF'> Newton solver flags ********
+SCF tol = 1e-12
+conv_tol_grad = None
+max. SCF cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp2aerzr74
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-16
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 1400000 MB (current use 1555 MB)
+Set conv_tol_grad to 1e-06
+  alpha nocc = 73  HOMO = -0.213170870334336  LUMO = -0.162295948072932
+  beta  nocc = 70  HOMO = -0.274699404075516  LUMO = -0.266521586844901
+
+WARN: system HOMO -0.249221495664284 >= system LUMO -0.266521586844901
+
+Initial guess E= -22117.2264496516  |g|= 3.66069
+macro= 0  E= -22125.7721287042  delta_E= -8.54568  |g|= 1.15841  3 KF 15 JK
+macro= 1  E= -22126.8564379323  delta_E= -1.08431  |g|= 0.3379  3 KF 17 JK
+macro= 2  E= -22127.0187434268  delta_E= -0.162305  |g|= 0.041234  4 KF 22 JK
+macro= 3  E= -22127.0276388828  delta_E= -0.00889546  |g|= 0.0426627  2 KF 7 JK
+macro= 4  E= -22127.0403058387  delta_E= -0.012667  |g|= 0.033754  4 KF 22 JK
+macro= 5  E= -22127.0702033679  delta_E= -0.0298975  |g|= 0.0568698  4 KF 19 JK
+macro= 6  E= -22127.0809333178  delta_E= -0.0107299  |g|= 0.0457885  2 KF 7 JK
+macro= 7  E= -22127.0770174023  delta_E= 0.00391592  |g|= 0.0431861  3 KF 12 JK
+macro= 8  E= -22127.1057745884  delta_E= -0.0287572  |g|= 0.0332235  4 KF 22 JK
+macro= 9  E= -22127.1079715623  delta_E= -0.00219697  |g|= 0.0320634  3 KF 13 JK
+macro= 10  E= -22127.1273749444  delta_E= -0.0194034  |g|= 0.0197132  3 KF 12 JK
+macro= 11  E= -22127.1339757211  delta_E= -0.00660078  |g|= 0.0199733  3 KF 15 JK
+macro= 12  E= -22127.1260434764  delta_E= 0.00793224  |g|= 0.0290909  3 KF 14 JK
+macro= 13  E= -22127.1319091273  delta_E= -0.00586565  |g|= 0.01481  3 KF 14 JK
+macro= 14  E= -22127.1348454183  delta_E= -0.00293629  |g|= 0.00155336  4 KF 28 JK
+macro= 15  E= -22127.1348425972  delta_E= 2.82111e-06  |g|= 2.78807e-05  4 KF 37 JK
+macro= 16  E= -22127.1348425974  delta_E= -2.21917e-10  |g|= 3.72563e-06  2 KF 16 JK
+macro= 17  E= -22127.1348425973  delta_E= 4.72937e-11  |g|= 3.72563e-06  1 KF 13 JK
+macro= 18  E= -22127.1348425973  delta_E= 3.63798e-12  |g|= 3.34827e-07  1 KF 2 JK
+macro= 19  E= -22127.1348425973  delta_E= 0  |g|= 3.34839e-07  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 20  E=-22127.1348425973  |g|= 3.34839e-07  total 58 KF 330 JK
+converged SCF energy = -22127.1348425973  <S^2> = 19.123449  2S+1 = 8.803056
+
+
+
+
+******** <class 'pyscf.soscf.newton_ah.SecondOrderUHF'> ********
+method = SecondOrderUHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-12
+SCF conv_tol_grad = None
+SCF max_cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpui0s9sja
+max_memory 1400000 MB (current use 1555 MB)
+number electrons alpha = 54  beta = 51
+******** <class 'pyscf.scf.uhf.UHF'> Newton solver flags ********
+SCF tol = 1e-12
+conv_tol_grad = None
+max. SCF cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpui0s9sja
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-16
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 1400000 MB (current use 1555 MB)
+Set conv_tol_grad to 1e-06
+  alpha nocc = 54  HOMO = -0.155961452838835  LUMO = 0.164106001513994
+  beta  nocc = 51  HOMO = -0.168383719170083  LUMO = 0.136843216632852
+Initial guess E= -22127.0974797418  |g|= 0.0418877
+macro= 0  E= -22127.0985933029  delta_E= -0.00111356  |g|= 0.0236198  4 KF 23 JK
+macro= 1  E= -22127.1038974129  delta_E= -0.00530411  |g|= 0.0119473  2 KF 7 JK
+macro= 2  E= -22127.105655539  delta_E= -0.00175813  |g|= 0.0220099  2 KF 8 JK
+macro= 3  E= -22127.1079368649  delta_E= -0.00228133  |g|= 0.00331  4 KF 24 JK
+macro= 4  E= -22127.1089929197  delta_E= -0.00105605  |g|= 0.00534021  3 KF 14 JK
+macro= 5  E= -22127.1249776181  delta_E= -0.0159847  |g|= 0.0192721  4 KF 23 JK
+macro= 6  E= -22127.1316398013  delta_E= -0.00666218  |g|= 0.0205426  3 KF 13 JK
+macro= 7  E= -22127.1328436065  delta_E= -0.00120381  |g|= 9.83878e-06  6 KF 41 JK
+macro= 8  E= -22127.1328436066  delta_E= -6.91216e-11  |g|= 4.90994e-07  2 KF 12 JK
+macro= 9  E= -22127.1328436066  delta_E= 0  |g|= 3.2289e-07  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 10  E=-22127.1328436066  |g|= 3.2289e-07  total 32 KF 178 JK
+converged SCF energy = -22127.1328436066  <S^2> = 19.165711  2S+1 = 8.8126524
+::   655 22aaaaa2222222222bbbbaaaaabbbbb2222222222222bbbbba2aaaa2aaa222222b222ba00222  -22127.132843606585     3     2
+---    19 :  1298 OPT ---
+Freeze 0 electrons in irreps []
+    113 free electrons in irreps IR0
+
+
+
+
+******** <class 'pyscf.soscf.newton_ah.SecondOrderSymAdaptedUHF'> ********
+method = SecondOrderSymAdaptedUHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-12
+SCF conv_tol_grad = None
+SCF max_cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp4g2xjww2
+max_memory 4000 MB (current use 1555 MB)
+number electrons alpha = 58  beta = 55
+******** <class 'pyscf.scf.uhf_symm.SymAdaptedUHF'> Newton solver flags ********
+SCF tol = 1e-12
+conv_tol_grad = None
+max. SCF cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp4g2xjww2
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-16
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 4000 MB (current use 1555 MB)
+Set conv_tol_grad to 1e-06
+alpha HOMO (IR0) = -0.28231055693544  LUMO (IR0) = -0.281553574302446
+beta  HOMO (IR0) = -0.245829753947524  LUMO (IR0) = -0.224624642088785
+
+WARN: alpha-IR0 HOMO -0.28231055693544 > system LUMO -0.281553574302446
+
+
+WARN: alpha-IR0 LUMO -0.281553574302446 < system HOMO -0.245829753947524
+
+
+WARN: beta-IR0 HOMO -0.245829753947524 > system LUMO -0.281553574302446
+
+Initial guess E= -22128.604853753  |g|= 2.78611
+macro= 0  E= -22136.037365686  delta_E= -7.43251  |g|= 1.9575  3 KF 15 JK
+macro= 1  E= -22138.8896256935  delta_E= -2.85226  |g|= 0.867221  3 KF 15 JK
+macro= 2  E= -22139.6782669747  delta_E= -0.788641  |g|= 0.334726  3 KF 17 JK
+macro= 3  E= -22139.8191742451  delta_E= -0.140907  |g|= 0.036386  4 KF 22 JK
+macro= 4  E= -22139.8470176797  delta_E= -0.0278434  |g|= 0.0271932  3 KF 13 JK
+macro= 5  E= -22139.8676502321  delta_E= -0.0206326  |g|= 0.0294174  3 KF 13 JK
+macro= 6  E= -22139.8832873705  delta_E= -0.0156371  |g|= 0.0191507  3 KF 13 JK
+macro= 7  E= -22139.8769460748  delta_E= 0.0063413  |g|= 0.0227291  4 KF 19 JK
+macro= 8  E= -22139.9126936348  delta_E= -0.0357476  |g|= 0.0406916  3 KF 13 JK
+macro= 9  E= -22139.9035942121  delta_E= 0.00909942  |g|= 0.0282875  3 KF 13 JK
+macro= 10  E= -22139.9378689566  delta_E= -0.0342747  |g|= 0.0301351  3 KF 12 JK
+macro= 11  E= -22139.9473476446  delta_E= -0.00947869  |g|= 0.0155422  4 KF 24 JK
+macro= 12  E= -22139.9519134565  delta_E= -0.00456581  |g|= 0.0170183  3 KF 14 JK
+macro= 13  E= -22139.9534809134  delta_E= -0.00156746  |g|= 0.00354747  4 KF 22 JK
+macro= 14  E= -22139.9536996934  delta_E= -0.00021878  |g|= 0.00156119  4 KF 24 JK
+macro= 15  E= -22139.9537217239  delta_E= -2.20305e-05  |g|= 0.000691554  3 KF 19 JK
+macro= 16  E= -22139.9537233633  delta_E= -1.63943e-06  |g|= 2.88277e-06  5 KF 42 JK
+macro= 17  E= -22139.9537233634  delta_E= -2.91038e-11  |g|= 1.1026e-06  1 KF 13 JK
+macro= 18  E= -22139.9537233634  delta_E= 0  |g|= 3.91633e-07  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 19  E=-22139.9537233634  |g|= 3.91633e-07  total 61 KF 345 JK
+converged SCF energy = -22139.9537233634  <S^2> = 18.14773  2S+1 = 8.5785151
+
+
+
+
+******** <class 'pyscf.soscf.newton_ah.SecondOrderUHF'> ********
+method = SecondOrderUHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-12
+SCF conv_tol_grad = None
+SCF max_cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp2aerzr74
+max_memory 1400000 MB (current use 1555 MB)
+number electrons alpha = 73  beta = 70
+******** <class 'pyscf.scf.uhf.UHF'> Newton solver flags ********
+SCF tol = 1e-12
+conv_tol_grad = None
+max. SCF cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp2aerzr74
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-16
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 1400000 MB (current use 1555 MB)
+Set conv_tol_grad to 1e-06
+  alpha nocc = 73  HOMO = -0.209739655579927  LUMO = -0.0521575119721933
+  beta  nocc = 70  HOMO = -0.188640250965346  LUMO = -0.0212007174578929
+Initial guess E= -22126.7851257829  |g|= 0.507204
+macro= 0  E= -22127.0716650766  delta_E= -0.286539  |g|= 0.091877  3 KF 12 JK
+macro= 1  E= -22127.1241460049  delta_E= -0.0524809  |g|= 0.0482077  3 KF 13 JK
+macro= 2  E= -22127.1329925524  delta_E= -0.00884655  |g|= 0.00177417  4 KF 28 JK
+macro= 3  E= -22127.1329947461  delta_E= -2.19369e-06  |g|= 4.23848e-06  4 KF 40 JK
+macro= 4  E= -22127.1329947461  delta_E= -7.27596e-12  |g|= 7.59773e-07  1 KF 7 JK
+macro= 5  E= -22127.1329947461  delta_E= 0  |g|= 3.6892e-07  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 6  E=-22127.1329947461  |g|= 3.6892e-07  total 17 KF 109 JK
+converged SCF energy = -22127.1329947461  <S^2> = 19.265814  2S+1 = 8.8353413
+
+
+
+
+******** <class 'pyscf.soscf.newton_ah.SecondOrderUHF'> ********
+method = SecondOrderUHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-12
+SCF conv_tol_grad = None
+SCF max_cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpui0s9sja
+max_memory 1400000 MB (current use 1555 MB)
+number electrons alpha = 54  beta = 51
+******** <class 'pyscf.scf.uhf.UHF'> Newton solver flags ********
+SCF tol = 1e-12
+conv_tol_grad = None
+max. SCF cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpui0s9sja
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-16
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 1400000 MB (current use 1555 MB)
+Set conv_tol_grad to 1e-06
+  alpha nocc = 54  HOMO = -0.167277855368134  LUMO = 0.1549336695795
+  beta  nocc = 51  HOMO = -0.180097119555575  LUMO = 0.124564038607694
+Initial guess E= -22127.0891297544  |g|= 0.0451071
+macro= 0  E= -22127.091580366  delta_E= -0.00245061  |g|= 0.00128878  5 KF 28 JK
+macro= 1  E= -22127.0915916061  delta_E= -1.124e-05  |g|= 1.79934e-06  5 KF 41 JK
+macro= 2  E= -22127.0915916061  delta_E= -3.63798e-12  |g|= 5.30641e-07  1 KF 7 JK
+macro= 3  E= -22127.0915916061  delta_E= 0  |g|= 3.78553e-07  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 4  E=-22127.0915916061  |g|= 3.78553e-07  total 13 KF 83 JK
+converged SCF energy = -22127.0915916061  <S^2> = 19.161504  2S+1 = 8.8116977
+::  1298 22aaaaa222222222bbbbba2aaabbb2b2222222222222bbbbbaaaaaaaaa2222222b222ba00222  -22127.091591606066    -1     6
+---    19 :   497 OPT ---
+Freeze 0 electrons in irreps []
+    113 free electrons in irreps IR0
+
+
+
+
+******** <class 'pyscf.soscf.newton_ah.SecondOrderSymAdaptedUHF'> ********
+method = SecondOrderSymAdaptedUHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-12
+SCF conv_tol_grad = None
+SCF max_cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp4g2xjww2
+max_memory 4000 MB (current use 1555 MB)
+number electrons alpha = 58  beta = 55
+******** <class 'pyscf.scf.uhf_symm.SymAdaptedUHF'> Newton solver flags ********
+SCF tol = 1e-12
+conv_tol_grad = None
+max. SCF cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp4g2xjww2
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-16
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 4000 MB (current use 1555 MB)
+Set conv_tol_grad to 1e-06
+alpha HOMO (IR0) = -0.247816030036976  LUMO (IR0) = -0.246137410616904
+beta  HOMO (IR0) = -0.260804450928867  LUMO (IR0) = -0.258689893774415
+
+WARN: alpha-IR0 HOMO -0.247816030036976 > system LUMO -0.258689893774415
+
+
+WARN: beta-IR0 LUMO -0.258689893774415 < system HOMO -0.247816030036976
+
+Initial guess E= -22129.8422375994  |g|= 2.70439
+macro= 0  E= -22135.9725908132  delta_E= -6.13035  |g|= 2.0529  3 KF 15 JK
+macro= 1  E= -22138.5343750495  delta_E= -2.56178  |g|= 0.909708  3 KF 15 JK
+macro= 2  E= -22139.4093423208  delta_E= -0.874967  |g|= 0.353005  3 KF 17 JK
+macro= 3  E= -22139.7574606522  delta_E= -0.348118  |g|= 0.137285  3 KF 18 JK
+macro= 4  E= -22139.8776932027  delta_E= -0.120233  |g|= 0.140051  4 KF 20 JK
+macro= 5  E= -22139.9239020857  delta_E= -0.0462089  |g|= 0.0260689  3 KF 13 JK
+macro= 6  E= -22139.9374109218  delta_E= -0.0135088  |g|= 0.017621  4 KF 20 JK
+macro= 7  E= -22139.9421357701  delta_E= -0.00472485  |g|= 0.0100106  3 KF 13 JK
+macro= 8  E= -22139.9437758029  delta_E= -0.00164003  |g|= 0.000638842  4 KF 30 JK
+macro= 9  E= -22139.9437799737  delta_E= -4.17076e-06  |g|= 2.20591e-05  4 KF 37 JK
+macro= 10  E= -22139.9437799744  delta_E= -6.87578e-10  |g|= 1.1997e-06  2 KF 19 JK
+macro= 11  E= -22139.9437799744  delta_E= -3.63798e-12  |g|= 3.59822e-07  1 KF 2 JK
+macro= 12  E= -22139.9437799744  delta_E= 0  |g|= 3.59854e-07  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 13  E=-22139.9437799744  |g|= 3.59854e-07  total 39 KF 235 JK
+converged SCF energy = -22139.9437799744  <S^2> = 18.010043  2S+1 = 8.5463544
+
+
+
+
+******** <class 'pyscf.soscf.newton_ah.SecondOrderUHF'> ********
+method = SecondOrderUHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-12
+SCF conv_tol_grad = None
+SCF max_cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp2aerzr74
+max_memory 1400000 MB (current use 1555 MB)
+number electrons alpha = 73  beta = 70
+******** <class 'pyscf.scf.uhf.UHF'> Newton solver flags ********
+SCF tol = 1e-12
+conv_tol_grad = None
+max. SCF cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp2aerzr74
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-16
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 1400000 MB (current use 1555 MB)
+Set conv_tol_grad to 1e-06
+  alpha nocc = 73  HOMO = -0.174544659642996  LUMO = -0.00817776855202854
+  beta  nocc = 70  HOMO = -0.226505380285932  LUMO = -0.0289555054519078
+Initial guess E= -22126.8161532262  |g|= 0.451662
+macro= 0  E= -22127.0820881784  delta_E= -0.265935  |g|= 0.0556497  4 KF 21 JK
+macro= 1  E= -22127.0837494669  delta_E= -0.00166129  |g|= 0.043753  3 KF 13 JK
+macro= 2  E= -22127.1270333908  delta_E= -0.0432839  |g|= 0.00763877  4 KF 25 JK
+macro= 3  E= -22127.1065840505  delta_E= 0.0204493  |g|= 0.0147688  3 KF 14 JK
+macro= 4  E= -22127.1290268761  delta_E= -0.0224428  |g|= 0.00658581  5 KF 25 JK
+macro= 5  E= -22127.1291809372  delta_E= -0.000154061  |g|= 0.000143396  4 KF 33 JK
+macro= 6  E= -22127.1291809542  delta_E= -1.69384e-08  |g|= 2.46371e-06  3 KF 36 JK
+macro= 7  E= -22127.1291809542  delta_E= 0  |g|= 3.07997e-07  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 8  E=-22127.1291809542  |g|= 3.07997e-07  total 28 KF 178 JK
+converged SCF energy = -22127.1291809542  <S^2> = 19.160425  2S+1 = 8.8114528
+
+
+
+
+******** <class 'pyscf.soscf.newton_ah.SecondOrderUHF'> ********
+method = SecondOrderUHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-12
+SCF conv_tol_grad = None
+SCF max_cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpui0s9sja
+max_memory 1400000 MB (current use 1555 MB)
+number electrons alpha = 54  beta = 51
+******** <class 'pyscf.scf.uhf.UHF'> Newton solver flags ********
+SCF tol = 1e-12
+conv_tol_grad = None
+max. SCF cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpui0s9sja
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-16
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 1400000 MB (current use 1555 MB)
+Set conv_tol_grad to 1e-06
+  alpha nocc = 54  HOMO = -0.178872613872056  LUMO = 0.132624129528232
+  beta  nocc = 51  HOMO = -0.174594993898042  LUMO = 0.143618934497728
+Initial guess E= -22127.0985335063  |g|= 0.0355105
+macro= 0  E= -22127.1001201039  delta_E= -0.0015866  |g|= 0.00568475  3 KF 13 JK
+macro= 1  E= -22127.1019390541  delta_E= -0.00181895  |g|= 0.00358237  2 KF 8 JK
+macro= 2  E= -22127.1298492744  delta_E= -0.0279102  |g|= 0.033647  4 KF 23 JK
+macro= 3  E= -22127.1372444468  delta_E= -0.00739517  |g|= 0.0441373  2 KF 7 JK
+macro= 4  E= -22127.1415313239  delta_E= -0.00428688  |g|= 0.0169489  4 KF 20 JK
+macro= 5  E= -22127.1049102498  delta_E= 0.0366211  |g|= 0.0111729  4 KF 24 JK
+macro= 6  E= -22127.1443056074  delta_E= -0.0393954  |g|= 0.0282498  4 KF 17 JK
+macro= 7  E= -22127.1471861722  delta_E= -0.00288056  |g|= 0.00726581  4 KF 20 JK
+macro= 8  E= -22127.1474317811  delta_E= -0.000245609  |g|= 0.0010972  4 KF 23 JK
+macro= 9  E= -22127.147447499  delta_E= -1.57179e-05  |g|= 1.27324e-05  5 KF 39 JK
+macro= 10  E= -22127.1474474991  delta_E= -1.23691e-10  |g|= 5.81323e-07  2 KF 21 JK
+macro= 11  E= -22127.1474474991  delta_E= 0  |g|= 3.92026e-07  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 12  E=-22127.1474474991  |g|= 3.92026e-07  total 40 KF 230 JK
+converged SCF energy = -22127.1474474991  <S^2> = 19.268029  2S+1 = 8.8358427
+::   497 22aaaaa222222222bb2bbaaaa2bbbbb2222222222222bbbbbaaaa2aaaaa222222b222ba00222  -22127.147447499083     0     1
+---    19 :  1237 DIA ---
+
+
+
+
+******** <class 'pyscf.soscf.newton_ah.SecondOrderUHF'> ********
+method = SecondOrderUHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-12
+SCF conv_tol_grad = None
+SCF max_cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp2aerzr74
+max_memory 1400000 MB (current use 1555 MB)
+number electrons alpha = 73  beta = 70
+******** <class 'pyscf.scf.uhf.UHF'> Newton solver flags ********
+SCF tol = 1e-12
+conv_tol_grad = None
+max. SCF cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp2aerzr74
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-16
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 1400000 MB (current use 1555 MB)
+Set conv_tol_grad to 1e-06
+  alpha nocc = 73  HOMO = -0.23137909640475  LUMO = -0.223266013426493
+  beta  nocc = 70  HOMO = -0.226255308472841  LUMO = -0.218228080807747
+Initial guess E= -22114.499012968  |g|= 4.35087
+macro= 0  E= -22124.6596450066  delta_E= -10.1606  |g|= 1.77377  3 KF 15 JK
+macro= 1  E= -22126.3298125952  delta_E= -1.67017  |g|= 0.699173  3 KF 15 JK
+macro= 2  E= -22126.839735545  delta_E= -0.509923  |g|= 0.200314  3 KF 18 JK
+macro= 3  E= -22126.9429828193  delta_E= -0.103247  |g|= 0.127243  3 KF 13 JK
+macro= 4  E= -22127.0444769428  delta_E= -0.101494  |g|= 0.191426  3 KF 12 JK
+macro= 5  E= -22127.0754066728  delta_E= -0.0309297  |g|= 0.18688  2 KF 7 JK
+macro= 6  E= -22127.1233797759  delta_E= -0.0479731  |g|= 0.0296222  3 KF 11 JK
+macro= 7  E= -22127.1281450662  delta_E= -0.00476529  |g|= 0.0345293  4 KF 22 JK
+macro= 8  E= -22127.1289952483  delta_E= -0.000850182  |g|= 0.000925145  4 KF 32 JK
+macro= 9  E= -22127.1289963917  delta_E= -1.14332e-06  |g|= 0.000190306  2 KF 15 JK
+macro= 10  E= -22127.1289959472  delta_E= 4.44437e-07  |g|= 8.61099e-07  4 KF 37 JK
+macro= 11  E= -22127.1289959472  delta_E= 3.63798e-12  |g|= 2.84782e-07  1 KF 2 JK
+macro= 12  E= -22127.1289959472  delta_E= 0  |g|= 2.83357e-07  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 13  E=-22127.1289959472  |g|= 2.83357e-07  total 37 KF 215 JK
+converged SCF energy = -22127.1289959472  <S^2> = 19.240207  2S+1 = 8.8295429
+
+
+
+
+******** <class 'pyscf.soscf.newton_ah.SecondOrderUHF'> ********
+method = SecondOrderUHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-12
+SCF conv_tol_grad = None
+SCF max_cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpui0s9sja
+max_memory 1400000 MB (current use 1555 MB)
+number electrons alpha = 54  beta = 51
+******** <class 'pyscf.scf.uhf.UHF'> Newton solver flags ********
+SCF tol = 1e-12
+conv_tol_grad = None
+max. SCF cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpui0s9sja
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-16
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 1400000 MB (current use 1555 MB)
+Set conv_tol_grad to 1e-06
+  alpha nocc = 54  HOMO = -0.147022258452094  LUMO = 0.153262807522006
+  beta  nocc = 51  HOMO = -0.137731699735931  LUMO = 0.146977195231122
+Initial guess E= -22127.1035616987  |g|= 0.0271456
+macro= 0  E= -22127.111004147  delta_E= -0.00744245  |g|= 0.0289629  4 KF 23 JK
+macro= 1  E= -22127.1272996345  delta_E= -0.0162955  |g|= 0.0353731  4 KF 19 JK
+macro= 2  E= -22127.1414611912  delta_E= -0.0141616  |g|= 0.00912543  4 KF 25 JK
+macro= 3  E= -22127.1387356943  delta_E= 0.0027255  |g|= 0.00635487  4 KF 21 JK
+macro= 4  E= -22127.1470998951  delta_E= -0.0083642  |g|= 0.00438222  4 KF 26 JK
+macro= 5  E= -22127.1474441561  delta_E= -0.000344261  |g|= 0.00061082  5 KF 29 JK
+macro= 6  E= -22127.1474474991  delta_E= -3.34296e-06  |g|= 5.54483e-07  6 KF 43 JK
+macro= 7  E= -22127.1474474991  delta_E= 0  |g|= 3.77301e-07  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 8  E=-22127.1474474991  |g|= 3.77301e-07  total 33 KF 197 JK
+converged SCF energy = -22127.1474474991  <S^2> = 19.268028  2S+1 = 8.8358425
+::  1237 22aaaaa222222222bbbbbaaaa2bb2bb2222222222222bbbbbaa2aaaaaaa222222b222ba00222  -22127.147447499083     0     1
+---    19 :   755 DIA ---
+
+
+
+
+******** <class 'pyscf.soscf.newton_ah.SecondOrderUHF'> ********
+method = SecondOrderUHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-12
+SCF conv_tol_grad = None
+SCF max_cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp2aerzr74
+max_memory 1400000 MB (current use 1555 MB)
+number electrons alpha = 73  beta = 70
+******** <class 'pyscf.scf.uhf.UHF'> Newton solver flags ********
+SCF tol = 1e-12
+conv_tol_grad = None
+max. SCF cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp2aerzr74
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-16
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 1400000 MB (current use 1555 MB)
+Set conv_tol_grad to 1e-06
+  alpha nocc = 73  HOMO = -0.236438684017667  LUMO = -0.226022042817459
+  beta  nocc = 70  HOMO = -0.273153049692527  LUMO = -0.263992073563176
+
+WARN: system HOMO -0.237023854060593 >= system LUMO -0.263992073563176
+
+Initial guess E= -22092.8394942047  |g|= 6.95811
+macro= 0  E= -22119.158627424  delta_E= -26.3191  |g|= 3.62747  3 KF 15 JK
+macro= 1  E= -22124.5005335143  delta_E= -5.34191  |g|= 1.07105  3 KF 15 JK
+macro= 2  E= -22126.4564434563  delta_E= -1.95591  |g|= 0.340581  3 KF 17 JK
+macro= 3  E= -22126.8229150574  delta_E= -0.366472  |g|= 0.226585  3 KF 17 JK
+macro= 4  E= -22126.8419943104  delta_E= -0.0190793  |g|= 0.0954339  2 KF 7 JK
+macro= 5  E= -22126.8929875257  delta_E= -0.0509932  |g|= 0.0500677  3 KF 13 JK
+macro= 6  E= -22126.8980462987  delta_E= -0.00505877  |g|= 0.0455432  3 KF 13 JK
+macro= 7  E= -22126.9288101494  delta_E= -0.0307639  |g|= 0.0363447  4 KF 19 JK
+macro= 8  E= -22126.934529982  delta_E= -0.00571983  |g|= 0.0404057  3 KF 12 JK
+macro= 9  E= -22126.9683569874  delta_E= -0.033827  |g|= 0.0524039  4 KF 19 JK
+macro= 10  E= -22126.9762352994  delta_E= -0.00787831  |g|= 0.022755  3 KF 14 JK
+macro= 11  E= -22126.9559333874  delta_E= 0.0203019  |g|= 0.039767  3 KF 14 JK
+macro= 12  E= -22126.9013833475  delta_E= 0.05455  |g|= 0.0760646  3 KF 12 JK
+macro= 13  E= -22127.0019126541  delta_E= -0.100529  |g|= 0.177057  3 KF 13 JK
+macro= 14  E= -22127.0882269709  delta_E= -0.0863143  |g|= 0.104672  4 KF 20 JK
+macro= 15  E= -22127.1094243799  delta_E= -0.0211974  |g|= 0.0375751  3 KF 13 JK
+macro= 16  E= -22127.0920198753  delta_E= 0.0174045  |g|= 0.0280266  3 KF 13 JK
+macro= 17  E= -22127.1261243259  delta_E= -0.0341045  |g|= 0.00855106  5 KF 26 JK
+macro= 18  E= -22127.1263417353  delta_E= -0.000217409  |g|= 0.00721724  3 KF 15 JK
+macro= 19  E= -22127.127300367  delta_E= -0.000958632  |g|= 0.00554638  4 KF 26 JK
+macro= 20  E= -22127.1277330271  delta_E= -0.00043266  |g|= 0.000341366  4 KF 31 JK
+macro= 21  E= -22127.1277336172  delta_E= -5.90193e-07  |g|= 5.27695e-05  3 KF 34 JK
+macro= 22  E= -22127.1277336176  delta_E= -3.74712e-10  |g|= 1.25291e-06  2 KF 25 JK
+macro= 23  E= -22127.1277336176  delta_E= 0  |g|= 3.53341e-07  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 24  E=-22127.1277336176  |g|= 3.53341e-07  total 76 KF 430 JK
+converged SCF energy = -22127.1277336176  <S^2> = 19.120131  2S+1 = 8.8023022
+
+
+
+
+******** <class 'pyscf.soscf.newton_ah.SecondOrderUHF'> ********
+method = SecondOrderUHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-12
+SCF conv_tol_grad = None
+SCF max_cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpui0s9sja
+max_memory 1400000 MB (current use 1555 MB)
+number electrons alpha = 54  beta = 51
+******** <class 'pyscf.scf.uhf.UHF'> Newton solver flags ********
+SCF tol = 1e-12
+conv_tol_grad = None
+max. SCF cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpui0s9sja
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-16
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 1400000 MB (current use 1555 MB)
+Set conv_tol_grad to 1e-06
+  alpha nocc = 54  HOMO = -0.172802464840954  LUMO = 0.136467443355817
+  beta  nocc = 51  HOMO = -0.15634927198211  LUMO = 0.137916568062778
+Initial guess E= -22127.0978764434  |g|= 0.0298627
+macro= 0  E= -22127.0987684954  delta_E= -0.000892052  |g|= 0.000481194  4 KF 31 JK
+macro= 1  E= -22127.098768818  delta_E= -3.22623e-07  |g|= 7.396e-07  4 KF 42 JK
+macro= 2  E= -22127.098768818  delta_E= 0  |g|= 3.85892e-07  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 3  E=-22127.098768818  |g|= 3.85892e-07  total 10 KF 79 JK
+converged SCF energy = -22127.098768818  <S^2> = 19.0954  2S+1 = 8.7966811
+::   755 222aaaa222222222bbbbba2aaa2bbbb2222222222222bbbbbaaaaaaaaaa222222b222ba00222  -22127.098768817999    -1     7
+---    19 :  1507 DIA ---
+
+
+
+
+******** <class 'pyscf.soscf.newton_ah.SecondOrderUHF'> ********
+method = SecondOrderUHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-12
+SCF conv_tol_grad = None
+SCF max_cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp2aerzr74
+max_memory 1400000 MB (current use 1555 MB)
+number electrons alpha = 73  beta = 70
+******** <class 'pyscf.scf.uhf.UHF'> Newton solver flags ********
+SCF tol = 1e-12
+conv_tol_grad = None
+max. SCF cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp2aerzr74
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-16
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 1400000 MB (current use 1555 MB)
+Set conv_tol_grad to 1e-06
+  alpha nocc = 73  HOMO = -0.205994582762056  LUMO = -0.203265835797033
+  beta  nocc = 70  HOMO = -0.28377235195556  LUMO = -0.273118153412594
+
+WARN: system HOMO -0.262182961214368 >= system LUMO -0.273118153412594
+
+Initial guess E= -22117.1814799942  |g|= 4.31896
+macro= 0  E= -22125.4440901356  delta_E= -8.26261  |g|= 1.47121  3 KF 15 JK
+macro= 1  E= -22126.7596994409  delta_E= -1.31561  |g|= 0.375049  3 KF 16 JK
+macro= 2  E= -22127.0161504159  delta_E= -0.256451  |g|= 0.116259  4 KF 20 JK
+macro= 3  E= -22127.0613478714  delta_E= -0.0451975  |g|= 0.0680122  4 KF 19 JK
+macro= 4  E= -22127.0860033912  delta_E= -0.0246555  |g|= 0.0507398  3 KF 13 JK
+macro= 5  E= -22127.1090807069  delta_E= -0.0230773  |g|= 0.0239813  3 KF 13 JK
+macro= 6  E= -22127.1168336659  delta_E= -0.00775296  |g|= 0.0379489  4 KF 19 JK
+macro= 7  E= -22127.1260332855  delta_E= -0.00919962  |g|= 0.0235623  4 KF 23 JK
+macro= 8  E= -22127.1273503214  delta_E= -0.00131704  |g|= 0.00450074  2 KF 11 JK
+macro= 9  E= -22127.1274063021  delta_E= -5.59807e-05  |g|= 0.00410094  4 KF 26 JK
+macro= 10  E= -22127.1274454483  delta_E= -3.91462e-05  |g|= 0.00108924  2 KF 14 JK
+macro= 11  E= -22127.1274385253  delta_E= 6.92299e-06  |g|= 5.15557e-05  4 KF 38 JK
+macro= 12  E= -22127.1274385377  delta_E= -1.24637e-08  |g|= 6.68477e-06  3 KF 39 JK
+macro= 13  E= -22127.1274385378  delta_E= -2.91038e-11  |g|= 1.77742e-06  1 KF 14 JK
+macro= 14  E= -22127.1274385378  delta_E= 0  |g|= 3.91052e-07  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 15  E=-22127.1274385378  |g|= 3.91052e-07  total 46 KF 298 JK
+converged SCF energy = -22127.1274385378  <S^2> = 18.711124  2S+1 = 8.7088747
+
+
+
+
+******** <class 'pyscf.soscf.newton_ah.SecondOrderUHF'> ********
+method = SecondOrderUHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-12
+SCF conv_tol_grad = None
+SCF max_cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpui0s9sja
+max_memory 1400000 MB (current use 1555 MB)
+number electrons alpha = 54  beta = 51
+******** <class 'pyscf.scf.uhf.UHF'> Newton solver flags ********
+SCF tol = 1e-12
+conv_tol_grad = None
+max. SCF cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpui0s9sja
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-16
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 1400000 MB (current use 1555 MB)
+Set conv_tol_grad to 1e-06
+  alpha nocc = 54  HOMO = -0.147959535846019  LUMO = 0.165366451101231
+  beta  nocc = 51  HOMO = -0.142402345095565  LUMO = 0.133358038909579
+Initial guess E= -22127.1006168271  |g|= 0.0268418
+macro= 0  E= -22127.1015242668  delta_E= -0.00090744  |g|= 0.00239664  4 KF 29 JK
+macro= 1  E= -22127.1015494207  delta_E= -2.51539e-05  |g|= 0.000974011  1 KF 7 JK
+macro= 2  E= -22127.1021513263  delta_E= -0.000601906  |g|= 0.00192246  1 KF 6 JK
+macro= 3  E= -22127.1139878193  delta_E= -0.0118365  |g|= 0.0133206  4 KF 24 JK
+macro= 4  E= -22127.1245896659  delta_E= -0.0106018  |g|= 0.0245911  3 KF 13 JK
+macro= 5  E= -22127.1218967743  delta_E= 0.00269289  |g|= 0.0214381  3 KF 13 JK
+macro= 6  E= -22127.1418523966  delta_E= -0.0199556  |g|= 0.0137524  4 KF 19 JK
+macro= 7  E= -22127.1427772203  delta_E= -0.000924824  |g|= 0.0109634  2 KF 7 JK
+macro= 8  E= -22127.1434592452  delta_E= -0.000682025  |g|= 0.0108145  2 KF 7 JK
+macro= 9  E= -22127.1472495567  delta_E= -0.00379031  |g|= 0.00265796  4 KF 27 JK
+macro= 10  E= -22127.1474466009  delta_E= -0.000197044  |g|= 0.000606347  5 KF 30 JK
+macro= 11  E= -22127.1474474991  delta_E= -8.98195e-07  |g|= 5.91256e-07  5 KF 40 JK
+macro= 12  E= -22127.1474474991  delta_E= 0  |g|= 3.94725e-07  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 13  E=-22127.1474474991  |g|= 3.94725e-07  total 40 KF 238 JK
+converged SCF energy = -22127.1474474991  <S^2> = 19.268028  2S+1 = 8.8358425
+::  1507 222aaaa222222222bbbbba2aaabbbbb2222222222222bb2bbaaaaaaaaaa222222b222ba00222  -22127.147447499083     0     1
+---    19 :    95 DIA ---
+
+
+
+
+******** <class 'pyscf.soscf.newton_ah.SecondOrderUHF'> ********
+method = SecondOrderUHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-12
+SCF conv_tol_grad = None
+SCF max_cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp2aerzr74
+max_memory 1400000 MB (current use 1555 MB)
+number electrons alpha = 73  beta = 70
+******** <class 'pyscf.scf.uhf.UHF'> Newton solver flags ********
+SCF tol = 1e-12
+conv_tol_grad = None
+max. SCF cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp2aerzr74
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-16
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 1400000 MB (current use 1555 MB)
+Set conv_tol_grad to 1e-06
+
+WARN: alpha nocc = 73  HOMO -0.226127578074724 >= LUMO -0.225206220529557
+
+  beta  nocc = 70  HOMO = -0.276452110394649  LUMO = -0.272824637250978
+
+WARN: system HOMO -0.258684601781997 >= system LUMO -0.272824637250978
+
+Initial guess E= -22091.4352497862  |g|= 7.0138
+macro= 0  E= -22120.729638473  delta_E= -29.2944  |g|= 3.66848  3 KF 15 JK
+macro= 1  E= -22125.0270087905  delta_E= -4.29737  |g|= 0.820991  3 KF 15 JK
+macro= 2  E= -22126.5274803831  delta_E= -1.50047  |g|= 0.42062  3 KF 16 JK
+macro= 3  E= -22126.8528443793  delta_E= -0.325364  |g|= 0.0962146  4 KF 20 JK
+macro= 4  E= -22126.889367332  delta_E= -0.036523  |g|= 0.0632821  3 KF 13 JK
+macro= 5  E= -22126.9527090858  delta_E= -0.0633418  |g|= 0.0771225  3 KF 13 JK
+macro= 6  E= -22126.9926819316  delta_E= -0.0399728  |g|= 0.116343  3 KF 13 JK
+macro= 7  E= -22127.0637436824  delta_E= -0.0710618  |g|= 0.26106  2 KF 7 JK
+macro= 8  E= -22127.0507104215  delta_E= 0.0130333  |g|= 0.0501073  3 KF 13 JK
+macro= 9  E= -22127.1196392679  delta_E= -0.0689288  |g|= 0.043955  4 KF 17 JK
+macro= 10  E= -22127.1271196974  delta_E= -0.00748043  |g|= 0.00241432  4 KF 28 JK
+macro= 11  E= -22127.1271311203  delta_E= -1.14229e-05  |g|= 6.44578e-06  4 KF 39 JK
+macro= 12  E= -22127.1271311203  delta_E= -2.18279e-11  |g|= 2.70182e-06  1 KF 11 JK
+macro= 13  E= -22127.1271311203  delta_E= 0  |g|= 2.67238e-07  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 14  E=-22127.1271311203  |g|= 2.67238e-07  total 42 KF 237 JK
+converged SCF energy = -22127.1271311203  <S^2> = 19.159941  2S+1 = 8.811343
+
+
+
+
+******** <class 'pyscf.soscf.newton_ah.SecondOrderUHF'> ********
+method = SecondOrderUHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-12
+SCF conv_tol_grad = None
+SCF max_cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpui0s9sja
+max_memory 1400000 MB (current use 1555 MB)
+number electrons alpha = 54  beta = 51
+******** <class 'pyscf.scf.uhf.UHF'> Newton solver flags ********
+SCF tol = 1e-12
+conv_tol_grad = None
+max. SCF cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpui0s9sja
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-16
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 1400000 MB (current use 1555 MB)
+Set conv_tol_grad to 1e-06
+  alpha nocc = 54  HOMO = -0.196935655260426  LUMO = 0.144627528924315
+  beta  nocc = 51  HOMO = -0.170280131431786  LUMO = 0.125394365845186
+Initial guess E= -22127.0856459017  |g|= 0.0493118
+macro= 0  E= -22127.0946269161  delta_E= -0.00898101  |g|= 0.0493118  2 KF 8 JK
+macro= 1  E= -22127.120113628  delta_E= -0.0254867  |g|= 0.116764  3 KF 19 JK
+macro= 2  E= -22127.1262803251  delta_E= -0.0061667  |g|= 0.0400725  3 KF 13 JK
+macro= 3  E= -22127.1351100115  delta_E= -0.00882969  |g|= 0.0367243  2 KF 7 JK
+macro= 4  E= -22127.1366635074  delta_E= -0.0015535  |g|= 0.000168714  4 KF 33 JK
+macro= 5  E= -22127.1366635236  delta_E= -1.62217e-08  |g|= 4.19407e-07  3 KF 27 JK
+macro= 6  E= -22127.1366635236  delta_E= 0  |g|= 2.85618e-07  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 7  E=-22127.1366635236  |g|= 2.85618e-07  total 19 KF 117 JK
+converged SCF energy = -22127.1366635236  <S^2> = 19.180502  2S+1 = 8.8160087
+::    95 22aaa2a2222222222bbbbaaaa2bbbbb2222222222222bbbbbaaaaaaaaaa222222b222ba00222  -22127.136663523645   133     0
+---    19 :   780 DIA ---
+
+
+
+
+******** <class 'pyscf.soscf.newton_ah.SecondOrderUHF'> ********
+method = SecondOrderUHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-12
+SCF conv_tol_grad = None
+SCF max_cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp2aerzr74
+max_memory 1400000 MB (current use 1555 MB)
+number electrons alpha = 73  beta = 70
+******** <class 'pyscf.scf.uhf.UHF'> Newton solver flags ********
+SCF tol = 1e-12
+conv_tol_grad = None
+max. SCF cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp2aerzr74
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-16
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 1400000 MB (current use 1555 MB)
+Set conv_tol_grad to 1e-06
+  alpha nocc = 73  HOMO = -0.236836793985389  LUMO = -0.224581618503289
+  beta  nocc = 70  HOMO = -0.264543270335595  LUMO = -0.261055351627655
+
+WARN: system HOMO -0.237822287779167 >= system LUMO -0.261055351627655
+
+Initial guess E= -22091.1802065216  |g|= 7.08386
+macro= 0  E= -22118.6018884664  delta_E= -27.4217  |g|= 3.9097  3 KF 15 JK
+macro= 1  E= -22122.4026630947  delta_E= -3.80077  |g|= 2.06439  3 KF 15 JK
+macro= 2  E= -22125.4507676538  delta_E= -3.0481  |g|= 0.697014  3 KF 15 JK
+macro= 3  E= -22126.7061166567  delta_E= -1.25535  |g|= 0.438217  3 KF 16 JK
+macro= 4  E= -22126.8641509593  delta_E= -0.158034  |g|= 0.0684643  3 KF 13 JK
+macro= 5  E= -22126.9260090708  delta_E= -0.0618581  |g|= 0.0530502  3 KF 12 JK
+macro= 6  E= -22126.9216329611  delta_E= 0.00437611  |g|= 0.0667364  3 KF 13 JK
+macro= 7  E= -22126.958773499  delta_E= -0.0371405  |g|= 0.0831508  3 KF 13 JK
+macro= 8  E= -22126.9705231257  delta_E= -0.0117496  |g|= 0.0774631  2 KF 7 JK
+macro= 9  E= -22126.9827099645  delta_E= -0.0121868  |g|= 0.0374109  3 KF 13 JK
+macro= 10  E= -22126.8501216594  delta_E= 0.132588  |g|= 0.0918696  3 KF 13 JK
+macro= 11  E= -22127.0779883278  delta_E= -0.227867  |g|= 0.0981993  4 KF 20 JK
+macro= 12  E= -22127.083099612  delta_E= -0.00511128  |g|= 0.0842062  3 KF 12 JK
+macro= 13  E= -22127.081531394  delta_E= 0.00156822  |g|= 0.0603412  2 KF 7 JK
+macro= 14  E= -22127.0898138806  delta_E= -0.00828249  |g|= 0.0466462  3 KF 13 JK
+macro= 15  E= -22127.1212376965  delta_E= -0.0314238  |g|= 0.0223414  5 KF 24 JK
+macro= 16  E= -22127.1223709586  delta_E= -0.00113326  |g|= 0.0156232  2 KF 7 JK
+macro= 17  E= -22127.1221585541  delta_E= 0.000212404  |g|= 0.00648724  4 KF 22 JK
+macro= 18  E= -22127.1253721499  delta_E= -0.0032136  |g|= 0.00306546  4 KF 27 JK
+macro= 19  E= -22127.1252588188  delta_E= 0.000113331  |g|= 0.00984562  4 KF 25 JK
+macro= 20  E= -22127.1173249105  delta_E= 0.00793391  |g|= 0.0108633  2 KF 7 JK
+macro= 21  E= -22127.1260896469  delta_E= -0.00876474  |g|= 0.00211589  4 KF 28 JK
+macro= 22  E= -22127.1261009389  delta_E= -1.1292e-05  |g|= 0.000273683  4 KF 32 JK
+macro= 23  E= -22127.12610279  delta_E= -1.85106e-06  |g|= 0.000120547  4 KF 34 JK
+macro= 24  E= -22127.1261028256  delta_E= -3.55794e-08  |g|= 6.64636e-06  3 KF 38 JK
+macro= 25  E= -22127.1261028256  delta_E= -2.91038e-11  |g|= 7.41836e-07  2 KF 28 JK
+macro= 26  E= -22127.1261028256  delta_E= 0  |g|= 3.82065e-07  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 27  E=-22127.1261028256  |g|= 3.82065e-07  total 84 KF 499 JK
+converged SCF energy = -22127.1261028256  <S^2> = 18.971744  2S+1 = 8.7685218
+
+
+
+
+******** <class 'pyscf.soscf.newton_ah.SecondOrderUHF'> ********
+method = SecondOrderUHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-12
+SCF conv_tol_grad = None
+SCF max_cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpui0s9sja
+max_memory 1400000 MB (current use 1555 MB)
+number electrons alpha = 54  beta = 51
+******** <class 'pyscf.scf.uhf.UHF'> Newton solver flags ********
+SCF tol = 1e-12
+conv_tol_grad = None
+max. SCF cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpui0s9sja
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-16
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 1400000 MB (current use 1555 MB)
+Set conv_tol_grad to 1e-06
+  alpha nocc = 54  HOMO = -0.183411256975731  LUMO = 0.110015595065915
+  beta  nocc = 51  HOMO = -0.150637304249643  LUMO = 0.13850080074984
+Initial guess E= -22127.0967302078  |g|= 0.0289957
+macro= 0  E= -22127.0975722374  delta_E= -0.00084203  |g|= 0.00103202  5 KF 30 JK
+macro= 1  E= -22127.0975760199  delta_E= -3.78256e-06  |g|= 9.69064e-06  4 KF 39 JK
+macro= 2  E= -22127.0975760224  delta_E= -2.5284e-09  |g|= 7.94898e-07  3 KF 33 JK
+macro= 3  E= -22127.0975760224  delta_E= -3.63798e-12  |g|= 3.39536e-07  1 KF 2 JK
+macro= 4  E= -22127.0975760224  delta_E= 0  |g|= 3.39378e-07  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 5  E=-22127.0975760224  |g|= 3.39378e-07  total 15 KF 112 JK
+converged SCF energy = -22127.0975760224  <S^2> = 18.880474  2S+1 = 8.7476794
+::   780 22a2aaa222222222bbbbba2aaa2bbbb2222222222222bbbbbaaaaaaaaaa222222b222ba00222  -22127.097576022446    -1     8
+---    19 :  1304 DIA ---
+
+
+
+
+******** <class 'pyscf.soscf.newton_ah.SecondOrderUHF'> ********
+method = SecondOrderUHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-12
+SCF conv_tol_grad = None
+SCF max_cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp2aerzr74
+max_memory 1400000 MB (current use 1555 MB)
+number electrons alpha = 73  beta = 70
+******** <class 'pyscf.scf.uhf.UHF'> Newton solver flags ********
+SCF tol = 1e-12
+conv_tol_grad = None
+max. SCF cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp2aerzr74
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-16
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 1400000 MB (current use 1555 MB)
+Set conv_tol_grad to 1e-06
+  alpha nocc = 73  HOMO = -0.23022409832359  LUMO = -0.218810282585591
+  beta  nocc = 70  HOMO = -0.244062057729859  LUMO = -0.236769516001158
+
+WARN: system HOMO -0.213236695037779 >= system LUMO -0.236769516001158
+
+Initial guess E= -22114.0090853905  |g|= 4.35055
+macro= 0  E= -22123.3773758181  delta_E= -9.36829  |g|= 2.36889  3 KF 15 JK
+macro= 1  E= -22125.9307288641  delta_E= -2.55335  |g|= 0.944274  3 KF 15 JK
+macro= 2  E= -22126.7739791465  delta_E= -0.84325  |g|= 0.310006  3 KF 17 JK
+macro= 3  E= -22126.9788154688  delta_E= -0.204836  |g|= 0.0980461  3 KF 13 JK
+macro= 4  E= -22127.0244237499  delta_E= -0.0456083  |g|= 0.0520301  3 KF 13 JK
+macro= 5  E= -22127.047286006  delta_E= -0.0228623  |g|= 0.105565  2 KF 7 JK
+macro= 6  E= -22127.0586045142  delta_E= -0.0113185  |g|= 0.0392241  3 KF 12 JK
+macro= 7  E= -22127.0703683272  delta_E= -0.0117638  |g|= 0.0477345  3 KF 14 JK
+macro= 8  E= -22127.0980230673  delta_E= -0.0276547  |g|= 0.047181  3 KF 12 JK
+macro= 9  E= -22127.1229664695  delta_E= -0.0249434  |g|= 0.00661587  4 KF 24 JK
+macro= 10  E= -22127.1250082488  delta_E= -0.00204178  |g|= 0.00178951  4 KF 28 JK
+macro= 11  E= -22127.1250133181  delta_E= -5.06932e-06  |g|= 3.69073e-05  4 KF 36 JK
+macro= 12  E= -22127.1250133203  delta_E= -2.21553e-09  |g|= 4.48068e-07  3 KF 30 JK
+macro= 13  E= -22127.1250133203  delta_E= 0  |g|= 3.85792e-07  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 14  E=-22127.1250133203  |g|= 3.85792e-07  total 43 KF 253 JK
+converged SCF energy = -22127.1250133203  <S^2> = 18.926939  2S+1 = 8.7582963
+
+
+
+
+******** <class 'pyscf.soscf.newton_ah.SecondOrderUHF'> ********
+method = SecondOrderUHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-12
+SCF conv_tol_grad = None
+SCF max_cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpui0s9sja
+max_memory 1400000 MB (current use 1555 MB)
+number electrons alpha = 54  beta = 51
+******** <class 'pyscf.scf.uhf.UHF'> Newton solver flags ********
+SCF tol = 1e-12
+conv_tol_grad = None
+max. SCF cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpui0s9sja
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-16
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 1400000 MB (current use 1555 MB)
+Set conv_tol_grad to 1e-06
+  alpha nocc = 54  HOMO = -0.160882265570444  LUMO = 0.146167744485343
+  beta  nocc = 51  HOMO = -0.179011928464495  LUMO = 0.119338265626877
+Initial guess E= -22127.0952976949  |g|= 0.0282131
+macro= 0  E= -22127.096684988  delta_E= -0.00138729  |g|= 0.00386004  4 KF 24 JK
+macro= 1  E= -22127.0970555137  delta_E= -0.000370526  |g|= 0.00190141  3 KF 16 JK
+macro= 2  E= -22127.0999281334  delta_E= -0.00287262  |g|= 0.018088  3 KF 13 JK
+macro= 3  E= -22127.118393592  delta_E= -0.0184655  |g|= 0.0131291  4 KF 24 JK
+macro= 4  E= -22127.1211500161  delta_E= -0.00275642  |g|= 0.00161915  5 KF 27 JK
+macro= 5  E= -22127.1211598677  delta_E= -9.85158e-06  |g|= 4.35132e-06  4 KF 39 JK
+macro= 6  E= -22127.1211598677  delta_E= 0  |g|= 2.67556e-07  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 7  E=-22127.1211598677  |g|= 2.67556e-07  total 25 KF 153 JK
+converged SCF energy = -22127.1211598677  <S^2> = 19.160337  2S+1 = 8.8114327
+::  1304 22aaaaa222222222bbbbbaa2aabbbb22222222222222bbbbbaaaaa2aaaa222222b222ba00222  -22127.121159867722   788     3
+---    19 :  1299 DIA ---
+
+
+
+
+******** <class 'pyscf.soscf.newton_ah.SecondOrderUHF'> ********
+method = SecondOrderUHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-12
+SCF conv_tol_grad = None
+SCF max_cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp2aerzr74
+max_memory 1400000 MB (current use 1555 MB)
+number electrons alpha = 73  beta = 70
+******** <class 'pyscf.scf.uhf.UHF'> Newton solver flags ********
+SCF tol = 1e-12
+conv_tol_grad = None
+max. SCF cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp2aerzr74
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-16
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 1400000 MB (current use 1555 MB)
+Set conv_tol_grad to 1e-06
+  alpha nocc = 73  HOMO = -0.233602867917867  LUMO = -0.221427464056053
+  beta  nocc = 70  HOMO = -0.244928808522899  LUMO = -0.238889241163346
+
+WARN: system HOMO -0.213830907132127 >= system LUMO -0.238889241163346
+
+Initial guess E= -22114.0429507914  |g|= 4.33954
+macro= 0  E= -22122.8254721078  delta_E= -8.78252  |g|= 2.59609  3 KF 15 JK
+macro= 1  E= -22125.7940168039  delta_E= -2.96854  |g|= 1.07398  3 KF 15 JK
+macro= 2  E= -22126.7569192731  delta_E= -0.962902  |g|= 0.347675  3 KF 17 JK
+macro= 3  E= -22126.9396922952  delta_E= -0.182773  |g|= 0.0915718  3 KF 13 JK
+macro= 4  E= -22127.0321673892  delta_E= -0.0924751  |g|= 0.153444  4 KF 20 JK
+macro= 5  E= -22127.0734491548  delta_E= -0.0412818  |g|= 0.110378  2 KF 7 JK
+macro= 6  E= -22127.0971048935  delta_E= -0.0236557  |g|= 0.0506919  3 KF 12 JK
+macro= 7  E= -22127.1175845049  delta_E= -0.0204796  |g|= 0.0440678  3 KF 14 JK
+macro= 8  E= -22127.1241799066  delta_E= -0.0065954  |g|= 0.0344638  4 KF 19 JK
+macro= 9  E= -22127.1247292011  delta_E= -0.000549294  |g|= 0.00792797  4 KF 25 JK
+macro= 10  E= -22127.1248297575  delta_E= -0.000100556  |g|= 8.67812e-05  4 KF 34 JK
+macro= 11  E= -22127.1248297718  delta_E= -1.42754e-08  |g|= 6.3437e-06  2 KF 18 JK
+macro= 12  E= -22127.1248297713  delta_E= 4.83851e-10  |g|= 9.35494e-07  2 KF 23 JK
+macro= 13  E= -22127.1248297713  delta_E= 0  |g|= 3.66502e-07  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 14  E=-22127.1248297713  |g|= 3.66502e-07  total 42 KF 249 JK
+converged SCF energy = -22127.1248297713  <S^2> = 18.885243  2S+1 = 8.7487696
+
+
+
+
+******** <class 'pyscf.soscf.newton_ah.SecondOrderUHF'> ********
+method = SecondOrderUHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-12
+SCF conv_tol_grad = None
+SCF max_cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpui0s9sja
+max_memory 1400000 MB (current use 1555 MB)
+number electrons alpha = 54  beta = 51
+******** <class 'pyscf.scf.uhf.UHF'> Newton solver flags ********
+SCF tol = 1e-12
+conv_tol_grad = None
+max. SCF cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpui0s9sja
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-16
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 1400000 MB (current use 1555 MB)
+Set conv_tol_grad to 1e-06
+  alpha nocc = 54  HOMO = -0.159738295691068  LUMO = 0.145598263275842
+  beta  nocc = 51  HOMO = -0.181544984297769  LUMO = 0.1165959000836
+Initial guess E= -22127.0931265747  |g|= 0.0308031
+macro= 0  E= -22127.0944548128  delta_E= -0.00132824  |g|= 0.0308031  2 KF 8 JK
+macro= 1  E= -22127.0966573137  delta_E= -0.0022025  |g|= 0.00628825  3 KF 16 JK
+macro= 2  E= -22127.0968710124  delta_E= -0.000213699  |g|= 0.00227434  3 KF 17 JK
+macro= 3  E= -22127.0982726132  delta_E= -0.0014016  |g|= 0.00524424  3 KF 14 JK
+macro= 4  E= -22127.1123605643  delta_E= -0.014088  |g|= 0.015672  4 KF 24 JK
+macro= 5  E= -22127.1209861849  delta_E= -0.00862562  |g|= 0.00655367  5 KF 25 JK
+macro= 6  E= -22127.1211598668  delta_E= -0.000173682  |g|= 6.93594e-05  4 KF 35 JK
+macro= 7  E= -22127.1211598677  delta_E= -9.24047e-10  |g|= 1.33388e-06  2 KF 16 JK
+macro= 8  E= -22127.1211598677  delta_E= -3.63798e-12  |g|= 3.06483e-07  1 KF 2 JK
+macro= 9  E= -22127.1211598677  delta_E= 0  |g|= 3.06478e-07  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 10  E=-22127.1211598677  |g|= 3.06478e-07  total 29 KF 170 JK
+converged SCF energy = -22127.1211598677  <S^2> = 19.160337  2S+1 = 8.8114329
+::  1299 22aaaaa222222222bbbbba2aaabbbb22222222222222bbbbbaaaaaaaaa2222222b222ba00222  -22127.121159867726   788     3
+---    19 :  1278 DIA ---
+
+
+
+
+******** <class 'pyscf.soscf.newton_ah.SecondOrderUHF'> ********
+method = SecondOrderUHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-12
+SCF conv_tol_grad = None
+SCF max_cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp2aerzr74
+max_memory 1400000 MB (current use 1555 MB)
+number electrons alpha = 73  beta = 70
+******** <class 'pyscf.scf.uhf.UHF'> Newton solver flags ********
+SCF tol = 1e-12
+conv_tol_grad = None
+max. SCF cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp2aerzr74
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-16
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 1400000 MB (current use 1555 MB)
+Set conv_tol_grad to 1e-06
+  alpha nocc = 73  HOMO = -0.234064084775689  LUMO = -0.222119617075826
+  beta  nocc = 70  HOMO = -0.245916096696241  LUMO = -0.239696856595175
+
+WARN: system HOMO -0.214775158264002 >= system LUMO -0.239696856595175
+
+Initial guess E= -22114.0187222459  |g|= 4.36824
+macro= 0  E= -22123.385813593  delta_E= -9.36709  |g|= 2.36104  3 KF 15 JK
+macro= 1  E= -22125.8735424826  delta_E= -2.48773  |g|= 1.00398  3 KF 15 JK
+macro= 2  E= -22126.7257688517  delta_E= -0.852226  |g|= 0.344681  3 KF 17 JK
+macro= 3  E= -22126.9660969174  delta_E= -0.240328  |g|= 0.0847848  4 KF 20 JK
+macro= 4  E= -22127.0112945435  delta_E= -0.0451976  |g|= 0.0581475  3 KF 13 JK
+macro= 5  E= -22127.0663296351  delta_E= -0.0550351  |g|= 0.0551554  4 KF 16 JK
+macro= 6  E= -22127.0912363276  delta_E= -0.0249067  |g|= 0.0354003  4 KF 22 JK
+macro= 7  E= -22127.1148906204  delta_E= -0.0236543  |g|= 0.00784256  4 KF 25 JK
+macro= 8  E= -22127.1154998038  delta_E= -0.000609183  |g|= 0.00013772  4 KF 33 JK
+macro= 9  E= -22127.1154998139  delta_E= -1.00554e-08  |g|= 9.67653e-07  3 KF 32 JK
+macro= 10  E= -22127.1154998139  delta_E= -3.63798e-12  |g|= 3.70259e-07  1 KF 2 JK
+macro= 11  E= -22127.1154998139  delta_E= 0  |g|= 3.70283e-07  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 12  E=-22127.1154998139  |g|= 3.70283e-07  total 38 KF 225 JK
+converged SCF energy = -22127.1154998139  <S^2> = 19.123749  2S+1 = 8.8031241
+
+
+
+
+******** <class 'pyscf.soscf.newton_ah.SecondOrderUHF'> ********
+method = SecondOrderUHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-12
+SCF conv_tol_grad = None
+SCF max_cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpui0s9sja
+max_memory 1400000 MB (current use 1555 MB)
+number electrons alpha = 54  beta = 51
+******** <class 'pyscf.scf.uhf.UHF'> Newton solver flags ********
+SCF tol = 1e-12
+conv_tol_grad = None
+max. SCF cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpui0s9sja
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-16
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 1400000 MB (current use 1555 MB)
+Set conv_tol_grad to 1e-06
+  alpha nocc = 54  HOMO = -0.126982604076537  LUMO = 0.133573727984921
+  beta  nocc = 51  HOMO = -0.172985142243057  LUMO = 0.123815735367402
+Initial guess E= -22127.0818437578  |g|= 0.0397935
+macro= 0  E= -22127.0836436194  delta_E= -0.00179986  |g|= 0.00296287  4 KF 21 JK
+macro= 1  E= -22127.0837665543  delta_E= -0.000122935  |g|= 0.00249565  1 KF 5 JK
+macro= 2  E= -22127.0897622018  delta_E= -0.00599565  |g|= 0.0295618  3 KF 14 JK
+macro= 3  E= -22127.1058952102  delta_E= -0.016133  |g|= 0.0285752  4 KF 23 JK
+macro= 4  E= -22127.1037450187  delta_E= 0.00215019  |g|= 0.0204962  2 KF 7 JK
+macro= 5  E= -22127.1098465271  delta_E= -0.00610151  |g|= 0.0113301  3 KF 12 JK
+macro= 6  E= -22127.1102117963  delta_E= -0.000365269  |g|= 0.000142086  4 KF 33 JK
+macro= 7  E= -22127.1102118337  delta_E= -3.73511e-08  |g|= 9.83303e-07  3 KF 32 JK
+macro= 8  E= -22127.1102118337  delta_E= 0  |g|= 3.55832e-07  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 9  E=-22127.1102118337  |g|= 3.55832e-07  total 26 KF 159 JK
+converged SCF energy = -22127.1102118337  <S^2> = 19.120864  2S+1 = 8.8024688
+::  1278 22aaaaa222222222bbbbba2aaabbb2b2222222222222bbbbbaaaaa2aaaa222222b222ba00222  -22127.110211833657    38     5
+---    19 :    23 DIA ---
+
+
+
+
+******** <class 'pyscf.soscf.newton_ah.SecondOrderUHF'> ********
+method = SecondOrderUHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-12
+SCF conv_tol_grad = None
+SCF max_cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp2aerzr74
+max_memory 1400000 MB (current use 1555 MB)
+number electrons alpha = 73  beta = 70
+******** <class 'pyscf.scf.uhf.UHF'> Newton solver flags ********
+SCF tol = 1e-12
+conv_tol_grad = None
+max. SCF cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp2aerzr74
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-16
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 1400000 MB (current use 1555 MB)
+Set conv_tol_grad to 1e-06
+  alpha nocc = 73  HOMO = -0.228797089087764  LUMO = -0.226632780240002
+  beta  nocc = 70  HOMO = -0.278770641186477  LUMO = -0.27115939709981
+
+WARN: system HOMO -0.253922063407349 >= system LUMO -0.27115939709981
+
+Initial guess E= -22092.0894054674  |g|= 7.11537
+macro= 0  E= -22120.6840586495  delta_E= -28.5947  |g|= 3.84096  3 KF 15 JK
+macro= 1  E= -22124.2261446257  delta_E= -3.54209  |g|= 1.2981  3 KF 15 JK
+macro= 2  E= -22126.1400497958  delta_E= -1.91391  |g|= 0.404669  3 KF 16 JK
+macro= 3  E= -22126.607567383  delta_E= -0.467518  |g|= 0.25378  3 KF 17 JK
+macro= 4  E= -22126.8030281342  delta_E= -0.195461  |g|= 0.174386  4 KF 20 JK
+macro= 5  E= -22126.8970682655  delta_E= -0.0940401  |g|= 0.177238  3 KF 18 JK
+macro= 6  E= -22126.9225536796  delta_E= -0.0254854  |g|= 0.077739  2 KF 7 JK
+macro= 7  E= -22126.9056991118  delta_E= 0.0168546  |g|= 0.0607322  3 KF 13 JK
+macro= 8  E= -22126.9860589143  delta_E= -0.0803598  |g|= 0.0571656  4 KF 18 JK
+macro= 9  E= -22127.0177842368  delta_E= -0.0317253  |g|= 0.0934589  4 KF 20 JK
+macro= 10  E= -22127.0303807204  delta_E= -0.0125965  |g|= 0.0555868  2 KF 7 JK
+macro= 11  E= -22127.0795931293  delta_E= -0.0492124  |g|= 0.157024  2 KF 7 JK
+macro= 12  E= -22127.0879993029  delta_E= -0.00840617  |g|= 0.0294839  3 KF 14 JK
+macro= 13  E= -22127.0968145945  delta_E= -0.00881529  |g|= 0.029  4 KF 23 JK
+macro= 14  E= -22127.0970408129  delta_E= -0.000226218  |g|= 0.0304127  3 KF 13 JK
+macro= 15  E= -22127.1016472742  delta_E= -0.00460646  |g|= 0.0211589  4 KF 19 JK
+macro= 16  E= -22127.1110373927  delta_E= -0.00939012  |g|= 0.0266022  4 KF 18 JK
+macro= 17  E= -22127.1123891617  delta_E= -0.00135177  |g|= 0.00839642  4 KF 19 JK
+macro= 18  E= -22127.1127365676  delta_E= -0.000347406  |g|= 0.000112534  5 KF 35 JK
+macro= 19  E= -22127.1127365783  delta_E= -1.06666e-08  |g|= 1.22543e-06  3 KF 33 JK
+macro= 20  E= -22127.1127365783  delta_E= 0  |g|= 3.53098e-07  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 21  E=-22127.1127365783  |g|= 3.53098e-07  total 68 KF 371 JK
+converged SCF energy = -22127.1127365783  <S^2> = 19.145921  2S+1 = 8.8081601
+
+
+
+
+******** <class 'pyscf.soscf.newton_ah.SecondOrderUHF'> ********
+method = SecondOrderUHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-12
+SCF conv_tol_grad = None
+SCF max_cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpui0s9sja
+max_memory 1400000 MB (current use 1555 MB)
+number electrons alpha = 54  beta = 51
+******** <class 'pyscf.scf.uhf.UHF'> Newton solver flags ********
+SCF tol = 1e-12
+conv_tol_grad = None
+max. SCF cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpui0s9sja
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-16
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 1400000 MB (current use 1555 MB)
+Set conv_tol_grad to 1e-06
+  alpha nocc = 54  HOMO = -0.206511406327448  LUMO = 0.170916145873263
+  beta  nocc = 51  HOMO = -0.176986507290823  LUMO = 0.172718353165644
+Initial guess E= -22127.0843316022  |g|= 0.033026
+macro= 0  E= -22127.0852548911  delta_E= -0.000923289  |g|= 4.66004e-05  5 KF 36 JK
+macro= 1  E= -22127.0852548916  delta_E= -5.63887e-10  |g|= 1.43148e-06  2 KF 18 JK
+macro= 2  E= -22127.0852548916  delta_E= 0  |g|= 3.5198e-07  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 3  E=-22127.0852548916  |g|= 3.5198e-07  total 9 KF 60 JK
+converged SCF energy = -22127.0852548916  <S^2> = 19.112963  2S+1 = 8.8006734
+::    23 222aaaa222222222bbb2baaaa2bbbbb2222222222222bbbbbaaaaaaaaaa222222b222ba00222  -22127.085254891641    -1     9

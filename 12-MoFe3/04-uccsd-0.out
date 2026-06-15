@@ -1,0 +1,80 @@
+frozen = 79
+
+
+
+
+******** <class 'pyscf.soscf.newton_ah.SecondOrderddCOSMOsfX2C1eUHF'> ********
+method = SecondOrderddCOSMOsfX2C1eUHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-10
+SCF conv_tol_grad = None
+SCF max_cycles = 1200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpjzjni0ec
+max_memory 1400000 MB (current use 100 MB)
+number electrons alpha = 146  beta = 143
+******** <class 'pyscf.solvent._attach_solvent.ddCOSMOsfX2C1eUHF'> Newton solver flags ********
+SCF tol = 1e-10
+conv_tol_grad = None
+max. SCF cycles = 1200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpjzjni0ec
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-14
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 1400000 MB (current use 100 MB)
+Set conv_tol_grad to 1e-05
+  alpha nocc = 146  HOMO = -0.156383065220572  LUMO = 0.166871242510662
+  beta  nocc = 143  HOMO = -0.0901544328962433  LUMO = 0.172119939907854
+Solvent Energy = -0.306564071662796
+Initial guess E= -11849.5838455174  |g|= 0.333064
+Solvent Energy = -0.310785626428496
+macro= 0  E= -11849.7215018628  delta_E= -0.137656  |g|= 0.216375  3 KF 19 JK
+Solvent Energy = -0.311822602373353
+macro= 1  E= -11849.7541010901  delta_E= -0.0325992  |g|= 0.213169  3 KF 18 JK
+Solvent Energy = -0.312965779256727
+macro= 2  E= -11849.7645571989  delta_E= -0.0104561  |g|= 0.012207  4 KF 21 JK
+Solvent Energy = -0.312998085499853
+macro= 3  E= -11849.7646165728  delta_E= -5.93739e-05  |g|= 0.000137807  4 KF 33 JK
+Solvent Energy = -0.312998502111526
+macro= 4  E= -11849.7646165747  delta_E= -1.81899e-09  |g|= 6.85919e-06  2 KF 13 JK
+Solvent Energy = -0.312998506044046
+macro= 5  E= -11849.7646165747  delta_E= -3.63798e-11  |g|= 3.14843e-06  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 6  E=-11849.7646165747  |g|= 3.14843e-06  total 18 KF 113 JK
+converged SCF energy = -11849.7646165747  <S^2> = 9.5438471  2S+1 = 6.2590245
+
+******** <class 'pyscf.cc.uccsd.UCCSD'> ********
+CC2 = 0
+CCSD nocc = (67, 64), nmo = (619, 619)
+frozen orbitals 79
+max_cycle = 800
+direct = 0
+conv_tol = 1e-07
+conv_tol_normt = 1e-06
+diis_space = 12
+diis_start_cycle = 0
+diis_start_energy_diff = 1e+09
+max_memory 1400000 MB (current use 241369 MB)
+/var/spool/slurmd/job5591134/slurm_script: line 52: 2272209 Killed                  python3 -u 04-uccsd.py ${IX}
+
+real	30m44.122s
+user	718m34.861s
+sys	208m0.259s

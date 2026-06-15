@@ -1,0 +1,23 @@
+# ---------------------------------------------------------------------------
+# Copyright (C) 2026 Huanchen Zhai. All Rights Reserved.
+# 
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+# 
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+# 
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+# ---------------------------------------------------------------------------
+
+
+old = {xstr: x for x in open('02-uhf-min-24.out', 'r').readlines() for xstr in [x.split()[3]]}
+
+for x in open('32-uhf-min-24.out', 'r').readlines():
+    if '::' in x and x.split()[3] not in old:
+        print(x.rstrip())

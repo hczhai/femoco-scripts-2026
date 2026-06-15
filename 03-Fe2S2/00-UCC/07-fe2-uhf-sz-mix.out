@@ -1,0 +1,62 @@
+Parsing ../Fe2S2.FCIDUMP
+
+
+
+
+******** <class 'pyscf.soscf.newton_ah.SecondOrderUHF'> ********
+method = SecondOrderUHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-14
+SCF conv_tol_grad = None
+SCF max_cycles = 800
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp1my50054
+max_memory 4000 MB (current use 91 MB)
+number electrons alpha = 16  beta = 15
+******** <class 'pyscf.scf.uhf.UHF'> Newton solver flags ********
+SCF tol = 1e-14
+conv_tol_grad = None
+max. SCF cycles = 800
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp1my50054
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-17
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 4000 MB (current use 91 MB)
+Set conv_tol_grad to 1e-07
+  alpha nocc = 16  HOMO = 0.210720038527112  LUMO = 0.259516867623493
+  beta  nocc = 15  HOMO = 0.133309960067206  LUMO = 0.168442342464037
+
+WARN: system HOMO 0.168442342464037 >= system LUMO 0.168442342464037
+
+Initial guess E= -116.13074809552  |g|= 0.353923
+macro= 0  E= -116.302226763337  delta_E= -0.171479  |g|= 0.131314  3 KF 11 JK
+macro= 1  E= -116.315547111509  delta_E= -0.0133203  |g|= 0.0334309  3 KF 12 JK
+macro= 2  E= -116.319988284392  delta_E= -0.00444117  |g|= 0.0224131  2 KF 7 JK
+macro= 3  E= -116.322098871545  delta_E= -0.00211059  |g|= 0.000162705  6 KF 23 JK
+macro= 4  E= -116.322098900087  delta_E= -2.8542e-08  |g|= 2.84759e-07  3 KF 19 JK
+macro= 5  E= -116.322098900087  delta_E= 4.26326e-14  |g|= 3.43938e-08  1 KF 2 JK
+macro= 6  E= -116.322098900087  delta_E= 0  |g|= 3.43826e-08  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 7  E=-116.322098900087  |g|= 3.43826e-08  total 20 KF 84 JK
+converged SCF energy = -116.322098900087  <S^2> = 4.6604194  2S+1 = 4.4318932
+INIT = 22bbbbb222222a2aaa22
+EHF  = -116.32209890008683
+SZ :: -3.773833 4.125092

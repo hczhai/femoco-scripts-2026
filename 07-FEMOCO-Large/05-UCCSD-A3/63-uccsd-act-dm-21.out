@@ -1,0 +1,401 @@
+Parsing /tmp/FEMOCO.FCIDUMP
+---    21 :  2234 DIA ---
+Overwritten attributes  energy_nuc get_hcore get_ovlp  of <class 'pyscf.soscf.newton_ah.SecondOrderUHF'>
+Overwritten attributes  energy_nuc get_hcore get_ovlp  of <class 'pyscf.scf.uhf.UHF'>
+
+
+
+
+******** <class 'pyscf.soscf.newton_ah.SecondOrderUHF'> ********
+method = SecondOrderUHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-12
+SCF conv_tol_grad = None
+SCF max_cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpsir1flf4
+max_memory 1490000 MB (current use 34965 MB)
+number electrons alpha = 140  beta = 137
+******** <class 'pyscf.scf.uhf.UHF'> Newton solver flags ********
+SCF tol = 1e-12
+conv_tol_grad = None
+max. SCF cycles = 200
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpsir1flf4
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-16
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 1490000 MB (current use 34965 MB)
+Set conv_tol_grad to 1e-06
+  alpha nocc = 140  HOMO = -0.247623270979878  LUMO = -0.244307322963942
+  beta  nocc = 137  HOMO = -0.256943461011201  LUMO = -0.25240255724608
+
+WARN: system HOMO -0.239627842426636 >= system LUMO -0.25240255724608
+
+Initial guess E= -22082.9733061014  |g|= 10.4775
+/mnt/home/hzhai/pybase/lib/python3.11/site-packages/pyscf/gto/mole.py:1293: UserWarning: Function mol.dumps drops attribute energy_nuc because it is not JSON-serializable
+  warnings.warn(msg)
+macro= 0  E= -22119.1903795762  delta_E= -36.2171  |g|= 4.06393  3 KF 15 JK
+macro= 1  E= -22124.9565555986  delta_E= -5.76618  |g|= 1.39475  3 KF 15 JK
+macro= 2  E= -22126.6709411015  delta_E= -1.71439  |g|= 0.63747  3 KF 15 JK
+macro= 3  E= -22126.9553231059  delta_E= -0.284382  |g|= 0.543087  3 KF 16 JK
+macro= 4  E= -22126.9429012776  delta_E= 0.0124218  |g|= 0.127274  3 KF 13 JK
+macro= 5  E= -22127.0583686624  delta_E= -0.115467  |g|= 0.111703  4 KF 17 JK
+macro= 6  E= -22127.0911321597  delta_E= -0.0327635  |g|= 0.129364  4 KF 18 JK
+macro= 7  E= -22127.0927644257  delta_E= -0.00163227  |g|= 0.0944836  2 KF 7 JK
+macro= 8  E= -22127.096979832  delta_E= -0.00421541  |g|= 0.0333955  3 KF 14 JK
+macro= 9  E= -22127.1081998469  delta_E= -0.01122  |g|= 0.0451465  4 KF 22 JK
+macro= 10  E= -22127.1074996654  delta_E= 0.000700182  |g|= 0.0259888  3 KF 14 JK
+macro= 11  E= -22127.1091184826  delta_E= -0.00161882  |g|= 0.00834533  4 KF 25 JK
+macro= 12  E= -22127.1084389547  delta_E= 0.000679528  |g|= 0.0138116  4 KF 22 JK
+macro= 13  E= -22127.1007893829  delta_E= 0.00764957  |g|= 0.056208  3 KF 13 JK
+macro= 14  E= -22127.0106674688  delta_E= 0.0901219  |g|= 0.0938609  4 KF 19 JK
+macro= 15  E= -22127.1353403087  delta_E= -0.124673  |g|= 0.565215  2 KF 7 JK
+macro= 16  E= -22127.2114372599  delta_E= -0.076097  |g|= 0.0385141  4 KF 22 JK
+macro= 17  E= -22127.2151480731  delta_E= -0.00371081  |g|= 0.00425077  4 KF 26 JK
+macro= 18  E= -22127.2151845627  delta_E= -3.64896e-05  |g|= 0.000102564  4 KF 34 JK
+macro= 19  E= -22127.215184566  delta_E= -3.27418e-09  |g|= 1.52802e-06  3 KF 37 JK
+macro= 20  E= -22127.215184566  delta_E= 1.09139e-11  |g|= 3.22249e-07  1 KF 2 JK
+macro= 21  E= -22127.215184566  delta_E= 0  |g|= 3.2231e-07  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 22  E=-22127.215184566  |g|= 3.2231e-07  total 70 KF 398 JK
+converged SCF energy = -22127.215184566  <S^2> = 19.170365  2S+1 = 8.8137087
+
+******** <class 'pyscf.cc.uccsd.UCCSD'> ********
+CC2 = 0
+CCSD nocc = (140, 137), nmo = (404, 404)
+max_cycle = 800
+direct = 0
+conv_tol = 1e-07
+conv_tol_normt = 1e-06
+diis_space = 12
+diis_start_cycle = 0
+diis_start_energy_diff = 1e+09
+max_memory 1490000 MB (current use 35508 MB)
+Init t2, MP2 energy = -5.39960338178148
+    CPU time for init mp2     26.13 sec, wall time     26.14 sec
+Init E_corr(UCCSD) = -5.39960338178155
+cycle = 1  E_corr(UCCSD) = -5.00891536622229  dE = 0.390688016  norm(t1,t2) = 0.640168
+    CPU time for UCCSD iter  67339.40 sec, wall time   1881.08 sec
+cycle = 2  E_corr(UCCSD) = -5.38703374079561  dE = -0.378118375  norm(t1,t2) = 0.345513
+    CPU time for UCCSD iter  67369.01 sec, wall time   1843.19 sec
+cycle = 3  E_corr(UCCSD) = -5.32116086025081  dE = 0.0658728805  norm(t1,t2) = 0.452725
+    CPU time for UCCSD iter  66911.83 sec, wall time   1870.92 sec
+cycle = 4  E_corr(UCCSD) = -5.34472869660688  dE = -0.0235678364  norm(t1,t2) = 0.174813
+    CPU time for UCCSD iter  67320.51 sec, wall time   1865.58 sec
+cycle = 5  E_corr(UCCSD) = -5.40776104179654  dE = -0.0630323452  norm(t1,t2) = 0.120872
+    CPU time for UCCSD iter  67120.22 sec, wall time   1881.85 sec
+cycle = 6  E_corr(UCCSD) = -5.42391107727117  dE = -0.0161500355  norm(t1,t2) = 0.046057
+    CPU time for UCCSD iter  66864.40 sec, wall time   1908.72 sec
+cycle = 7  E_corr(UCCSD) = -5.42379337469541  dE = 0.000117702576  norm(t1,t2) = 0.0363604
+    CPU time for UCCSD iter  67027.48 sec, wall time   1854.84 sec
+cycle = 8  E_corr(UCCSD) = -5.42556386435569  dE = -0.00177048966  norm(t1,t2) = 0.0270975
+    CPU time for UCCSD iter  67161.86 sec, wall time   1874.19 sec
+cycle = 9  E_corr(UCCSD) = -5.43274535031129  dE = -0.00718148596  norm(t1,t2) = 0.0188749
+    CPU time for UCCSD iter  67515.62 sec, wall time   1914.32 sec
+cycle = 10  E_corr(UCCSD) = -5.43415065677942  dE = -0.00140530647  norm(t1,t2) = 0.0124213
+    CPU time for UCCSD iter  67542.94 sec, wall time   1905.60 sec
+cycle = 11  E_corr(UCCSD) = -5.43386927334091  dE = 0.000281383439  norm(t1,t2) = 0.00965108
+    CPU time for UCCSD iter  66945.61 sec, wall time   1868.91 sec
+cycle = 12  E_corr(UCCSD) = -5.43440100259903  dE = -0.000531729258  norm(t1,t2) = 0.00830983
+    CPU time for UCCSD iter  67395.62 sec, wall time   1879.45 sec
+cycle = 13  E_corr(UCCSD) = -5.43480248528423  dE = -0.000401482685  norm(t1,t2) = 0.00734068
+    CPU time for UCCSD iter  67009.14 sec, wall time   1878.34 sec
+cycle = 14  E_corr(UCCSD) = -5.43465019035543  dE = 0.000152294929  norm(t1,t2) = 0.0064966
+    CPU time for UCCSD iter  67418.73 sec, wall time   1972.52 sec
+cycle = 15  E_corr(UCCSD) = -5.4347254367336  dE = -7.52463782e-05  norm(t1,t2) = 0.00611255
+    CPU time for UCCSD iter  67311.04 sec, wall time   1932.20 sec
+cycle = 16  E_corr(UCCSD) = -5.43524138127615  dE = -0.000515944543  norm(t1,t2) = 0.0057632
+    CPU time for UCCSD iter  66821.61 sec, wall time   1856.15 sec
+cycle = 17  E_corr(UCCSD) = -5.43541641983484  dE = -0.000175038559  norm(t1,t2) = 0.00534509
+    CPU time for UCCSD iter  66961.01 sec, wall time   1900.89 sec
+cycle = 18  E_corr(UCCSD) = -5.43555165149742  dE = -0.000135231663  norm(t1,t2) = 0.00493975
+    CPU time for UCCSD iter  67089.08 sec, wall time   1868.78 sec
+cycle = 19  E_corr(UCCSD) = -5.43606752172143  dE = -0.000515870224  norm(t1,t2) = 0.00440957
+    CPU time for UCCSD iter  67372.01 sec, wall time   1921.84 sec
+cycle = 20  E_corr(UCCSD) = -5.43634548133347  dE = -0.000277959612  norm(t1,t2) = 0.00380979
+    CPU time for UCCSD iter  67357.58 sec, wall time   1938.67 sec
+cycle = 21  E_corr(UCCSD) = -5.43637126176771  dE = -2.57804342e-05  norm(t1,t2) = 0.00319677
+    CPU time for UCCSD iter  67478.08 sec, wall time   1897.11 sec
+cycle = 22  E_corr(UCCSD) = -5.43657395551731  dE = -0.00020269375  norm(t1,t2) = 0.00251106
+    CPU time for UCCSD iter  67901.77 sec, wall time   1957.24 sec
+cycle = 23  E_corr(UCCSD) = -5.43658986087052  dE = -1.59053532e-05  norm(t1,t2) = 0.00213442
+    CPU time for UCCSD iter  67548.79 sec, wall time   1962.34 sec
+cycle = 24  E_corr(UCCSD) = -5.43664144607902  dE = -5.15852085e-05  norm(t1,t2) = 0.00179428
+    CPU time for UCCSD iter  67737.52 sec, wall time   1921.89 sec
+cycle = 25  E_corr(UCCSD) = -5.43677514504703  dE = -0.000133698968  norm(t1,t2) = 0.00145533
+    CPU time for UCCSD iter  67445.31 sec, wall time   1935.69 sec
+cycle = 26  E_corr(UCCSD) = -5.43688844690009  dE = -0.000113301853  norm(t1,t2) = 0.0011696
+    CPU time for UCCSD iter  67618.78 sec, wall time   1947.53 sec
+cycle = 27  E_corr(UCCSD) = -5.43689813347148  dE = -9.68657139e-06  norm(t1,t2) = 0.000961863
+    CPU time for UCCSD iter  67040.61 sec, wall time   1860.03 sec
+cycle = 28  E_corr(UCCSD) = -5.43688474686836  dE = 1.33866031e-05  norm(t1,t2) = 0.000812829
+    CPU time for UCCSD iter  67627.86 sec, wall time   1942.70 sec
+cycle = 29  E_corr(UCCSD) = -5.43686248019889  dE = 2.22666695e-05  norm(t1,t2) = 0.000694023
+    CPU time for UCCSD iter  67676.06 sec, wall time   1938.13 sec
+cycle = 30  E_corr(UCCSD) = -5.43682891336917  dE = 3.35668297e-05  norm(t1,t2) = 0.000591008
+    CPU time for UCCSD iter  67652.59 sec, wall time   1941.83 sec
+cycle = 31  E_corr(UCCSD) = -5.43683392490745  dE = -5.01153828e-06  norm(t1,t2) = 0.000537501
+    CPU time for UCCSD iter  67424.60 sec, wall time   1919.54 sec
+cycle = 32  E_corr(UCCSD) = -5.43685815724108  dE = -2.42323336e-05  norm(t1,t2) = 0.000489762
+    CPU time for UCCSD iter  67101.85 sec, wall time   1905.34 sec
+cycle = 33  E_corr(UCCSD) = -5.436876127028  dE = -1.79697869e-05  norm(t1,t2) = 0.000445451
+    CPU time for UCCSD iter  67361.10 sec, wall time   1894.05 sec
+cycle = 34  E_corr(UCCSD) = -5.43688541755886  dE = -9.29053086e-06  norm(t1,t2) = 0.000386795
+    CPU time for UCCSD iter  67261.88 sec, wall time   1910.95 sec
+cycle = 35  E_corr(UCCSD) = -5.43688177092431  dE = 3.64663455e-06  norm(t1,t2) = 0.000336664
+    CPU time for UCCSD iter  67088.31 sec, wall time   1925.61 sec
+cycle = 36  E_corr(UCCSD) = -5.43687643392209  dE = 5.33700222e-06  norm(t1,t2) = 0.000288849
+    CPU time for UCCSD iter  67367.61 sec, wall time   1942.08 sec
+cycle = 37  E_corr(UCCSD) = -5.43687233402665  dE = 4.09989544e-06  norm(t1,t2) = 0.000253992
+    CPU time for UCCSD iter  67001.31 sec, wall time   1876.83 sec
+cycle = 38  E_corr(UCCSD) = -5.43688231941292  dE = -9.98538627e-06  norm(t1,t2) = 0.000219858
+    CPU time for UCCSD iter  67614.75 sec, wall time   1930.59 sec
+cycle = 39  E_corr(UCCSD) = -5.43689078653222  dE = -8.4671193e-06  norm(t1,t2) = 0.000195636
+    CPU time for UCCSD iter  67555.45 sec, wall time   1926.44 sec
+cycle = 40  E_corr(UCCSD) = -5.43689326466719  dE = -2.47813497e-06  norm(t1,t2) = 0.000165861
+    CPU time for UCCSD iter  67582.10 sec, wall time   1926.04 sec
+cycle = 41  E_corr(UCCSD) = -5.43688702257466  dE = 6.24209253e-06  norm(t1,t2) = 0.000129969
+    CPU time for UCCSD iter  67316.32 sec, wall time   1897.45 sec
+cycle = 42  E_corr(UCCSD) = -5.43687840089765  dE = 8.62167701e-06  norm(t1,t2) = 0.000101085
+    CPU time for UCCSD iter  67309.72 sec, wall time   1952.58 sec
+cycle = 43  E_corr(UCCSD) = -5.43687087177767  dE = 7.52911998e-06  norm(t1,t2) = 7.77541e-05
+    CPU time for UCCSD iter  67468.87 sec, wall time   1940.12 sec
+cycle = 44  E_corr(UCCSD) = -5.43686913318962  dE = 1.73858805e-06  norm(t1,t2) = 6.10339e-05
+    CPU time for UCCSD iter  67205.30 sec, wall time   1896.03 sec
+cycle = 45  E_corr(UCCSD) = -5.43687041926302  dE = -1.2860734e-06  norm(t1,t2) = 4.90696e-05
+    CPU time for UCCSD iter  67862.98 sec, wall time   1940.97 sec
+cycle = 46  E_corr(UCCSD) = -5.43687101492312  dE = -5.95660103e-07  norm(t1,t2) = 4.08913e-05
+    CPU time for UCCSD iter  67506.72 sec, wall time   1942.05 sec
+cycle = 47  E_corr(UCCSD) = -5.43687016930899  dE = 8.45614127e-07  norm(t1,t2) = 3.447e-05
+    CPU time for UCCSD iter  67227.45 sec, wall time   1982.01 sec
+cycle = 48  E_corr(UCCSD) = -5.43686972578393  dE = 4.43525061e-07  norm(t1,t2) = 3.01183e-05
+    CPU time for UCCSD iter  67082.80 sec, wall time   1887.58 sec
+cycle = 49  E_corr(UCCSD) = -5.43686948879828  dE = 2.36985646e-07  norm(t1,t2) = 2.56494e-05
+    CPU time for UCCSD iter  67224.52 sec, wall time   1939.70 sec
+cycle = 50  E_corr(UCCSD) = -5.4368692948831  dE = 1.9391518e-07  norm(t1,t2) = 2.24622e-05
+    CPU time for UCCSD iter  67104.78 sec, wall time   1945.86 sec
+cycle = 51  E_corr(UCCSD) = -5.436870221319  dE = -9.26435896e-07  norm(t1,t2) = 1.93358e-05
+    CPU time for UCCSD iter  67059.59 sec, wall time   1883.54 sec
+cycle = 52  E_corr(UCCSD) = -5.43687093034278  dE = -7.09023776e-07  norm(t1,t2) = 1.72843e-05
+    CPU time for UCCSD iter  67493.06 sec, wall time   1917.57 sec
+cycle = 53  E_corr(UCCSD) = -5.43687065640483  dE = 2.73937946e-07  norm(t1,t2) = 1.46951e-05
+    CPU time for UCCSD iter  67497.86 sec, wall time   1890.83 sec
+cycle = 54  E_corr(UCCSD) = -5.43687004150049  dE = 6.1490434e-07  norm(t1,t2) = 1.2619e-05
+    CPU time for UCCSD iter  67259.30 sec, wall time   1897.62 sec
+cycle = 55  E_corr(UCCSD) = -5.4368693091317  dE = 7.3236879e-07  norm(t1,t2) = 1.13483e-05
+    CPU time for UCCSD iter  67383.08 sec, wall time   1897.49 sec
+cycle = 56  E_corr(UCCSD) = -5.43686856102654  dE = 7.48105158e-07  norm(t1,t2) = 1.02652e-05
+    CPU time for UCCSD iter  67331.27 sec, wall time   1924.78 sec
+cycle = 57  E_corr(UCCSD) = -5.43686804975436  dE = 5.11272178e-07  norm(t1,t2) = 9.16503e-06
+    CPU time for UCCSD iter  67069.01 sec, wall time   1883.11 sec
+cycle = 58  E_corr(UCCSD) = -5.43686802513065  dE = 2.46237102e-08  norm(t1,t2) = 8.13019e-06
+    CPU time for UCCSD iter  67452.60 sec, wall time   1912.57 sec
+cycle = 59  E_corr(UCCSD) = -5.4368678771301  dE = 1.48000551e-07  norm(t1,t2) = 7.25185e-06
+    CPU time for UCCSD iter  67700.47 sec, wall time   1894.55 sec
+cycle = 60  E_corr(UCCSD) = -5.43686756125922  dE = 3.15870881e-07  norm(t1,t2) = 6.23004e-06
+    CPU time for UCCSD iter  67386.21 sec, wall time   1944.74 sec
+cycle = 61  E_corr(UCCSD) = -5.43686757933948  dE = -1.808026e-08  norm(t1,t2) = 5.14164e-06
+    CPU time for UCCSD iter  67240.88 sec, wall time   1946.13 sec
+cycle = 62  E_corr(UCCSD) = -5.43686768411996  dE = -1.04780477e-07  norm(t1,t2) = 3.94408e-06
+    CPU time for UCCSD iter  66738.58 sec, wall time   1858.58 sec
+cycle = 63  E_corr(UCCSD) = -5.43686777689361  dE = -9.2773651e-08  norm(t1,t2) = 3.3169e-06
+    CPU time for UCCSD iter  67354.09 sec, wall time   1895.68 sec
+cycle = 64  E_corr(UCCSD) = -5.436867942251  dE = -1.6535739e-07  norm(t1,t2) = 2.79007e-06
+    CPU time for UCCSD iter  67309.51 sec, wall time   1892.97 sec
+cycle = 65  E_corr(UCCSD) = -5.43686802852487  dE = -8.6273868e-08  norm(t1,t2) = 2.46131e-06
+    CPU time for UCCSD iter  67475.58 sec, wall time   1943.33 sec
+cycle = 66  E_corr(UCCSD) = -5.43686795613789  dE = 7.238698e-08  norm(t1,t2) = 2.04681e-06
+    CPU time for UCCSD iter  67128.40 sec, wall time   1909.57 sec
+cycle = 67  E_corr(UCCSD) = -5.43686782743871  dE = 1.28699179e-07  norm(t1,t2) = 1.75037e-06
+    CPU time for UCCSD iter  67052.53 sec, wall time   1887.33 sec
+cycle = 68  E_corr(UCCSD) = -5.43686771497561  dE = 1.12463095e-07  norm(t1,t2) = 1.45114e-06
+    CPU time for UCCSD iter  66991.68 sec, wall time   1882.63 sec
+cycle = 69  E_corr(UCCSD) = -5.43686762388505  dE = 9.109056e-08  norm(t1,t2) = 1.20096e-06
+    CPU time for UCCSD iter  67309.05 sec, wall time   1910.06 sec
+cycle = 70  E_corr(UCCSD) = -5.43686757818771  dE = 4.56973419e-08  norm(t1,t2) = 1.01994e-06
+    CPU time for UCCSD iter  67168.67 sec, wall time   1959.94 sec
+cycle = 71  E_corr(UCCSD) = -5.43686759453944  dE = -1.63517289e-08  norm(t1,t2) = 8.71762e-07
+    CPU time for UCCSD iter  66904.39 sec, wall time   1888.27 sec
+    CPU time for UCCSD 4778556.31 sec, wall time 135625.64 sec
+UCCSD converged
+E(UCCSD) = -22132.65205216053  E_corr = -5.43686759453944
+    CPU time for UCCSD lambda initialization  89779.43 sec, wall time   2337.22 sec
+cycle = 1  norm(lambda1,lambda2) = 0.461005
+    CPU time for UCCSD iter  50140.17 sec, wall time   1354.25 sec
+cycle = 2  norm(lambda1,lambda2) = 0.212018
+    CPU time for UCCSD iter  49648.01 sec, wall time   1359.73 sec
+cycle = 3  norm(lambda1,lambda2) = 0.218927
+    CPU time for UCCSD iter  49862.24 sec, wall time   1352.40 sec
+cycle = 4  norm(lambda1,lambda2) = 0.042168
+    CPU time for UCCSD iter  49665.21 sec, wall time   1349.01 sec
+cycle = 5  norm(lambda1,lambda2) = 0.0403581
+    CPU time for UCCSD iter  49830.01 sec, wall time   1360.00 sec
+cycle = 6  norm(lambda1,lambda2) = 0.0196987
+    CPU time for UCCSD iter  49650.64 sec, wall time   1357.62 sec
+cycle = 7  norm(lambda1,lambda2) = 0.0136582
+    CPU time for UCCSD iter  49850.88 sec, wall time   1412.36 sec
+cycle = 8  norm(lambda1,lambda2) = 0.00850834
+    CPU time for UCCSD iter  49816.59 sec, wall time   1378.68 sec
+cycle = 9  norm(lambda1,lambda2) = 0.00580147
+    CPU time for UCCSD iter  50356.65 sec, wall time   1385.99 sec
+cycle = 10  norm(lambda1,lambda2) = 0.00435297
+    CPU time for UCCSD iter  49830.13 sec, wall time   1389.68 sec
+cycle = 11  norm(lambda1,lambda2) = 0.00336985
+    CPU time for UCCSD iter  49936.35 sec, wall time   1371.85 sec
+cycle = 12  norm(lambda1,lambda2) = 0.00293452
+    CPU time for UCCSD iter  50142.41 sec, wall time   1379.44 sec
+cycle = 13  norm(lambda1,lambda2) = 0.0026226
+    CPU time for UCCSD iter  50513.44 sec, wall time   1410.60 sec
+cycle = 14  norm(lambda1,lambda2) = 0.00241422
+    CPU time for UCCSD iter  50969.33 sec, wall time   1686.71 sec
+cycle = 15  norm(lambda1,lambda2) = 0.0022349
+    CPU time for UCCSD iter  50698.47 sec, wall time   1483.81 sec
+cycle = 16  norm(lambda1,lambda2) = 0.00199469
+    CPU time for UCCSD iter  50775.13 sec, wall time   1657.91 sec
+cycle = 17  norm(lambda1,lambda2) = 0.00177496
+    CPU time for UCCSD iter  50841.74 sec, wall time   1693.36 sec
+cycle = 18  norm(lambda1,lambda2) = 0.00146689
+    CPU time for UCCSD iter  50945.99 sec, wall time   1653.63 sec
+cycle = 19  norm(lambda1,lambda2) = 0.00121336
+    CPU time for UCCSD iter  50307.08 sec, wall time   1490.46 sec
+cycle = 20  norm(lambda1,lambda2) = 0.000965628
+    CPU time for UCCSD iter  49961.05 sec, wall time   1429.73 sec
+cycle = 21  norm(lambda1,lambda2) = 0.000775635
+    CPU time for UCCSD iter  49991.12 sec, wall time   1416.87 sec
+cycle = 22  norm(lambda1,lambda2) = 0.000645828
+    CPU time for UCCSD iter  50378.69 sec, wall time   1515.61 sec
+cycle = 23  norm(lambda1,lambda2) = 0.000548922
+    CPU time for UCCSD iter  51058.35 sec, wall time   1656.68 sec
+cycle = 24  norm(lambda1,lambda2) = 0.000464793
+    CPU time for UCCSD iter  50357.08 sec, wall time   1582.54 sec
+cycle = 25  norm(lambda1,lambda2) = 0.000406419
+    CPU time for UCCSD iter  50201.96 sec, wall time   1388.71 sec
+cycle = 26  norm(lambda1,lambda2) = 0.000341261
+    CPU time for UCCSD iter  50276.59 sec, wall time   1450.42 sec
+cycle = 27  norm(lambda1,lambda2) = 0.000293356
+    CPU time for UCCSD iter  50036.51 sec, wall time   1397.82 sec
+cycle = 28  norm(lambda1,lambda2) = 0.000253474
+    CPU time for UCCSD iter  50021.27 sec, wall time   1389.27 sec
+cycle = 29  norm(lambda1,lambda2) = 0.000218543
+    CPU time for UCCSD iter  49918.85 sec, wall time   1432.51 sec
+cycle = 30  norm(lambda1,lambda2) = 0.00019017
+    CPU time for UCCSD iter  50814.14 sec, wall time   1804.63 sec
+cycle = 31  norm(lambda1,lambda2) = 0.000160217
+    CPU time for UCCSD iter  49817.05 sec, wall time   1400.66 sec
+cycle = 32  norm(lambda1,lambda2) = 0.000140933
+    CPU time for UCCSD iter  50820.97 sec, wall time   1536.34 sec
+cycle = 33  norm(lambda1,lambda2) = 0.000126064
+    CPU time for UCCSD iter  50065.08 sec, wall time   1397.11 sec
+cycle = 34  norm(lambda1,lambda2) = 0.000113062
+    CPU time for UCCSD iter  50385.03 sec, wall time   1473.07 sec
+cycle = 35  norm(lambda1,lambda2) = 0.000102358
+    CPU time for UCCSD iter  50681.92 sec, wall time   1515.07 sec
+cycle = 36  norm(lambda1,lambda2) = 9.25591e-05
+    CPU time for UCCSD iter  50886.88 sec, wall time   1676.52 sec
+cycle = 37  norm(lambda1,lambda2) = 8.38258e-05
+    CPU time for UCCSD iter  50674.18 sec, wall time   1510.76 sec
+cycle = 38  norm(lambda1,lambda2) = 7.43003e-05
+    CPU time for UCCSD iter  50122.04 sec, wall time   1470.81 sec
+cycle = 39  norm(lambda1,lambda2) = 6.50077e-05
+    CPU time for UCCSD iter  52060.70 sec, wall time   2271.02 sec
+cycle = 40  norm(lambda1,lambda2) = 5.64332e-05
+    CPU time for UCCSD iter  50408.28 sec, wall time   1830.39 sec
+cycle = 41  norm(lambda1,lambda2) = 4.8758e-05
+    CPU time for UCCSD iter  50890.75 sec, wall time   2005.25 sec
+cycle = 42  norm(lambda1,lambda2) = 4.23158e-05
+    CPU time for UCCSD iter  50327.56 sec, wall time   1396.09 sec
+cycle = 43  norm(lambda1,lambda2) = 3.71576e-05
+    CPU time for UCCSD iter  50991.09 sec, wall time   1652.06 sec
+cycle = 44  norm(lambda1,lambda2) = 3.20383e-05
+    CPU time for UCCSD iter  50378.07 sec, wall time   1447.89 sec
+cycle = 45  norm(lambda1,lambda2) = 2.86029e-05
+    CPU time for UCCSD iter  50019.77 sec, wall time   1463.82 sec
+cycle = 46  norm(lambda1,lambda2) = 2.53604e-05
+    CPU time for UCCSD iter  50214.36 sec, wall time   1409.20 sec
+cycle = 47  norm(lambda1,lambda2) = 2.29384e-05
+    CPU time for UCCSD iter  51020.76 sec, wall time   1756.08 sec
+cycle = 48  norm(lambda1,lambda2) = 2.06797e-05
+    CPU time for UCCSD iter  50793.56 sec, wall time   1481.17 sec
+cycle = 49  norm(lambda1,lambda2) = 1.87937e-05
+    CPU time for UCCSD iter  50921.57 sec, wall time   1613.10 sec
+cycle = 50  norm(lambda1,lambda2) = 1.71496e-05
+    CPU time for UCCSD iter  50043.94 sec, wall time   1438.81 sec
+cycle = 51  norm(lambda1,lambda2) = 1.55567e-05
+    CPU time for UCCSD iter  51365.94 sec, wall time   1839.45 sec
+cycle = 52  norm(lambda1,lambda2) = 1.4227e-05
+    CPU time for UCCSD iter  50660.79 sec, wall time   1694.57 sec
+cycle = 53  norm(lambda1,lambda2) = 1.31508e-05
+    CPU time for UCCSD iter  50230.63 sec, wall time   1408.67 sec
+cycle = 54  norm(lambda1,lambda2) = 1.21535e-05
+    CPU time for UCCSD iter  50672.31 sec, wall time   1525.64 sec
+cycle = 55  norm(lambda1,lambda2) = 1.12004e-05
+    CPU time for UCCSD iter  50805.49 sec, wall time   1540.37 sec
+cycle = 56  norm(lambda1,lambda2) = 1.0385e-05
+    CPU time for UCCSD iter  50696.52 sec, wall time   1503.80 sec
+cycle = 57  norm(lambda1,lambda2) = 9.38045e-06
+    CPU time for UCCSD iter  50226.71 sec, wall time   1424.90 sec
+cycle = 58  norm(lambda1,lambda2) = 8.5183e-06
+    CPU time for UCCSD iter  50173.60 sec, wall time   1499.99 sec
+cycle = 59  norm(lambda1,lambda2) = 7.4675e-06
+    CPU time for UCCSD iter  50594.29 sec, wall time   1450.66 sec
+cycle = 60  norm(lambda1,lambda2) = 6.59001e-06
+    CPU time for UCCSD iter  50286.16 sec, wall time   1439.71 sec
+cycle = 61  norm(lambda1,lambda2) = 5.7311e-06
+    CPU time for UCCSD iter  50557.78 sec, wall time   1452.03 sec
+cycle = 62  norm(lambda1,lambda2) = 4.99248e-06
+    CPU time for UCCSD iter  50398.62 sec, wall time   1465.97 sec
+cycle = 63  norm(lambda1,lambda2) = 4.38694e-06
+    CPU time for UCCSD iter  50580.28 sec, wall time   1523.16 sec
+cycle = 64  norm(lambda1,lambda2) = 3.80078e-06
+    CPU time for UCCSD iter  50740.59 sec, wall time   1507.47 sec
+cycle = 65  norm(lambda1,lambda2) = 3.32892e-06
+    CPU time for UCCSD iter  50681.12 sec, wall time   1499.48 sec
+cycle = 66  norm(lambda1,lambda2) = 2.97376e-06
+    CPU time for UCCSD iter  50639.07 sec, wall time   1518.48 sec
+cycle = 67  norm(lambda1,lambda2) = 2.61297e-06
+    CPU time for UCCSD iter  51059.90 sec, wall time   1767.59 sec
+cycle = 68  norm(lambda1,lambda2) = 2.32953e-06
+    CPU time for UCCSD iter  51102.01 sec, wall time   1778.35 sec
+cycle = 69  norm(lambda1,lambda2) = 2.10976e-06
+    CPU time for UCCSD iter  51068.96 sec, wall time   1750.08 sec
+cycle = 70  norm(lambda1,lambda2) = 1.90025e-06
+    CPU time for UCCSD iter  51108.36 sec, wall time   1972.89 sec
+cycle = 71  norm(lambda1,lambda2) = 1.73074e-06
+    CPU time for UCCSD iter  51431.62 sec, wall time   1883.33 sec
+cycle = 72  norm(lambda1,lambda2) = 1.55953e-06
+    CPU time for UCCSD iter  51110.08 sec, wall time   1635.72 sec
+cycle = 73  norm(lambda1,lambda2) = 1.45412e-06
+    CPU time for UCCSD iter  51267.70 sec, wall time   1974.20 sec
+cycle = 74  norm(lambda1,lambda2) = 1.33877e-06
+    CPU time for UCCSD iter  50370.13 sec, wall time   1558.10 sec
+cycle = 75  norm(lambda1,lambda2) = 1.24888e-06
+    CPU time for UCCSD iter  50872.82 sec, wall time   1817.21 sec
+cycle = 76  norm(lambda1,lambda2) = 1.17237e-06
+    CPU time for UCCSD iter  51059.51 sec, wall time   1776.99 sec
+cycle = 77  norm(lambda1,lambda2) = 1.093e-06
+    CPU time for UCCSD iter  50565.51 sec, wall time   1590.00 sec
+Linear dependence found in DIIS error vectors.
+cycle = 78  norm(lambda1,lambda2) = 1.00955e-06
+    CPU time for UCCSD iter  50073.17 sec, wall time   1409.68 sec
+Linear dependence found in DIIS error vectors.
+cycle = 79  norm(lambda1,lambda2) = 9.40797e-07
+    CPU time for UCCSD iter  49998.37 sec, wall time   1390.22 sec
+::  2234 22aaaaa222222222bbbbbaaaaabbbbb2222222222222aaaa2a2aaabbbb2222222b222ba00222  -22127.215184565986  -22132.652052160527 1 DIA
