@@ -1,0 +1,375 @@
+Parsing /tmp/FEMOCO.FCIDUMP
+Overwritten attributes  get_hcore get_ovlp  of <class 'pyscf.soscf.newton_ah.SecondOrderSymAdaptedUHF'>
+Freeze 0 electrons in irreps []
+    113 free electrons in irreps IR0
+Overwritten attributes  get_hcore get_ovlp  of <class 'pyscf.scf.uhf_symm.SymAdaptedUHF'>
+
+
+
+
+******** <class 'pyscf.soscf.newton_ah.SecondOrderSymAdaptedUHF'> ********
+method = SecondOrderSymAdaptedUHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-13
+SCF conv_tol_grad = None
+SCF max_cycles = 400
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpt632e6bb
+max_memory 4000 MB (current use 129 MB)
+number electrons alpha = 58  beta = 55
+******** <class 'pyscf.scf.uhf_symm.SymAdaptedUHF'> Newton solver flags ********
+SCF tol = 1e-13
+conv_tol_grad = None
+max. SCF cycles = 400
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpt632e6bb
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-16
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 4000 MB (current use 129 MB)
+Set conv_tol_grad to 3.16228e-07
+alpha HOMO (IR0) = -0.293531533550418  LUMO (IR0) = -0.284445558394772
+beta  HOMO (IR0) = -0.235651438179952  LUMO (IR0) = -0.233885407495369
+
+WARN: alpha-IR0 LUMO -0.284445558394772 < system HOMO -0.235651438179952
+
+
+WARN: beta-IR0 HOMO -0.235651438179952 > system LUMO -0.284445558394772
+
+Initial guess E= -22128.9877869884  |g|= 2.47221
+/mnt/home/hzhai/pybase/lib/python3.11/site-packages/pyscf/gto/mole.py:1294: UserWarning: Function mol.dumps drops attribute energy_nuc because it is not JSON-serializable
+  warnings.warn(msg)
+/mnt/home/hzhai/pybase/lib/python3.11/site-packages/pyscf/gto/mole.py:1294: UserWarning: Function mol.dumps drops attribute intor_symmetric because it is not JSON-serializable
+  warnings.warn(msg)
+macro= 0  E= -22136.693443149  delta_E= -7.70566  |g|= 1.58458  3 KF 15 JK
+macro= 1  E= -22138.5839695174  delta_E= -1.89053  |g|= 0.817904  3 KF 15 JK
+macro= 2  E= -22139.5304229839  delta_E= -0.946453  |g|= 0.289445  3 KF 17 JK
+macro= 3  E= -22139.7767177993  delta_E= -0.246295  |g|= 0.0699368  4 KF 21 JK
+macro= 4  E= -22139.8595496631  delta_E= -0.0828319  |g|= 0.0598762  4 KF 21 JK
+macro= 5  E= -22139.88691967  delta_E= -0.02737  |g|= 0.0336613  4 KF 22 JK
+macro= 6  E= -22139.892487128  delta_E= -0.00556746  |g|= 0.029969  2 KF 7 JK
+macro= 7  E= -22139.90266098  delta_E= -0.0101739  |g|= 0.0296491  3 KF 13 JK
+macro= 8  E= -22139.9036613538  delta_E= -0.00100037  |g|= 0.0178427  4 KF 20 JK
+macro= 9  E= -22139.9101634355  delta_E= -0.00650208  |g|= 0.0225905  4 KF 21 JK
+macro= 10  E= -22139.9142984945  delta_E= -0.00413506  |g|= 0.00849339  4 KF 25 JK
+macro= 11  E= -22139.8992496594  delta_E= 0.0150488  |g|= 0.00806201  4 KF 25 JK
+macro= 12  E= -22139.915913257  delta_E= -0.0166636  |g|= 0.015949  4 KF 24 JK
+macro= 13  E= -22139.9188643816  delta_E= -0.00295112  |g|= 0.00497456  4 KF 26 JK
+macro= 14  E= -22139.9211859272  delta_E= -0.00232155  |g|= 0.00920789  3 KF 14 JK
+macro= 15  E= -22139.9226309413  delta_E= -0.00144501  |g|= 0.00264307  4 KF 27 JK
+macro= 16  E= -22139.9227968718  delta_E= -0.00016593  |g|= 0.000631813  4 KF 30 JK
+macro= 17  E= -22139.9228011666  delta_E= -4.29476e-06  |g|= 3.64526e-05  4 KF 36 JK
+macro= 18  E= -22139.9228011841  delta_E= -1.74769e-08  |g|= 9.48067e-07  4 KF 43 JK
+macro= 19  E= -22139.9228011841  delta_E= -1.81899e-11  |g|= 2.48353e-07  2 KF 26 JK
+macro= 20  E= -22139.9228011841  delta_E= 0  |g|= 1.21865e-07  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 21  E=-22139.9228011841  |g|= 1.21865e-07  total 73 KF 472 JK
+converged SCF energy = -22139.9228011841  <S^2> = 17.873554  2S+1 = 8.5143536
+INIT = 22a2aaa222222222aaa2aaaaaaaaaaa2222222222222bbbb2bbbbbbbbbb222222b222ba00222
+EHF  = -22139.92280118407
+Init t2, MP2 energy = -0.148168600372585
+Nocc = (58, 55) Nvir = (18, 21) Amps size = 13.5 MB
+Init E_corr(UCCSD) = -0.148168600372608 M =  1.49 GB
+cycle =  1  E_corr(UCCSD) =     -0.163875595733674  dE = -1.571E-02  norm(d tamps) =  2.380E-01 M =  1.49 GB T =       12.839
+cycle =  2  E_corr(UCCSD) =     -0.196316408008880  dE = -3.244E-02  norm(d tamps) =  1.325E-01 M =  1.49 GB T =       12.780
+cycle =  3  E_corr(UCCSD) =     -0.206080186919848  dE = -9.764E-03  norm(d tamps) =  1.138E-01 M =  1.49 GB T =       12.040
+cycle =  4  E_corr(UCCSD) =     -0.250176262678773  dE = -4.410E-02  norm(d tamps) =  8.772E-02 M =  1.49 GB T =       12.256
+cycle =  5  E_corr(UCCSD) =     -0.257693127229849  dE = -7.517E-03  norm(d tamps) =  4.523E-02 M =  1.49 GB T =       11.312
+cycle =  6  E_corr(UCCSD) =     -0.266178425670790  dE = -8.485E-03  norm(d tamps) =  3.363E-02 M =  1.49 GB T =       12.032
+cycle =  7  E_corr(UCCSD) =     -0.273869706522065  dE = -7.691E-03  norm(d tamps) =  2.231E-02 M =  1.49 GB T =       11.356
+cycle =  8  E_corr(UCCSD) =     -0.274639757647143  dE = -7.701E-04  norm(d tamps) =  1.670E-02 M =  1.49 GB T =       12.296
+cycle =  9  E_corr(UCCSD) =     -0.274547094355962  dE =  9.266E-05  norm(d tamps) =  1.290E-02 M =  1.49 GB T =       11.688
+cycle = 10  E_corr(UCCSD) =     -0.276521062478998  dE = -1.974E-03  norm(d tamps) =  1.095E-02 M =  1.49 GB T =       12.056
+cycle = 11  E_corr(UCCSD) =     -0.277584553635957  dE = -1.063E-03  norm(d tamps) =  9.470E-03 M =  1.49 GB T =       11.616
+cycle = 12  E_corr(UCCSD) =     -0.277758359369266  dE = -1.738E-04  norm(d tamps) =  8.523E-03 M =  1.49 GB T =       12.400
+cycle = 13  E_corr(UCCSD) =     -0.278149506542067  dE = -3.911E-04  norm(d tamps) =  7.839E-03 M =  1.49 GB T =       11.908
+cycle = 14  E_corr(UCCSD) =     -0.278571065058918  dE = -4.216E-04  norm(d tamps) =  7.289E-03 M =  1.49 GB T =       12.216
+cycle = 15  E_corr(UCCSD) =     -0.279079144582957  dE = -5.081E-04  norm(d tamps) =  6.815E-03 M =  1.53 GB T =       11.872
+cycle = 16  E_corr(UCCSD) =     -0.279537135366913  dE = -4.580E-04  norm(d tamps) =  6.449E-03 M =  1.53 GB T =       11.667
+cycle = 17  E_corr(UCCSD) =     -0.279688202474659  dE = -1.511E-04  norm(d tamps) =  6.106E-03 M =  1.53 GB T =       11.361
+cycle = 18  E_corr(UCCSD) =     -0.279934071541919  dE = -2.459E-04  norm(d tamps) =  5.842E-03 M =  1.56 GB T =       11.828
+cycle = 19  E_corr(UCCSD) =     -0.280268388261766  dE = -3.343E-04  norm(d tamps) =  5.597E-03 M =  1.61 GB T =       10.972
+cycle = 20  E_corr(UCCSD) =     -0.280493187422908  dE = -2.248E-04  norm(d tamps) =  5.379E-03 M =  1.65 GB T =       11.476
+cycle = 21  E_corr(UCCSD) =     -0.280646550006703  dE = -1.534E-04  norm(d tamps) =  5.213E-03 M =  1.67 GB T =       11.020
+cycle = 22  E_corr(UCCSD) =     -0.280772650946132  dE = -1.261E-04  norm(d tamps) =  5.092E-03 M =  1.73 GB T =       11.491
+cycle = 23  E_corr(UCCSD) =     -0.280835263453425  dE = -6.261E-05  norm(d tamps) =  5.013E-03 M =  1.73 GB T =       11.193
+cycle = 24  E_corr(UCCSD) =     -0.280874376849390  dE = -3.911E-05  norm(d tamps) =  4.970E-03 M =  1.73 GB T =       11.580
+cycle = 25  E_corr(UCCSD) =     -0.280904262000268  dE = -2.989E-05  norm(d tamps) =  4.950E-03 M =  1.80 GB T =       10.848
+cycle = 26  E_corr(UCCSD) =     -0.280914045587814  dE = -9.784E-06  norm(d tamps) =  4.945E-03 M =  1.80 GB T =       11.184
+cycle = 27  E_corr(UCCSD) =     -0.280909047460412  dE =  4.998E-06  norm(d tamps) =  4.948E-03 M =  1.82 GB T =       10.772
+cycle = 28  E_corr(UCCSD) =     -0.280888375281191  dE =  2.067E-05  norm(d tamps) =  4.941E-03 M =  1.88 GB T =       11.584
+cycle = 29  E_corr(UCCSD) =     -0.280868675071693  dE =  1.970E-05  norm(d tamps) =  4.910E-03 M =  1.88 GB T =       11.396
+cycle = 30  E_corr(UCCSD) =     -0.280850809119260  dE =  1.787E-05  norm(d tamps) =  4.850E-03 M =  1.94 GB T =       12.032
+cycle = 31  E_corr(UCCSD) =     -0.280846582933182  dE =  4.226E-06  norm(d tamps) =  4.759E-03 M =  1.94 GB T =       11.684
+cycle = 32  E_corr(UCCSD) =     -0.280871747892732  dE = -2.516E-05  norm(d tamps) =  4.614E-03 M =  1.96 GB T =       12.216
+cycle = 33  E_corr(UCCSD) =     -0.280910209986087  dE = -3.846E-05  norm(d tamps) =  4.403E-03 M =  2.03 GB T =       12.100
+cycle = 34  E_corr(UCCSD) =     -0.280984083995330  dE = -7.387E-05  norm(d tamps) =  4.138E-03 M =  2.05 GB T =       11.956
+cycle = 35  E_corr(UCCSD) =     -0.281084136648239  dE = -1.001E-04  norm(d tamps) =  3.821E-03 M =  2.05 GB T =       11.472
+cycle = 36  E_corr(UCCSD) =     -0.281148364791778  dE = -6.423E-05  norm(d tamps) =  3.502E-03 M =  2.11 GB T =       11.828
+cycle = 37  E_corr(UCCSD) =     -0.281207043282065  dE = -5.868E-05  norm(d tamps) =  3.193E-03 M =  2.13 GB T =       11.076
+cycle = 38  E_corr(UCCSD) =     -0.281302376041817  dE = -9.533E-05  norm(d tamps) =  2.895E-03 M =  2.18 GB T =       11.740
+cycle = 39  E_corr(UCCSD) =     -0.281351451319206  dE = -4.908E-05  norm(d tamps) =  2.608E-03 M =  2.20 GB T =       11.376
+cycle = 40  E_corr(UCCSD) =     -0.281405394619256  dE = -5.394E-05  norm(d tamps) =  2.350E-03 M =  2.20 GB T =       11.556
+cycle = 41  E_corr(UCCSD) =     -0.281427155897677  dE = -2.176E-05  norm(d tamps) =  2.106E-03 M =  2.20 GB T =       10.908
+cycle = 42  E_corr(UCCSD) =     -0.281457479647180  dE = -3.032E-05  norm(d tamps) =  1.877E-03 M =  2.20 GB T =       11.440
+cycle = 43  E_corr(UCCSD) =     -0.281453619697023  dE =  3.860E-06  norm(d tamps) =  1.709E-03 M =  2.20 GB T =       11.068
+cycle = 44  E_corr(UCCSD) =     -0.281474132158985  dE = -2.051E-05  norm(d tamps) =  1.558E-03 M =  2.20 GB T =       11.480
+cycle = 45  E_corr(UCCSD) =     -0.281492024526890  dE = -1.789E-05  norm(d tamps) =  1.424E-03 M =  2.20 GB T =       11.164
+cycle = 46  E_corr(UCCSD) =     -0.281500299594074  dE = -8.275E-06  norm(d tamps) =  1.326E-03 M =  2.20 GB T =       11.644
+cycle = 47  E_corr(UCCSD) =     -0.281505191199762  dE = -4.892E-06  norm(d tamps) =  1.221E-03 M =  2.22 GB T =       11.164
+cycle = 48  E_corr(UCCSD) =     -0.281506598856765  dE = -1.408E-06  norm(d tamps) =  1.123E-03 M =  2.22 GB T =       11.532
+cycle = 49  E_corr(UCCSD) =     -0.281510072512257  dE = -3.474E-06  norm(d tamps) =  1.042E-03 M =  2.22 GB T =       10.776
+cycle = 50  E_corr(UCCSD) =     -0.281515673436091  dE = -5.601E-06  norm(d tamps) =  9.580E-04 M =  2.22 GB T =       11.504
+cycle = 51  E_corr(UCCSD) =     -0.281523975797382  dE = -8.302E-06  norm(d tamps) =  8.849E-04 M =  2.22 GB T =       10.792
+cycle = 52  E_corr(UCCSD) =     -0.281548388595410  dE = -2.441E-05  norm(d tamps) =  8.202E-04 M =  2.22 GB T =       11.288
+cycle = 53  E_corr(UCCSD) =     -0.281577161569454  dE = -2.877E-05  norm(d tamps) =  7.595E-04 M =  2.22 GB T =       10.812
+cycle = 54  E_corr(UCCSD) =     -0.281602427997558  dE = -2.527E-05  norm(d tamps) =  7.041E-04 M =  2.22 GB T =       11.620
+cycle = 55  E_corr(UCCSD) =     -0.281617921685642  dE = -1.549E-05  norm(d tamps) =  6.530E-04 M =  2.22 GB T =       11.088
+cycle = 56  E_corr(UCCSD) =     -0.281625354183688  dE = -7.432E-06  norm(d tamps) =  5.999E-04 M =  2.22 GB T =       11.408
+cycle = 57  E_corr(UCCSD) =     -0.281630842845897  dE = -5.489E-06  norm(d tamps) =  5.517E-04 M =  2.22 GB T =       11.184
+cycle = 58  E_corr(UCCSD) =     -0.281635264221952  dE = -4.421E-06  norm(d tamps) =  5.025E-04 M =  2.22 GB T =       11.684
+cycle = 59  E_corr(UCCSD) =     -0.281642813672406  dE = -7.549E-06  norm(d tamps) =  4.562E-04 M =  2.22 GB T =       11.856
+cycle = 60  E_corr(UCCSD) =     -0.281653710576222  dE = -1.090E-05  norm(d tamps) =  4.104E-04 M =  2.22 GB T =       11.592
+cycle = 61  E_corr(UCCSD) =     -0.281666756897771  dE = -1.305E-05  norm(d tamps) =  3.671E-04 M =  2.22 GB T =       11.228
+cycle = 62  E_corr(UCCSD) =     -0.281680756237305  dE = -1.400E-05  norm(d tamps) =  3.247E-04 M =  2.22 GB T =       11.368
+cycle = 63  E_corr(UCCSD) =     -0.281694550715013  dE = -1.379E-05  norm(d tamps) =  2.853E-04 M =  2.22 GB T =       11.020
+cycle = 64  E_corr(UCCSD) =     -0.281704252275851  dE = -9.702E-06  norm(d tamps) =  2.477E-04 M =  2.22 GB T =       11.108
+cycle = 65  E_corr(UCCSD) =     -0.281710757533140  dE = -6.505E-06  norm(d tamps) =  2.145E-04 M =  2.22 GB T =       11.321
+cycle = 66  E_corr(UCCSD) =     -0.281715012460982  dE = -4.255E-06  norm(d tamps) =  1.843E-04 M =  2.22 GB T =       10.954
+cycle = 67  E_corr(UCCSD) =     -0.281717808307691  dE = -2.796E-06  norm(d tamps) =  1.584E-04 M =  2.22 GB T =       11.084
+cycle = 68  E_corr(UCCSD) =     -0.281719729343002  dE = -1.921E-06  norm(d tamps) =  1.354E-04 M =  2.22 GB T =       10.668
+cycle = 69  E_corr(UCCSD) =     -0.281721219510211  dE = -1.490E-06  norm(d tamps) =  1.165E-04 M =  2.22 GB T =       11.136
+cycle = 70  E_corr(UCCSD) =     -0.281722719749425  dE = -1.500E-06  norm(d tamps) =  1.007E-04 M =  2.22 GB T =       10.896
+cycle = 71  E_corr(UCCSD) =     -0.281723741901981  dE = -1.022E-06  norm(d tamps) =  8.818E-05 M =  2.22 GB T =       11.372
+cycle = 72  E_corr(UCCSD) =     -0.281724832616174  dE = -1.091E-06  norm(d tamps) =  7.800E-05 M =  2.22 GB T =       10.876
+cycle = 73  E_corr(UCCSD) =     -0.281726129685427  dE = -1.297E-06  norm(d tamps) =  6.875E-05 M =  2.22 GB T =       11.000
+cycle = 74  E_corr(UCCSD) =     -0.281727566495403  dE = -1.437E-06  norm(d tamps) =  6.093E-05 M =  2.22 GB T =       10.824
+cycle = 75  E_corr(UCCSD) =     -0.281729276420951  dE = -1.710E-06  norm(d tamps) =  5.350E-05 M =  2.22 GB T =       11.188
+cycle = 76  E_corr(UCCSD) =     -0.281730924707839  dE = -1.648E-06  norm(d tamps) =  4.715E-05 M =  2.22 GB T =       10.836
+cycle = 77  E_corr(UCCSD) =     -0.281732097541382  dE = -1.173E-06  norm(d tamps) =  4.100E-05 M =  2.22 GB T =       10.948
+cycle = 78  E_corr(UCCSD) =     -0.281732813859477  dE = -7.163E-07  norm(d tamps) =  3.615E-05 M =  2.22 GB T =       10.812
+cycle = 79  E_corr(UCCSD) =     -0.281733273037164  dE = -4.592E-07  norm(d tamps) =  3.256E-05 M =  2.22 GB T =       11.116
+cycle = 80  E_corr(UCCSD) =     -0.281733414868833  dE = -1.418E-07  norm(d tamps) =  2.892E-05 M =  2.22 GB T =       11.040
+cycle = 81  E_corr(UCCSD) =     -0.281733433274561  dE = -1.841E-08  norm(d tamps) =  2.583E-05 M =  2.22 GB T =       11.592
+cycle = 82  E_corr(UCCSD) =     -0.281733224944819  dE =  2.083E-07  norm(d tamps) =  2.312E-05 M =  2.22 GB T =       10.972
+cycle = 83  E_corr(UCCSD) =     -0.281733084271013  dE =  1.407E-07  norm(d tamps) =  2.029E-05 M =  2.22 GB T =       11.060
+cycle = 84  E_corr(UCCSD) =     -0.281733077242491  dE =  7.029E-09  norm(d tamps) =  1.804E-05 M =  2.22 GB T =       11.356
+cycle = 85  E_corr(UCCSD) =     -0.281733213570471  dE = -1.363E-07  norm(d tamps) =  1.584E-05 M =  2.22 GB T =       10.632
+cycle = 86  E_corr(UCCSD) =     -0.281733470499235  dE = -2.569E-07  norm(d tamps) =  1.390E-05 M =  2.22 GB T =       11.396
+cycle = 87  E_corr(UCCSD) =     -0.281733673755759  dE = -2.033E-07  norm(d tamps) =  1.231E-05 M =  2.22 GB T =       10.684
+cycle = 88  E_corr(UCCSD) =     -0.281733859678835  dE = -1.859E-07  norm(d tamps) =  1.104E-05 M =  2.22 GB T =       11.316
+cycle = 89  E_corr(UCCSD) =     -0.281733942844817  dE = -8.317E-08  norm(d tamps) =  1.003E-05 M =  2.22 GB T =       10.948
+cycle = 90  E_corr(UCCSD) =     -0.281733945459205  dE = -2.614E-09  norm(d tamps) =  9.235E-06 M =  2.22 GB T =       10.808
+cycle = 91  E_corr(UCCSD) =     -0.281733943059817  dE =  2.399E-09  norm(d tamps) =  8.527E-06 M =  2.22 GB T =       11.036
+cycle = 92  E_corr(UCCSD) =     -0.281733882261612  dE =  6.080E-08  norm(d tamps) =  7.880E-06 M =  2.22 GB T =       11.252
+cycle = 93  E_corr(UCCSD) =     -0.281733835601960  dE =  4.666E-08  norm(d tamps) =  7.269E-06 M =  2.22 GB T =       10.883
+cycle = 94  E_corr(UCCSD) =     -0.281733791055544  dE =  4.455E-08  norm(d tamps) =  6.666E-06 M =  2.22 GB T =       11.201
+cycle = 95  E_corr(UCCSD) =     -0.281733736112395  dE =  5.494E-08  norm(d tamps) =  6.081E-06 M =  2.22 GB T =       11.244
+cycle = 96  E_corr(UCCSD) =     -0.281733719407295  dE =  1.671E-08  norm(d tamps) =  5.464E-06 M =  2.22 GB T =       11.376
+cycle = 97  E_corr(UCCSD) =     -0.281733713853673  dE =  5.554E-09  norm(d tamps) =  4.864E-06 M =  2.22 GB T =       11.020
+cycle = 98  E_corr(UCCSD) =     -0.281733735922315  dE = -2.207E-08  norm(d tamps) =  4.296E-06 M =  2.22 GB T =       11.063
+cycle = 99  E_corr(UCCSD) =     -0.281733778135979  dE = -4.221E-08  norm(d tamps) =  3.771E-06 M =  2.22 GB T =       10.820
+cycle =100  E_corr(UCCSD) =     -0.281733810495328  dE = -3.236E-08  norm(d tamps) =  3.333E-06 M =  2.22 GB T =       11.368
+cycle =101  E_corr(UCCSD) =     -0.281733840116623  dE = -2.962E-08  norm(d tamps) =  2.932E-06 M =  2.22 GB T =       10.868
+cycle =102  E_corr(UCCSD) =     -0.281733846593690  dE = -6.477E-09  norm(d tamps) =  2.571E-06 M =  2.22 GB T =       11.540
+cycle =103  E_corr(UCCSD) =     -0.281733827644135  dE =  1.895E-08  norm(d tamps) =  2.263E-06 M =  2.22 GB T =       11.008
+cycle =104  E_corr(UCCSD) =     -0.281733798320632  dE =  2.932E-08  norm(d tamps) =  1.983E-06 M =  2.22 GB T =       11.228
+cycle =105  E_corr(UCCSD) =     -0.281733765034022  dE =  3.329E-08  norm(d tamps) =  1.757E-06 M =  2.22 GB T =       11.260
+cycle =106  E_corr(UCCSD) =     -0.281733732695414  dE =  3.234E-08  norm(d tamps) =  1.559E-06 M =  2.22 GB T =       11.040
+cycle =107  E_corr(UCCSD) =     -0.281733714242507  dE =  1.845E-08  norm(d tamps) =  1.384E-06 M =  2.22 GB T =       10.884
+cycle =108  E_corr(UCCSD) =     -0.281733711426683  dE =  2.816E-09  norm(d tamps) =  1.228E-06 M =  2.22 GB T =       10.216
+cycle =109  E_corr(UCCSD) =     -0.281733724208856  dE = -1.278E-08  norm(d tamps) =  1.097E-06 M =  2.22 GB T =       11.296
+cycle =110  E_corr(UCCSD) =     -0.281733751978482  dE = -2.777E-08  norm(d tamps) =  9.752E-07 M =  2.22 GB T =       10.920
+cycle =111  E_corr(UCCSD) =     -0.281733774579812  dE = -2.260E-08  norm(d tamps) =  8.675E-07 M =  2.22 GB T =       11.212
+cycle =112  E_corr(UCCSD) =     -0.281733803077518  dE = -2.850E-08  norm(d tamps) =  8.007E-07 M =  2.22 GB T =       10.808
+cycle =113  E_corr(UCCSD) =     -0.281733829726739  dE = -2.665E-08  norm(d tamps) =  7.309E-07 M =  2.22 GB T =       11.016
+cycle =114  E_corr(UCCSD) =     -0.281733852282318  dE = -2.256E-08  norm(d tamps) =  6.689E-07 M =  2.22 GB T =       10.416
+cycle =115  E_corr(UCCSD) =     -0.281733863104028  dE = -1.082E-08  norm(d tamps) =  6.114E-07 M =  2.22 GB T =       11.036
+cycle =116  E_corr(UCCSD) =     -0.281733869316583  dE = -6.213E-09  norm(d tamps) =  5.745E-07 M =  2.22 GB T =       10.700
+UCCSD converged
+E(UCCSD) = -22140.20453505339  E_corr = -0.2817338693165828
+Time =     1313.380
+Init t2, MP2 energy = -0.148168600372585
+Nocc = (58, 55) Nvir = (18, 21) Amps size = 5.06 GB
+Init E_corr(UCCSDT) = -0.281733869316583 M =  7.16 GB
+cycle =  1  E_corr(UCCSDT) =     -0.281733868421632  dE =  8.950E-10  norm(d tamps) =  2.115E-01 M =  15.4 GB T =      240.560
+cycle =  2  E_corr(UCCSDT) =     -0.314291644483041  dE = -3.256E-02  norm(d tamps) =  1.490E-01 M =  28.1 GB T =      258.448
+cycle =  3  E_corr(UCCSDT) =     -0.308967035764779  dE =  5.325E-03  norm(d tamps) =  1.295E-01 M =  38.4 GB T =      266.000
+cycle =  4  E_corr(UCCSDT) =     -0.317844903366466  dE = -8.878E-03  norm(d tamps) =  5.528E-02 M =  48.9 GB T =      269.896
+cycle =  5  E_corr(UCCSDT) =     -0.327588255205919  dE = -9.743E-03  norm(d tamps) =  4.547E-02 M =  59.2 GB T =      275.128
+cycle =  6  E_corr(UCCSDT) =     -0.335407974836039  dE = -7.820E-03  norm(d tamps) =  3.653E-02 M =  69.3 GB T =      278.804
+cycle =  7  E_corr(UCCSDT) =     -0.341299614803628  dE = -5.892E-03  norm(d tamps) =  3.054E-02 M =  79.4 GB T =      284.240
+cycle =  8  E_corr(UCCSDT) =     -0.345491288672311  dE = -4.192E-03  norm(d tamps) =  2.597E-02 M =  89.6 GB T =      287.068
+cycle =  9  E_corr(UCCSDT) =     -0.349811722690767  dE = -4.320E-03  norm(d tamps) =  2.398E-02 M =  99.7 GB T =      290.912
+cycle = 10  E_corr(UCCSDT) =     -0.352196235886161  dE = -2.385E-03  norm(d tamps) =  2.201E-02 M =   110 GB T =      295.488
+cycle = 11  E_corr(UCCSDT) =     -0.354189266811558  dE = -1.993E-03  norm(d tamps) =  2.100E-02 M =   120 GB T =      301.216
+cycle = 12  E_corr(UCCSDT) =     -0.355649469350743  dE = -1.460E-03  norm(d tamps) =  2.009E-02 M =   130 GB T =      302.424
+cycle = 13  E_corr(UCCSDT) =     -0.356988547319051  dE = -1.339E-03  norm(d tamps) =  1.957E-02 M =   140 GB T =      303.260
+cycle = 14  E_corr(UCCSDT) =     -0.357826860691035  dE = -8.383E-04  norm(d tamps) =  1.925E-02 M =   150 GB T =      303.736
+cycle = 15  E_corr(UCCSDT) =     -0.358228866539580  dE = -4.020E-04  norm(d tamps) =  1.909E-02 M =   160 GB T =      309.044
+cycle = 16  E_corr(UCCSDT) =     -0.358384336608414  dE = -1.555E-04  norm(d tamps) =  1.905E-02 M =   171 GB T =      313.724
+cycle = 17  E_corr(UCCSDT) =     -0.358151187538690  dE =  2.331E-04  norm(d tamps) =  1.905E-02 M =   181 GB T =      318.580
+cycle = 18  E_corr(UCCSDT) =     -0.357783269203092  dE =  3.679E-04  norm(d tamps) =  1.903E-02 M =   191 GB T =      323.156
+cycle = 19  E_corr(UCCSDT) =     -0.357465545533664  dE =  3.177E-04  norm(d tamps) =  1.892E-02 M =   202 GB T =      324.132
+cycle = 20  E_corr(UCCSDT) =     -0.356988776591382  dE =  4.768E-04  norm(d tamps) =  1.869E-02 M =   212 GB T =      327.716
+cycle = 21  E_corr(UCCSDT) =     -0.356327400703895  dE =  6.614E-04  norm(d tamps) =  1.818E-02 M =   222 GB T =      331.652
+cycle = 22  E_corr(UCCSDT) =     -0.355877775317879  dE =  4.496E-04  norm(d tamps) =  1.743E-02 M =   232 GB T =      339.228
+cycle = 23  E_corr(UCCSDT) =     -0.356104507018431  dE = -2.267E-04  norm(d tamps) =  1.650E-02 M =   242 GB T =      338.728
+cycle = 24  E_corr(UCCSDT) =     -0.356670749634430  dE = -5.662E-04  norm(d tamps) =  1.566E-02 M =   252 GB T =      343.628
+cycle = 25  E_corr(UCCSDT) =     -0.356987885652313  dE = -3.171E-04  norm(d tamps) =  1.477E-02 M =   262 GB T =      345.648
+cycle = 26  E_corr(UCCSDT) =     -0.357203168235126  dE = -2.153E-04  norm(d tamps) =  1.388E-02 M =   272 GB T =      352.016
+cycle = 27  E_corr(UCCSDT) =     -0.357751158084331  dE = -5.480E-04  norm(d tamps) =  1.305E-02 M =   282 GB T =      355.628
+cycle = 28  E_corr(UCCSDT) =     -0.358427868336663  dE = -6.767E-04  norm(d tamps) =  1.230E-02 M =   293 GB T =      358.448
+cycle = 29  E_corr(UCCSDT) =     -0.358847505082835  dE = -4.196E-04  norm(d tamps) =  1.174E-02 M =   303 GB T =      364.328
+cycle = 30  E_corr(UCCSDT) =     -0.359083773284192  dE = -2.363E-04  norm(d tamps) =  1.130E-02 M =   313 GB T =      361.100
+cycle = 31  E_corr(UCCSDT) =     -0.359419103793033  dE = -3.353E-04  norm(d tamps) =  1.093E-02 M =   323 GB T =      367.440
+cycle = 32  E_corr(UCCSDT) =     -0.359781356729565  dE = -3.623E-04  norm(d tamps) =  1.061E-02 M =   333 GB T =      374.500
+cycle = 33  E_corr(UCCSDT) =     -0.360071926532686  dE = -2.906E-04  norm(d tamps) =  1.037E-02 M =   343 GB T =      378.536
+cycle = 34  E_corr(UCCSDT) =     -0.360275021367111  dE = -2.031E-04  norm(d tamps) =  1.021E-02 M =   353 GB T =      381.016
+cycle = 35  E_corr(UCCSDT) =     -0.360479927924863  dE = -2.049E-04  norm(d tamps) =  1.009E-02 M =   363 GB T =      385.148
+cycle = 36  E_corr(UCCSDT) =     -0.360644075590370  dE = -1.641E-04  norm(d tamps) =  9.996E-03 M =   373 GB T =      636.152
+cycle = 37  E_corr(UCCSDT) =     -0.360797647394053  dE = -1.536E-04  norm(d tamps) =  9.929E-03 M =   384 GB T =      655.124
+cycle = 38  E_corr(UCCSDT) =     -0.360978465297517  dE = -1.808E-04  norm(d tamps) =  9.899E-03 M =   389 GB T =      457.844
+cycle = 39  E_corr(UCCSDT) =     -0.361004613452350  dE = -2.615E-05  norm(d tamps) =  9.886E-03 M =   389 GB T =      446.244
+cycle = 40  E_corr(UCCSDT) =     -0.361034737371789  dE = -3.012E-05  norm(d tamps) =  9.885E-03 M =   389 GB T =      410.864
+cycle = 41  E_corr(UCCSDT) =     -0.361031953194241  dE =  2.784E-06  norm(d tamps) =  9.885E-03 M =   389 GB T =      415.088
+cycle = 42  E_corr(UCCSDT) =     -0.361005488619840  dE =  2.646E-05  norm(d tamps) =  9.884E-03 M =   389 GB T =      414.823
+cycle = 43  E_corr(UCCSDT) =     -0.360880846632988  dE =  1.246E-04  norm(d tamps) =  9.868E-03 M =   389 GB T =      407.872
+cycle = 44  E_corr(UCCSDT) =     -0.360659123371420  dE =  2.217E-04  norm(d tamps) =  9.817E-03 M =   389 GB T =      414.072
+cycle = 45  E_corr(UCCSDT) =     -0.360506573041525  dE =  1.526E-04  norm(d tamps) =  9.717E-03 M =   389 GB T =      419.832
+cycle = 46  E_corr(UCCSDT) =     -0.360174406419682  dE =  3.322E-04  norm(d tamps) =  9.585E-03 M =   389 GB T =      421.612
+cycle = 47  E_corr(UCCSDT) =     -0.359905088249386  dE =  2.693E-04  norm(d tamps) =  9.411E-03 M =   389 GB T =      417.544
+cycle = 48  E_corr(UCCSDT) =     -0.359909775669614  dE = -4.687E-06  norm(d tamps) =  9.212E-03 M =   389 GB T =      408.448
+cycle = 49  E_corr(UCCSDT) =     -0.359900270110220  dE =  9.506E-06  norm(d tamps) =  8.876E-03 M =   389 GB T =      406.720
+cycle = 50  E_corr(UCCSDT) =     -0.359704396912214  dE =  1.959E-04  norm(d tamps) =  8.566E-03 M =   389 GB T =      415.004
+cycle = 51  E_corr(UCCSDT) =     -0.359522658557681  dE =  1.817E-04  norm(d tamps) =  8.194E-03 M =   389 GB T =      414.628
+cycle = 52  E_corr(UCCSDT) =     -0.359468853564680  dE =  5.380E-05  norm(d tamps) =  7.835E-03 M =   389 GB T =      410.016
+cycle = 53  E_corr(UCCSDT) =     -0.359477914970547  dE = -9.061E-06  norm(d tamps) =  7.530E-03 M =   389 GB T =      403.112
+cycle = 54  E_corr(UCCSDT) =     -0.359457232503798  dE =  2.068E-05  norm(d tamps) =  7.193E-03 M =   389 GB T =      412.016
+cycle = 55  E_corr(UCCSDT) =     -0.359428743387917  dE =  2.849E-05  norm(d tamps) =  6.961E-03 M =   389 GB T =      402.088
+cycle = 56  E_corr(UCCSDT) =     -0.359464262392936  dE = -3.552E-05  norm(d tamps) =  6.790E-03 M =   389 GB T =      448.024
+cycle = 57  E_corr(UCCSDT) =     -0.359520411617612  dE = -5.615E-05  norm(d tamps) =  6.660E-03 M =   389 GB T =      411.560
+cycle = 58  E_corr(UCCSDT) =     -0.359611377650215  dE = -9.097E-05  norm(d tamps) =  6.571E-03 M =   389 GB T =      431.940
+cycle = 59  E_corr(UCCSDT) =     -0.359697691886208  dE = -8.631E-05  norm(d tamps) =  6.521E-03 M =   389 GB T =      455.168
+cycle = 60  E_corr(UCCSDT) =     -0.359834462224960  dE = -1.368E-04  norm(d tamps) =  6.473E-03 M =   389 GB T =      457.996
+cycle = 61  E_corr(UCCSDT) =     -0.359889251858798  dE = -5.479E-05  norm(d tamps) =  6.484E-03 M =   389 GB T =      413.592
+cycle = 62  E_corr(UCCSDT) =     -0.360011042230098  dE = -1.218E-04  norm(d tamps) =  6.446E-03 M =   389 GB T =      419.568
+cycle = 63  E_corr(UCCSDT) =     -0.360032733489286  dE = -2.169E-05  norm(d tamps) =  6.496E-03 M =   389 GB T =      408.114
+cycle = 64  E_corr(UCCSDT) =     -0.360076446391984  dE = -4.371E-05  norm(d tamps) =  6.477E-03 M =   389 GB T =      404.330
+cycle = 65  E_corr(UCCSDT) =     -0.360084241529399  dE = -7.795E-06  norm(d tamps) =  6.497E-03 M =   389 GB T =      415.532
+cycle = 66  E_corr(UCCSDT) =     -0.360090761396065  dE = -6.520E-06  norm(d tamps) =  6.495E-03 M =   389 GB T =      410.084
+cycle = 67  E_corr(UCCSDT) =     -0.360087292256558  dE =  3.469E-06  norm(d tamps) =  6.497E-03 M =   389 GB T =      407.300
+cycle = 68  E_corr(UCCSDT) =     -0.360078985735365  dE =  8.307E-06  norm(d tamps) =  6.496E-03 M =   389 GB T =      404.444
+cycle = 69  E_corr(UCCSDT) =     -0.360087956268673  dE = -8.971E-06  norm(d tamps) =  6.494E-03 M =   389 GB T =      434.312
+cycle = 70  E_corr(UCCSDT) =     -0.360088540690554  dE = -5.844E-07  norm(d tamps) =  6.500E-03 M =   389 GB T =      409.952
+cycle = 71  E_corr(UCCSDT) =     -0.360087672449883  dE =  8.682E-07  norm(d tamps) =  6.502E-03 M =   389 GB T =      411.352
+cycle = 72  E_corr(UCCSDT) =     -0.360084993012781  dE =  2.679E-06  norm(d tamps) =  6.507E-03 M =   389 GB T =      406.244
+cycle = 73  E_corr(UCCSDT) =     -0.360090101202817  dE = -5.108E-06  norm(d tamps) =  6.507E-03 M =   389 GB T =      408.788
+cycle = 74  E_corr(UCCSDT) =     -0.360079806394041  dE =  1.029E-05  norm(d tamps) =  6.512E-03 M =   389 GB T =      417.532
+cycle = 75  E_corr(UCCSDT) =     -0.360057498040069  dE =  2.231E-05  norm(d tamps) =  6.502E-03 M =   389 GB T =      407.216
+cycle = 76  E_corr(UCCSDT) =     -0.360033733007582  dE =  2.377E-05  norm(d tamps) =  6.490E-03 M =   389 GB T =      456.648
+cycle = 77  E_corr(UCCSDT) =     -0.360001759202477  dE =  3.197E-05  norm(d tamps) =  6.471E-03 M =   389 GB T =      428.040
+cycle = 78  E_corr(UCCSDT) =     -0.359954762383502  dE =  4.700E-05  norm(d tamps) =  6.469E-03 M =   389 GB T =      403.504
+cycle = 79  E_corr(UCCSDT) =     -0.359916379533624  dE =  3.838E-05  norm(d tamps) =  6.481E-03 M =   389 GB T =      413.748
+cycle = 80  E_corr(UCCSDT) =     -0.359884005309403  dE =  3.237E-05  norm(d tamps) =  6.431E-03 M =   389 GB T =      408.608
+cycle = 81  E_corr(UCCSDT) =     -0.359856027796025  dE =  2.798E-05  norm(d tamps) =  6.394E-03 M =   389 GB T =      408.244
+cycle = 82  E_corr(UCCSDT) =     -0.359829558321751  dE =  2.647E-05  norm(d tamps) =  6.377E-03 M =   389 GB T =      416.664
+cycle = 83  E_corr(UCCSDT) =     -0.359813796581724  dE =  1.576E-05  norm(d tamps) =  6.374E-03 M =   389 GB T =      399.052
+cycle = 84  E_corr(UCCSDT) =     -0.359806030026448  dE =  7.767E-06  norm(d tamps) =  6.373E-03 M =   389 GB T =      408.124
+cycle = 85  E_corr(UCCSDT) =     -0.359783698758752  dE =  2.233E-05  norm(d tamps) =  6.372E-03 M =   389 GB T =      397.620
+cycle = 86  E_corr(UCCSDT) =     -0.359750657656682  dE =  3.304E-05  norm(d tamps) =  6.371E-03 M =   389 GB T =      405.060
+cycle = 87  E_corr(UCCSDT) =     -0.359758125709573  dE = -7.468E-06  norm(d tamps) =  6.370E-03 M =   389 GB T =      407.872
+cycle = 88  E_corr(UCCSDT) =     -0.359788893980520  dE = -3.077E-05  norm(d tamps) =  6.369E-03 M =   389 GB T =      409.144
+cycle = 89  E_corr(UCCSDT) =     -0.359813967761283  dE = -2.507E-05  norm(d tamps) =  6.367E-03 M =   389 GB T =      402.880
+cycle = 90  E_corr(UCCSDT) =     -0.359819526008266  dE = -5.558E-06  norm(d tamps) =  6.365E-03 M =   389 GB T =      407.976
+cycle = 91  E_corr(UCCSDT) =     -0.359820731446729  dE = -1.205E-06  norm(d tamps) =  6.365E-03 M =   389 GB T =      426.740
+cycle = 92  E_corr(UCCSDT) =     -0.359820639205883  dE =  9.224E-08  norm(d tamps) =  6.364E-03 M =   389 GB T =      406.484
+cycle = 93  E_corr(UCCSDT) =     -0.359820110794882  dE =  5.284E-07  norm(d tamps) =  6.364E-03 M =   389 GB T =      427.224
+cycle = 94  E_corr(UCCSDT) =     -0.359821210638666  dE = -1.100E-06  norm(d tamps) =  6.364E-03 M =   389 GB T =      403.968
+cycle = 95  E_corr(UCCSDT) =     -0.359815909404245  dE =  5.301E-06  norm(d tamps) =  6.364E-03 M =   389 GB T =      442.720
+cycle = 96  E_corr(UCCSDT) =     -0.359812243021416  dE =  3.666E-06  norm(d tamps) =  6.364E-03 M =   389 GB T =      403.232
+cycle = 97  E_corr(UCCSDT) =     -0.359813280514268  dE = -1.037E-06  norm(d tamps) =  6.364E-03 M =   389 GB T =      434.944
+cycle = 98  E_corr(UCCSDT) =     -0.359802476198360  dE =  1.080E-05  norm(d tamps) =  6.364E-03 M =   389 GB T =      407.452
+cycle = 99  E_corr(UCCSDT) =     -0.359792116574930  dE =  1.036E-05  norm(d tamps) =  6.362E-03 M =   389 GB T =      405.556
+cycle =100  E_corr(UCCSDT) =     -0.359789283478636  dE =  2.833E-06  norm(d tamps) =  6.360E-03 M =   389 GB T =      444.404
+cycle =101  E_corr(UCCSDT) =     -0.359786417034160  dE =  2.866E-06  norm(d tamps) =  6.359E-03 M =   389 GB T =      417.164
+cycle =102  E_corr(UCCSDT) =     -0.359773828626618  dE =  1.259E-05  norm(d tamps) =  6.355E-03 M =   389 GB T =      410.112
+cycle =103  E_corr(UCCSDT) =     -0.359755692354909  dE =  1.814E-05  norm(d tamps) =  6.349E-03 M =   389 GB T =      415.968
+cycle =104  E_corr(UCCSDT) =     -0.359742010284881  dE =  1.368E-05  norm(d tamps) =  6.342E-03 M =   389 GB T =      401.772
+cycle =105  E_corr(UCCSDT) =     -0.359749461854617  dE = -7.452E-06  norm(d tamps) =  6.337E-03 M =   389 GB T =      409.012
+cycle =106  E_corr(UCCSDT) =     -0.359753959729805  dE = -4.498E-06  norm(d tamps) =  6.336E-03 M =   389 GB T =      451.244
+cycle =107  E_corr(UCCSDT) =     -0.359748287286163  dE =  5.672E-06  norm(d tamps) =  6.336E-03 M =   389 GB T =      431.492
+cycle =108  E_corr(UCCSDT) =     -0.359737720571602  dE =  1.057E-05  norm(d tamps) =  6.336E-03 M =   389 GB T =      413.292
+cycle =109  E_corr(UCCSDT) =     -0.359732585024778  dE =  5.136E-06  norm(d tamps) =  6.335E-03 M =   389 GB T =      414.244
+cycle =110  E_corr(UCCSDT) =     -0.359728579651523  dE =  4.005E-06  norm(d tamps) =  6.334E-03 M =   389 GB T =      413.252
+cycle =111  E_corr(UCCSDT) =     -0.359708436565870  dE =  2.014E-05  norm(d tamps) =  6.333E-03 M =   389 GB T =      450.596
+cycle =112  E_corr(UCCSDT) =     -0.359665942617852  dE =  4.249E-05  norm(d tamps) =  6.330E-03 M =   389 GB T =      420.668
+cycle =113  E_corr(UCCSDT) =     -0.359592402106753  dE =  7.354E-05  norm(d tamps) =  6.321E-03 M =   389 GB T =      417.156
+cycle =114  E_corr(UCCSDT) =     -0.359520455633435  dE =  7.195E-05  norm(d tamps) =  6.304E-03 M =   389 GB T =      418.520
+cycle =115  E_corr(UCCSDT) =     -0.359457740760946  dE =  6.271E-05  norm(d tamps) =  6.285E-03 M =   389 GB T =      429.368
+cycle =116  E_corr(UCCSDT) =     -0.359386337859750  dE =  7.140E-05  norm(d tamps) =  6.254E-03 M =   389 GB T =      404.256
+cycle =117  E_corr(UCCSDT) =     -0.359316977322720  dE =  6.936E-05  norm(d tamps) =  6.195E-03 M =   389 GB T =      432.640
+cycle =118  E_corr(UCCSDT) =     -0.359176893636727  dE =  1.401E-04  norm(d tamps) =  6.121E-03 M =   389 GB T =      413.344
+cycle =119  E_corr(UCCSDT) =     -0.359097332688060  dE =  7.956E-05  norm(d tamps) =  6.009E-03 M =   389 GB T =      416.414
+cycle =120  E_corr(UCCSDT) =     -0.359029898617784  dE =  6.743E-05  norm(d tamps) =  5.877E-03 M =   389 GB T =      428.118
+cycle =121  E_corr(UCCSDT) =     -0.358891622621453  dE =  1.383E-04  norm(d tamps) =  5.774E-03 M =   389 GB T =      412.992
+cycle =122  E_corr(UCCSDT) =     -0.358728976652100  dE =  1.626E-04  norm(d tamps) =  5.664E-03 M =   389 GB T =      422.376
+cycle =123  E_corr(UCCSDT) =     -0.358640047196015  dE =  8.893E-05  norm(d tamps) =  5.548E-03 M =   389 GB T =      415.484
+cycle =124  E_corr(UCCSDT) =     -0.358548170217554  dE =  9.188E-05  norm(d tamps) =  5.424E-03 M =   389 GB T =      408.476
+cycle =125  E_corr(UCCSDT) =     -0.358514361261235  dE =  3.381E-05  norm(d tamps) =  5.330E-03 M =   389 GB T =      404.600
+cycle =126  E_corr(UCCSDT) =     -0.358484420840014  dE =  2.994E-05  norm(d tamps) =  5.260E-03 M =   389 GB T =      442.484
+cycle =127  E_corr(UCCSDT) =     -0.358465609455363  dE =  1.881E-05  norm(d tamps) =  5.203E-03 M =   389 GB T =      419.952
+cycle =128  E_corr(UCCSDT) =     -0.358471080981279  dE = -5.472E-06  norm(d tamps) =  5.160E-03 M =   389 GB T =      411.968
+cycle =129  E_corr(UCCSDT) =     -0.358478269941165  dE = -7.189E-06  norm(d tamps) =  5.126E-03 M =   389 GB T =      411.544
+cycle =130  E_corr(UCCSDT) =     -0.358509356540178  dE = -3.109E-05  norm(d tamps) =  5.084E-03 M =   389 GB T =      407.940
+cycle =131  E_corr(UCCSDT) =     -0.358547477590988  dE = -3.812E-05  norm(d tamps) =  5.051E-03 M =   389 GB T =      429.504
+cycle =132  E_corr(UCCSDT) =     -0.358586433001508  dE = -3.896E-05  norm(d tamps) =  5.026E-03 M =   389 GB T =      406.052
+cycle =133  E_corr(UCCSDT) =     -0.358623046896113  dE = -3.661E-05  norm(d tamps) =  5.000E-03 M =   389 GB T =      405.976
+cycle =134  E_corr(UCCSDT) =     -0.358645574801655  dE = -2.253E-05  norm(d tamps) =  4.982E-03 M =   389 GB T =      428.724
+cycle =135  E_corr(UCCSDT) =     -0.358651365217055  dE = -5.790E-06  norm(d tamps) =  4.971E-03 M =   389 GB T =      403.304
+cycle =136  E_corr(UCCSDT) =     -0.358656153923467  dE = -4.789E-06  norm(d tamps) =  4.968E-03 M =   389 GB T =      411.504
+cycle =137  E_corr(UCCSDT) =     -0.358661871156011  dE = -5.717E-06  norm(d tamps) =  4.966E-03 M =   389 GB T =      407.980
+cycle =138  E_corr(UCCSDT) =     -0.358664854019986  dE = -2.983E-06  norm(d tamps) =  4.965E-03 M =   389 GB T =      406.540
+cycle =139  E_corr(UCCSDT) =     -0.358661683125892  dE =  3.171E-06  norm(d tamps) =  4.967E-03 M =   389 GB T =      398.548
+cycle =140  E_corr(UCCSDT) =     -0.358655294389510  dE =  6.389E-06  norm(d tamps) =  4.967E-03 M =   389 GB T =      407.524
+cycle =141  E_corr(UCCSDT) =     -0.358654971897320  dE =  3.225E-07  norm(d tamps) =  4.965E-03 M =   389 GB T =      404.124
+cycle =142  E_corr(UCCSDT) =     -0.358654954947908  dE =  1.695E-08  norm(d tamps) =  4.965E-03 M =   389 GB T =      440.356
+cycle =143  E_corr(UCCSDT) =     -0.358657411153072  dE = -2.456E-06  norm(d tamps) =  4.965E-03 M =   389 GB T =      410.848
+cycle =144  E_corr(UCCSDT) =     -0.358662776650848  dE = -5.365E-06  norm(d tamps) =  4.965E-03 M =   389 GB T =      447.484
+cycle =145  E_corr(UCCSDT) =     -0.358660363574864  dE =  2.413E-06  norm(d tamps) =  4.965E-03 M =   389 GB T =      418.252
+cycle =146  E_corr(UCCSDT) =     -0.358643767437615  dE =  1.660E-05  norm(d tamps) =  4.965E-03 M =   389 GB T =      409.604
+cycle =147  E_corr(UCCSDT) =     -0.358627179418463  dE =  1.659E-05  norm(d tamps) =  4.963E-03 M =   389 GB T =      432.044
+cycle =148  E_corr(UCCSDT) =     -0.358615131047386  dE =  1.205E-05  norm(d tamps) =  4.960E-03 M =   389 GB T =      413.560
+cycle =149  E_corr(UCCSDT) =     -0.358604085884158  dE =  1.105E-05  norm(d tamps) =  4.957E-03 M =   389 GB T =      416.872
+cycle =150  E_corr(UCCSDT) =     -0.358577539013401  dE =  2.655E-05  norm(d tamps) =  4.955E-03 M =   389 GB T =      441.256
+cycle =151  E_corr(UCCSDT) =     -0.358523139036881  dE =  5.440E-05  norm(d tamps) =  4.951E-03 M =   389 GB T =      425.584
+cycle =152  E_corr(UCCSDT) =     -0.358487333502891  dE =  3.581E-05  norm(d tamps) =  4.945E-03 M =   389 GB T =      415.000
+cycle =153  E_corr(UCCSDT) =     -0.358488002389185  dE = -6.689E-07  norm(d tamps) =  4.943E-03 M =   389 GB T =      417.820
+cycle =154  E_corr(UCCSDT) =     -0.358497666513998  dE = -9.664E-06  norm(d tamps) =  4.941E-03 M =   389 GB T =      401.036
+cycle =155  E_corr(UCCSDT) =     -0.358498752151538  dE = -1.086E-06  norm(d tamps) =  4.939E-03 M =   389 GB T =      414.120
+cycle =156  E_corr(UCCSDT) =     -0.358497737053818  dE =  1.015E-06  norm(d tamps) =  4.939E-03 M =   389 GB T =      409.860
+cycle =157  E_corr(UCCSDT) =     -0.358503002406972  dE = -5.265E-06  norm(d tamps) =  4.943E-03 M =   389 GB T =      411.552
+cycle =158  E_corr(UCCSDT) =     -0.358519194914246  dE = -1.619E-05  norm(d tamps) =  4.943E-03 M =   389 GB T =      407.296
+cycle =159  E_corr(UCCSDT) =     -0.358525895765523  dE = -6.701E-06  norm(d tamps) =  4.933E-03 M =   389 GB T =      407.136
+cycle =160  E_corr(UCCSDT) =     -0.358532935169316  dE = -7.039E-06  norm(d tamps) =  4.932E-03 M =   389 GB T =      401.624
+UCCSDT not converged
+E(UCCSDT) = -22140.28133411924  E_corr = -0.3585329351693161
+Time =    63818.680
+::   823 22a2aaa222222222aaa2aaaaaaaaaaa2222222222222bbbb2bbbbbbbbbb222222b222ba00222  -22140.204535053388  -22140.281334119241 0

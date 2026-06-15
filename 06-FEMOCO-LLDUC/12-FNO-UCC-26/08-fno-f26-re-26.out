@@ -1,0 +1,101 @@
+Parsing /tmp/FEMOCO.FCIDUMP
+76 (2, 76, 76) 58.0 55.0
+Overwritten attributes  get_ovlp get_hcore  of <class 'pyscf.soscf.newton_ah.SecondOrderSymAdaptedUHF'>
+Freeze 0 electrons in irreps []
+    113 free electrons in irreps IR0
+Overwritten attributes  get_ovlp get_hcore  of <class 'pyscf.scf.uhf_symm.SymAdaptedUHF'>
+
+
+
+
+******** <class 'pyscf.soscf.newton_ah.SecondOrderSymAdaptedUHF'> ********
+method = SecondOrderSymAdaptedUHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = None
+SCF max_cycles = 800
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp1n5ymmbn
+max_memory 4000 MB (current use 129 MB)
+number electrons alpha = 58  beta = 55
+******** <class 'pyscf.scf.uhf_symm.SymAdaptedUHF'> Newton solver flags ********
+SCF tol = 1e-09
+conv_tol_grad = None
+max. SCF cycles = 800
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp1n5ymmbn
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-12
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 4000 MB (current use 129 MB)
+Set conv_tol_grad to 3.16228e-05
+alpha HOMO (IR0) = -0.25352785959003  LUMO (IR0) = -0.239453983688892
+beta  HOMO (IR0) = -0.302244586418398  LUMO (IR0) = -0.288610444419147
+
+WARN: alpha-IR0 HOMO -0.25352785959003 > system LUMO -0.288610444419147
+
+
+WARN: beta-IR0 LUMO -0.288610444419147 < system HOMO -0.25352785959003
+
+Initial guess E= -22119.662334716  |g|= 3.35187
+/mnt/home/hzhai/pybase/lib/python3.11/site-packages/pyscf/gto/mole.py:1293: UserWarning: Function mol.dumps drops attribute energy_nuc because it is not JSON-serializable
+  warnings.warn(msg)
+/mnt/home/hzhai/pybase/lib/python3.11/site-packages/pyscf/gto/mole.py:1293: UserWarning: Function mol.dumps drops attribute intor_symmetric because it is not JSON-serializable
+  warnings.warn(msg)
+macro= 0  E= -22132.8191059166  delta_E= -13.1568  |g|= 3.14347  3 KF 15 JK
+macro= 1  E= -22136.7435108286  delta_E= -3.9244  |g|= 1.75669  3 KF 15 JK
+macro= 2  E= -22138.6894608989  delta_E= -1.94595  |g|= 0.569205  3 KF 16 JK
+macro= 3  E= -22139.4258743715  delta_E= -0.736413  |g|= 0.438624  3 KF 16 JK
+macro= 4  E= -22139.6877646431  delta_E= -0.26189  |g|= 0.098558  4 KF 20 JK
+macro= 5  E= -22139.7419449337  delta_E= -0.0541803  |g|= 0.0475477  3 KF 13 JK
+macro= 6  E= -22139.8181826343  delta_E= -0.0762377  |g|= 0.0342041  3 KF 12 JK
+macro= 7  E= -22139.8342293738  delta_E= -0.0160467  |g|= 0.0622968  3 KF 12 JK
+macro= 8  E= -22139.8458016337  delta_E= -0.0115723  |g|= 0.0517168  2 KF 6 JK
+macro= 9  E= -22139.8710349258  delta_E= -0.0252333  |g|= 0.0459733  3 KF 13 JK
+macro= 10  E= -22139.8922698942  delta_E= -0.021235  |g|= 0.0293172  3 KF 13 JK
+macro= 11  E= -22139.9170100069  delta_E= -0.0247401  |g|= 0.0200622  3 KF 13 JK
+macro= 12  E= -22139.9221501414  delta_E= -0.00514013  |g|= 0.00945112  3 KF 15 JK
+macro= 13  E= -22139.9235249515  delta_E= -0.00137481  |g|= 0.00179981  4 KF 22 JK
+macro= 14  E= -22139.9235488861  delta_E= -2.39346e-05  |g|= 3.40745e-05  4 KF 29 JK
+macro= 15  E= -22139.9235488867  delta_E= -6.22094e-10  |g|= 1.2677e-05  1 KF 3 JK
+Canonicalize SCF orbitals
+macro X = 16  E=-22139.9235488867  |g|= 1.2677e-05  total 49 KF 250 JK
+converged SCF energy = -22139.9235488867  <S^2> = 17.935621  2S+1 = 8.5289204
+EHF = -22139.92354888671
+Nocc = (32, 29) Nvir = (18, 21) Amps size = 90.1 GB
+Init E_corr(UCCSDTQ) = -0.411755973572109 M =   180 GB
+cycle =  1  E_corr(UCCSDTQ) =     -0.411756055654226  dE = -8.208E-08  norm(d tamps) =  8.555E-06 M =   707 GB T =     4268.968
+cycle =  2  E_corr(UCCSDTQ) =     -0.411756113133589  dE = -5.748E-08  norm(d tamps) =  9.710E-06 M =   797 GB T =     4318.103
+cycle =  3  E_corr(UCCSDTQ) =     -0.411756133749602  dE = -2.062E-08  norm(d tamps) =  1.456E-05 M =   977 GB T =     4435.632
+cycle =  4  E_corr(UCCSDTQ) =     -0.411756224160068  dE = -9.041E-08  norm(d tamps) =  7.443E-06 M =  1.13 TB T =     4466.130
+cycle =  5  E_corr(UCCSDTQ) =     -0.411756864085117  dE = -6.399E-07  norm(d tamps) =  7.431E-06 M =  1.31 TB T =     4764.333
+cycle =  6  E_corr(UCCSDTQ) =     -0.411757154776768  dE = -2.907E-07  norm(d tamps) =  6.069E-06 M =  1.31 TB T =     4910.786
+cycle =  7  E_corr(UCCSDTQ) =     -0.411757374148914  dE = -2.194E-07  norm(d tamps) =  4.574E-06 M =  1.31 TB T =     5016.864
+cycle =  8  E_corr(UCCSDTQ) =     -0.411757783234809  dE = -4.091E-07  norm(d tamps) =  4.015E-06 M =  1.31 TB T =     5123.188
+cycle =  9  E_corr(UCCSDTQ) =     -0.411757826549383  dE = -4.331E-08  norm(d tamps) =  2.257E-06 M =  1.31 TB T =     5275.984
+cycle = 10  E_corr(UCCSDTQ) =     -0.411757840814837  dE = -1.427E-08  norm(d tamps) =  1.479E-06 M =  1.31 TB T =     5419.434
+cycle = 11  E_corr(UCCSDTQ) =     -0.411757851506973  dE = -1.069E-08  norm(d tamps) =  1.327E-06 M =  1.31 TB T =     5555.745
+cycle = 12  E_corr(UCCSDTQ) =     -0.411757869449370  dE = -1.794E-08  norm(d tamps) =  1.245E-06 M =  1.31 TB T =     5988.515
+cycle = 13  E_corr(UCCSDTQ) =     -0.411757879350007  dE = -9.901E-09  norm(d tamps) =  1.085E-06 M =  1.31 TB T =     7968.976
+cycle = 14  E_corr(UCCSDTQ) =     -0.411757896125817  dE = -1.678E-08  norm(d tamps) =  9.239E-07 M =  1.31 TB T =     5504.427
+cycle = 15  E_corr(UCCSDTQ) =     -0.411757898574572  dE = -2.449E-09  norm(d tamps) =  8.988E-07 M =  1.31 TB T =     5544.184
+UCCSDTQ converged
+E(UCCSDTQ) = -22140.33530678528  E_corr = -0.4117578985745718
+Time =    78573.849

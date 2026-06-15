@@ -1,0 +1,88 @@
+iiid =  26
+NOCC =  58
+Parsing /tmp/FEMOCO.FCIDUMP
+76 (2, 76, 76) 58.0 55.0
+
+
+
+
+******** <class 'pyscf.soscf.newton_ah.SecondOrderSymAdaptedUHF'> ********
+method = SecondOrderSymAdaptedUHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = None
+SCF max_cycles = 800
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpizxacp3b
+max_memory 4000 MB (current use 129 MB)
+number electrons alpha = 58  beta = 55
+******** <class 'pyscf.scf.uhf_symm.SymAdaptedUHF'> Newton solver flags ********
+SCF tol = 1e-09
+conv_tol_grad = None
+max. SCF cycles = 800
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpizxacp3b
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-12
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 4000 MB (current use 129 MB)
+Set conv_tol_grad to 3.16228e-05
+alpha HOMO (IR0) = -0.236978754823599  LUMO (IR0) = -0.234660602930751
+beta  HOMO (IR0) = -0.274553569666155  LUMO (IR0) = -0.25821624383633
+
+WARN: alpha-IR0 HOMO -0.236978754823599 > system LUMO -0.25821624383633
+
+
+WARN: beta-IR0 LUMO -0.25821624383633 < system HOMO -0.236978754823599
+
+Initial guess E= -22130.1275781435  |g|= 2.09764
+macro= 0  E= -22135.1270962123  delta_E= -4.99952  |g|= 2.23149  3 KF 15 JK
+macro= 1  E= -22137.9055282269  delta_E= -2.77843  |g|= 1.34086  3 KF 15 JK
+macro= 2  E= -22138.9468263651  delta_E= -1.0413  |g|= 0.701259  3 KF 15 JK
+macro= 3  E= -22139.6290885947  delta_E= -0.682262  |g|= 0.212815  3 KF 18 JK
+macro= 4  E= -22139.8119862485  delta_E= -0.182898  |g|= 0.176717  3 KF 18 JK
+macro= 5  E= -22139.8613421668  delta_E= -0.0493559  |g|= 0.100998  4 KF 20 JK
+macro= 6  E= -22139.8620923718  delta_E= -0.000750205  |g|= 0.0393221  3 KF 13 JK
+macro= 7  E= -22139.8930034931  delta_E= -0.0309111  |g|= 0.0535403  3 KF 13 JK
+macro= 8  E= -22139.9190640104  delta_E= -0.0260605  |g|= 0.0358998  4 KF 22 JK
+macro= 9  E= -22139.9379592414  delta_E= -0.0188952  |g|= 0.0756369  4 KF 21 JK
+macro= 10  E= -22139.9629147089  delta_E= -0.0249555  |g|= 0.0234012  3 KF 13 JK
+macro= 11  E= -22139.976479294  delta_E= -0.0135646  |g|= 0.03344  4 KF 17 JK
+macro= 12  E= -22139.9772227087  delta_E= -0.000743415  |g|= 0.0214959  3 KF 13 JK
+macro= 13  E= -22139.9792649324  delta_E= -0.00204222  |g|= 0.0269136  3 KF 12 JK
+macro= 14  E= -22139.980286507  delta_E= -0.00102157  |g|= 0.0139112  2 KF 8 JK
+macro= 15  E= -22139.9814705553  delta_E= -0.00118405  |g|= 0.00330897  3 KF 15 JK
+macro= 16  E= -22139.9825438643  delta_E= -0.00107331  |g|= 0.0121901  2 KF 8 JK
+macro= 17  E= -22139.9833885604  delta_E= -0.000844696  |g|= 0.00763944  2 KF 8 JK
+macro= 18  E= -22139.9837625172  delta_E= -0.000373957  |g|= 0.00185993  3 KF 16 JK
+macro= 19  E= -22139.9837742578  delta_E= -1.17406e-05  |g|= 1.57674e-05  4 KF 27 JK
+macro= 20  E= -22139.9837742578  delta_E= 0  |g|= 1.10111e-05  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 21  E=-22139.9837742578  |g|= 1.10111e-05  total 64 KF 331 JK
+converged SCF energy = -22139.9837742578  <S^2> = 17.899597  2S+1 = 8.5204687
+EHF = -22139.983774257773
+order                                              shape   amp size  work size           cost
+    0                                                 ()        8 B    9.02 KB    6.93 MFLOPs
+    1                                           (58, 18)    17.2 KB    12.1 MB    8.20 GFLOPs
+    2                                   (58, 58, 18, 18)    27.7 MB    20.5 MB    13.1 TFLOPs
+    3                           (58, 58, 58, 18, 18, 18)    39.7 GB    4.39 GB    1.81 PFLOPs
+    4                   (58, 58, 58, 58, 18, 18, 18, 18)    53.4 TB    4.96 TB     210 PFLOPs
+TOTAL FLOP = 238213730970526142
+212 PFLOPs

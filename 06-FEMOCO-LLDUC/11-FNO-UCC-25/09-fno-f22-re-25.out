@@ -1,0 +1,125 @@
+Parsing /tmp/FEMOCO.FCIDUMP
+76 (2, 76, 76) 58.0 55.0
+Overwritten attributes  get_hcore get_ovlp  of <class 'pyscf.soscf.newton_ah.SecondOrderUHF'>
+Overwritten attributes  get_hcore get_ovlp  of <class 'pyscf.scf.uhf.UHF'>
+
+
+
+
+******** <class 'pyscf.soscf.newton_ah.SecondOrderUHF'> ********
+method = SecondOrderUHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = None
+SCF max_cycles = 800
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpso29ewto
+max_memory 4000 MB (current use 129 MB)
+number electrons alpha = 58  beta = 55
+******** <class 'pyscf.scf.uhf.UHF'> Newton solver flags ********
+SCF tol = 1e-09
+conv_tol_grad = None
+max. SCF cycles = 800
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpso29ewto
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-12
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 4000 MB (current use 129 MB)
+Set conv_tol_grad to 3.16228e-05
+  alpha nocc = 58  HOMO = -0.248069255340282  LUMO = -0.244216069453718
+  beta  nocc = 55  HOMO = -0.257687448864122  LUMO = -0.251769698178124
+
+WARN: system HOMO -0.235839190373209 >= system LUMO -0.251769698178124
+
+Initial guess E= -22129.365610037  |g|= 2.48395
+/mnt/home/hzhai/pybase/lib/python3.11/site-packages/pyscf/gto/mole.py:1300: UserWarning: Function mol.dumps drops attribute energy_nuc because it is not JSON-serializable
+  warnings.warn(msg)
+/mnt/home/hzhai/pybase/lib/python3.11/site-packages/pyscf/gto/mole.py:1300: UserWarning: Function mol.dumps drops attribute intor_symmetric because it is not JSON-serializable
+  warnings.warn(msg)
+macro= 0  E= -22136.1918891847  delta_E= -6.82628  |g|= 2.16171  3 KF 15 JK
+macro= 1  E= -22138.606779483  delta_E= -2.41489  |g|= 0.831178  3 KF 15 JK
+macro= 2  E= -22139.5151474878  delta_E= -0.908368  |g|= 0.324629  3 KF 17 JK
+macro= 3  E= -22139.7697538985  delta_E= -0.254606  |g|= 0.165534  3 KF 18 JK
+macro= 4  E= -22139.8075569181  delta_E= -0.037803  |g|= 0.0577813  3 KF 13 JK
+macro= 5  E= -22139.8753128619  delta_E= -0.0677559  |g|= 0.0441305  3 KF 13 JK
+macro= 6  E= -22139.9228437109  delta_E= -0.0475308  |g|= 0.149888  2 KF 7 JK
+macro= 7  E= -22139.9365066799  delta_E= -0.013663  |g|= 0.0410664  4 KF 19 JK
+macro= 8  E= -22139.9458387932  delta_E= -0.00933211  |g|= 0.0384133  2 KF 7 JK
+macro= 9  E= -22139.954561945  delta_E= -0.00872315  |g|= 0.0125232  4 KF 20 JK
+macro= 10  E= -22139.9553648042  delta_E= -0.000802859  |g|= 0.00277109  4 KF 23 JK
+macro= 11  E= -22139.934955659  delta_E= 0.0204091  |g|= 0.0224771  3 KF 13 JK
+macro= 12  E= -22139.977853661  delta_E= -0.042898  |g|= 0.0280825  4 KF 21 JK
+macro= 13  E= -22139.9741274993  delta_E= 0.00372616  |g|= 0.0325369  3 KF 13 JK
+macro= 14  E= -22139.9740700936  delta_E= 5.74058e-05  |g|= 0.0169858  2 KF 7 JK
+macro= 15  E= -22139.985667311  delta_E= -0.0115972  |g|= 0.00759677  4 KF 20 JK
+macro= 16  E= -22139.9860006252  delta_E= -0.000333314  |g|= 0.000759159  4 KF 30 JK
+macro= 17  E= -22139.9860128441  delta_E= -1.2219e-05  |g|= 6.15558e-05  3 KF 26 JK
+macro= 18  E= -22139.9860128441  delta_E= 3.63798e-12  |g|= 1.11206e-05  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 19  E=-22139.9860128441  |g|= 1.11206e-05  total 59 KF 319 JK
+converged SCF energy = -22139.9860128441  <S^2> = 17.875007  2S+1 = 8.5146948
+EHF = -22139.986012844125
+Nocc = (36, 33) Nvir = (18, 21) Amps size = 149 GB
+Init E_corr(UCCSDTQ) = -0.365653020511088 M =   298 GB
+cycle =  1  E_corr(UCCSDTQ) =     -0.365651085085671  dE =  1.935E-06  norm(d tamps) =  1.433E-04 M =  1.00 TB T =     6850.075
+cycle =  2  E_corr(UCCSDTQ) =     -0.365650316368145  dE =  7.687E-07  norm(d tamps) =  2.282E-04 M =  1.15 TB T =     7184.733
+cycle =  3  E_corr(UCCSDTQ) =     -0.365649705924546  dE =  6.104E-07  norm(d tamps) =  4.624E-04 M =  1.15 TB T =     8394.549
+cycle =  4  E_corr(UCCSDTQ) =     -0.365648752622076  dE =  9.533E-07  norm(d tamps) =  9.991E-05 M =  1.15 TB T =    10079.337
+cycle =  5  E_corr(UCCSDTQ) =     -0.365638639314249  dE =  1.011E-05  norm(d tamps) =  9.647E-05 M =  1.15 TB T =    11870.730
+cycle =  6  E_corr(UCCSDTQ) =     -0.365628504991386  dE =  1.013E-05  norm(d tamps) =  9.643E-05 M =  1.15 TB T =    10427.319
+cycle =  7  E_corr(UCCSDTQ) =     -0.365625955718483  dE =  2.549E-06  norm(d tamps) =  5.118E-05 M =  1.15 TB T =    12645.451
+cycle =  8  E_corr(UCCSDTQ) =     -0.365621616587080  dE =  4.339E-06  norm(d tamps) =  4.460E-05 M =  1.15 TB T =    11510.976
+cycle =  9  E_corr(UCCSDTQ) =     -0.365619650716427  dE =  1.966E-06  norm(d tamps) =  3.884E-05 M =  1.15 TB T =    12093.692
+cycle = 10  E_corr(UCCSDTQ) =     -0.365618994186861  dE =  6.565E-07  norm(d tamps) =  2.528E-05 M =  1.15 TB T =    12948.711
+cycle = 11  E_corr(UCCSDTQ) =     -0.365617092759894  dE =  1.901E-06  norm(d tamps) =  2.380E-05 M =  1.15 TB T =    13657.264
+cycle = 12  E_corr(UCCSDTQ) =     -0.365616063523094  dE =  1.029E-06  norm(d tamps) =  2.131E-05 M =  1.15 TB T =    14282.728
+cycle = 13  E_corr(UCCSDTQ) =     -0.365615078706869  dE =  9.848E-07  norm(d tamps) =  1.849E-05 M =  1.15 TB T =    14914.082
+cycle = 14  E_corr(UCCSDTQ) =     -0.365614284343832  dE =  7.944E-07  norm(d tamps) =  1.740E-05 M =  1.15 TB T =    14097.055
+cycle = 15  E_corr(UCCSDTQ) =     -0.365612352033655  dE =  1.932E-06  norm(d tamps) =  1.608E-05 M =  1.15 TB T =    14129.424
+cycle = 16  E_corr(UCCSDTQ) =     -0.365611401411246  dE =  9.506E-07  norm(d tamps) =  1.433E-05 M =  1.15 TB T =    14133.119
+cycle = 17  E_corr(UCCSDTQ) =     -0.365611204546177  dE =  1.969E-07  norm(d tamps) =  1.078E-05 M =  1.15 TB T =    14062.651
+cycle = 18  E_corr(UCCSDTQ) =     -0.365611167194170  dE =  3.735E-08  norm(d tamps) =  1.007E-05 M =  1.15 TB T =    14267.936
+cycle = 19  E_corr(UCCSDTQ) =     -0.365611145822208  dE =  2.137E-08  norm(d tamps) =  8.808E-06 M =  1.15 TB T =    14154.322
+cycle = 20  E_corr(UCCSDTQ) =     -0.365611322887875  dE = -1.771E-07  norm(d tamps) =  8.047E-06 M =  1.15 TB T =    14291.199
+cycle = 21  E_corr(UCCSDTQ) =     -0.365611685133685  dE = -3.622E-07  norm(d tamps) =  7.473E-06 M =  1.15 TB T =    14475.856
+cycle = 22  E_corr(UCCSDTQ) =     -0.365611831704834  dE = -1.466E-07  norm(d tamps) =  6.909E-06 M =  1.15 TB T =    14356.771
+cycle = 23  E_corr(UCCSDTQ) =     -0.365612428220674  dE = -5.965E-07  norm(d tamps) =  6.684E-06 M =  1.15 TB T =    14413.057
+cycle = 24  E_corr(UCCSDTQ) =     -0.365612838567043  dE = -4.103E-07  norm(d tamps) =  5.291E-06 M =  1.15 TB T =    14394.840
+cycle = 25  E_corr(UCCSDTQ) =     -0.365613140331078  dE = -3.018E-07  norm(d tamps) =  4.274E-06 M =  1.15 TB T =    14445.318
+cycle = 26  E_corr(UCCSDTQ) =     -0.365613532464053  dE = -3.921E-07  norm(d tamps) =  3.931E-06 M =  1.15 TB T =    14180.414
+cycle = 27  E_corr(UCCSDTQ) =     -0.365613516656428  dE =  1.581E-08  norm(d tamps) =  3.130E-06 M =  1.15 TB T =    14805.120
+cycle = 28  E_corr(UCCSDTQ) =     -0.365613655736446  dE = -1.391E-07  norm(d tamps) =  2.864E-06 M =  1.15 TB T =    14480.083
+cycle = 29  E_corr(UCCSDTQ) =     -0.365613725359207  dE = -6.962E-08  norm(d tamps) =  2.498E-06 M =  1.15 TB T =    14424.508
+cycle = 30  E_corr(UCCSDTQ) =     -0.365613824529149  dE = -9.917E-08  norm(d tamps) =  2.353E-06 M =  1.15 TB T =    14522.124
+cycle = 31  E_corr(UCCSDTQ) =     -0.365613900603345  dE = -7.607E-08  norm(d tamps) =  2.188E-06 M =  1.15 TB T =    14738.371
+cycle = 32  E_corr(UCCSDTQ) =     -0.365613942586050  dE = -4.198E-08  norm(d tamps) =  1.878E-06 M =  1.15 TB T =    14759.824
+cycle = 33  E_corr(UCCSDTQ) =     -0.365614000132198  dE = -5.755E-08  norm(d tamps) =  1.824E-06 M =  1.15 TB T =    16739.579
+cycle = 34  E_corr(UCCSDTQ) =     -0.365614063743205  dE = -6.361E-08  norm(d tamps) =  1.769E-06 M =  1.15 TB T =    14470.528
+cycle = 35  E_corr(UCCSDTQ) =     -0.365614091260203  dE = -2.752E-08  norm(d tamps) =  1.552E-06 M =  1.15 TB T =    14294.276
+cycle = 36  E_corr(UCCSDTQ) =     -0.365614125452620  dE = -3.419E-08  norm(d tamps) =  1.475E-06 M =  1.15 TB T =    14520.083
+cycle = 37  E_corr(UCCSDTQ) =     -0.365614156437115  dE = -3.098E-08  norm(d tamps) =  1.210E-06 M =  1.15 TB T =    14718.235
+cycle = 38  E_corr(UCCSDTQ) =     -0.365614177420137  dE = -2.098E-08  norm(d tamps) =  1.108E-06 M =  1.15 TB T =    14268.992
+cycle = 39  E_corr(UCCSDTQ) =     -0.365614179572237  dE = -2.152E-09  norm(d tamps) =  1.012E-06 M =  1.15 TB T =    14478.140
+cycle = 40  E_corr(UCCSDTQ) =     -0.365614166288602  dE =  1.328E-08  norm(d tamps) =  8.523E-07 M =  1.15 TB T =    14771.558
+cycle = 41  E_corr(UCCSDTQ) =     -0.365614161398543  dE =  4.890E-09  norm(d tamps) =  8.258E-07 M =  1.15 TB T =    14479.852
+UCCSDTQ converged
+E(UCCSDTQ) = -22140.3516270075  E_corr = -0.3656141613985425
+Time =   552753.217

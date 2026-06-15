@@ -1,0 +1,97 @@
+Parsing /tmp/FEMOCO.FCIDUMP
+76 (2, 76, 76) 58.0 55.0
+Overwritten attributes  get_hcore get_ovlp  of <class 'pyscf.soscf.newton_ah.SecondOrderUHF'>
+Overwritten attributes  get_hcore get_ovlp  of <class 'pyscf.scf.uhf.UHF'>
+
+
+
+
+******** <class 'pyscf.soscf.newton_ah.SecondOrderUHF'> ********
+method = SecondOrderUHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = None
+SCF max_cycles = 800
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpqzuv5chm
+max_memory 4000 MB (current use 129 MB)
+number electrons alpha = 58  beta = 55
+******** <class 'pyscf.scf.uhf.UHF'> Newton solver flags ********
+SCF tol = 1e-09
+conv_tol_grad = None
+max. SCF cycles = 800
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpqzuv5chm
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-12
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 4000 MB (current use 129 MB)
+Set conv_tol_grad to 3.16228e-05
+  alpha nocc = 58  HOMO = -0.248069255340282  LUMO = -0.244216069453719
+  beta  nocc = 55  HOMO = -0.257687448864121  LUMO = -0.251769698178122
+
+WARN: system HOMO -0.235839190373209 >= system LUMO -0.251769698178122
+
+Initial guess E= -22129.365610037  |g|= 2.48395
+/mnt/home/hzhai/pybase/lib/python3.11/site-packages/pyscf/gto/mole.py:1300: UserWarning: Function mol.dumps drops attribute energy_nuc because it is not JSON-serializable
+  warnings.warn(msg)
+/mnt/home/hzhai/pybase/lib/python3.11/site-packages/pyscf/gto/mole.py:1300: UserWarning: Function mol.dumps drops attribute intor_symmetric because it is not JSON-serializable
+  warnings.warn(msg)
+macro= 0  E= -22136.1918891847  delta_E= -6.82628  |g|= 2.16171  3 KF 15 JK
+macro= 1  E= -22138.6067794829  delta_E= -2.41489  |g|= 0.831178  3 KF 15 JK
+macro= 2  E= -22139.5151474878  delta_E= -0.908368  |g|= 0.324629  3 KF 17 JK
+macro= 3  E= -22139.7697538985  delta_E= -0.254606  |g|= 0.165534  3 KF 18 JK
+macro= 4  E= -22139.8075569181  delta_E= -0.037803  |g|= 0.0577813  3 KF 13 JK
+macro= 5  E= -22139.8753128619  delta_E= -0.0677559  |g|= 0.0441305  3 KF 13 JK
+macro= 6  E= -22139.9228437109  delta_E= -0.0475308  |g|= 0.149888  2 KF 7 JK
+macro= 7  E= -22139.9365066799  delta_E= -0.013663  |g|= 0.0410664  4 KF 19 JK
+macro= 8  E= -22139.9458387932  delta_E= -0.00933211  |g|= 0.0384133  2 KF 7 JK
+macro= 9  E= -22139.954561945  delta_E= -0.00872315  |g|= 0.0125232  4 KF 20 JK
+macro= 10  E= -22139.9553648042  delta_E= -0.000802859  |g|= 0.00277109  4 KF 23 JK
+macro= 11  E= -22139.934955659  delta_E= 0.0204091  |g|= 0.0224771  3 KF 13 JK
+macro= 12  E= -22139.977853661  delta_E= -0.042898  |g|= 0.0280825  4 KF 21 JK
+macro= 13  E= -22139.9741274987  delta_E= 0.00372616  |g|= 0.0325369  3 KF 13 JK
+macro= 14  E= -22139.9740700963  delta_E= 5.74024e-05  |g|= 0.0169858  2 KF 7 JK
+macro= 15  E= -22139.985667311  delta_E= -0.0115972  |g|= 0.00759677  4 KF 20 JK
+macro= 16  E= -22139.9860006252  delta_E= -0.000333314  |g|= 0.000759159  4 KF 30 JK
+macro= 17  E= -22139.9860128441  delta_E= -1.2219e-05  |g|= 6.15559e-05  3 KF 26 JK
+macro= 18  E= -22139.9860128441  delta_E= 0  |g|= 1.11206e-05  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 19  E=-22139.9860128441  |g|= 1.11206e-05  total 59 KF 319 JK
+converged SCF energy = -22139.9860128441  <S^2> = 17.875007  2S+1 = 8.5146948
+EHF = -22139.986012844125
+Nocc = (32, 29) Nvir = (18, 21) Amps size = 90.1 GB
+Init E_corr(UCCSDTQ) = -0.34389169031122 M =   180 GB
+cycle =  1  E_corr(UCCSDTQ) =     -0.343891702766970  dE = -1.246E-08  norm(d tamps) =  6.678E-06 M =   707 GB T =     5229.052
+cycle =  2  E_corr(UCCSDTQ) =     -0.343891696854543  dE =  5.912E-09  norm(d tamps) =  7.856E-06 M =   797 GB T =     5273.856
+cycle =  3  E_corr(UCCSDTQ) =     -0.343891701908605  dE = -5.054E-09  norm(d tamps) =  1.224E-05 M =   977 GB T =     5412.740
+cycle =  4  E_corr(UCCSDTQ) =     -0.343891717366540  dE = -1.546E-08  norm(d tamps) =  5.439E-06 M =  1.13 TB T =     5711.213
+cycle =  5  E_corr(UCCSDTQ) =     -0.343891815795087  dE = -9.843E-08  norm(d tamps) =  5.406E-06 M =  1.31 TB T =     6318.584
+cycle =  6  E_corr(UCCSDTQ) =     -0.343891865192892  dE = -4.940E-08  norm(d tamps) =  4.305E-06 M =  1.31 TB T =     5957.008
+cycle =  7  E_corr(UCCSDTQ) =     -0.343891958160425  dE = -9.297E-08  norm(d tamps) =  3.263E-06 M =  1.31 TB T =     5987.552
+cycle =  8  E_corr(UCCSDTQ) =     -0.343892136999098  dE = -1.788E-07  norm(d tamps) =  2.920E-06 M =  1.31 TB T =     6132.004
+cycle =  9  E_corr(UCCSDTQ) =     -0.343892165766221  dE = -2.877E-08  norm(d tamps) =  1.589E-06 M =  1.31 TB T =     6767.207
+cycle = 10  E_corr(UCCSDTQ) =     -0.343892181075527  dE = -1.531E-08  norm(d tamps) =  1.307E-06 M =  1.31 TB T =     7862.391
+cycle = 11  E_corr(UCCSDTQ) =     -0.343892185637448  dE = -4.562E-09  norm(d tamps) =  1.182E-06 M =  1.31 TB T =     6624.652
+cycle = 12  E_corr(UCCSDTQ) =     -0.343892197993054  dE = -1.236E-08  norm(d tamps) =  1.151E-06 M =  1.31 TB T =     6636.279
+cycle = 13  E_corr(UCCSDTQ) =     -0.343892201110719  dE = -3.118E-09  norm(d tamps) =  9.528E-07 M =  1.31 TB T =     6930.952
+UCCSDTQ converged
+E(UCCSDTQ) = -22140.32990504721  E_corr = -0.3438922011107195
+Time =    80857.921
