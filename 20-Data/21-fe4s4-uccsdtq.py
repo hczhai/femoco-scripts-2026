@@ -61,6 +61,11 @@ for ix in range(3):
         for l in f.readlines():
             if l.startswith('SPIN-CORR '):
                 data['fe4s4-uccsdtq'][ix][0]['uccsdt-spin-corr'].append([float(x) for x in l.split()[3:]])
+    data['fe4s4-uccsdtq'][ix][0]['uccsdtq-spin-corr'] = []
+    with open("../04-Fe4S4/01-UHF-UCC-UDMRG/28-fe4-ccsdtq-spin-corr-%d.out" % (ix, ), "r") as f:
+        for l in f.readlines():
+            if l.startswith('SPIN-CORR '):
+                data['fe4s4-uccsdtq'][ix][0]['uccsdtq-spin-corr'].append([float(x) for x in l.split()[3:]])
 
 with open("21-fe4s4-uccsdtq.json", "w", encoding='utf-8') as f:
     json.dump(data, f, ensure_ascii=False, indent=4)
