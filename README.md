@@ -3,7 +3,7 @@
 
 The input and output files and data for calculations performed in the following paper:
 
-* Huanchen Zhai, Chenghan Li, Xing Zhang, Zhendong Li, Seunghoon Lee, Garnet Kin-Lic Chan. "Classical Computational Simulation of the FeMo-cofactor Model to Chemical Accuracy and its Implications." arXiv: [10.48550/arXiv.2601.04621](https://doi.org/10.48550/arXiv.2601.04621)
+* Huanchen Zhai, Chenghan Li, Xing Zhang, Zhendong Li, Seunghoon Lee, Garnet Kin-Lic Chan. "Classical quantum chemical solution of the FeMo-cofactor model to chemical accuracy and its implications." _Sci. Adv._ **12**, eaeg7106 (2026). doi: [10.1126/sciadv.aeg7106](https://doi.org/10.1126/sciadv.aeg7106) arXiv: [10.48550/arXiv.2601.04621](https://doi.org/10.48550/arXiv.2601.04621)
 
 Software dependences:
 
